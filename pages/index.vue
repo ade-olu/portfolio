@@ -86,9 +86,9 @@
       </div>
 
       <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
-        <!-- Findfont -->
+        <!-- FindFont -->
         <div class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-8 xlarge:row-end-10">
-          <img class="ml-4 w-xt3 small:w-ff phone:w-ff2 tab:w-ff3 xlarge:w-ff4" src="../assets/designs/findfont.svg" alt="Findfont">
+          <img class="ml-4 w-xt3 small:w-ff phone:w-ff2 tab:w-ff3 xlarge:w-ff4" src="../assets/designs/findfont.svg" alt="FindFont">
            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
         <!-- Travu -->
