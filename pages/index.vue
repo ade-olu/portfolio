@@ -29,7 +29,7 @@
         Hey, I'm <br> Oluwatobiloba <br> <span class="text-orange">
           <span class="relative z-20">Adegbaju</span> 
         <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
-          <img class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-64" src="../assets/accent-line.svg"></span>
+          <img class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-64" src="../assets/accent-line.svg" alt="Accent Line"></span>
           </span></h1>
 
       <!-- Text -->
@@ -45,17 +45,70 @@
      </div>
 
      <!-- Projects -->
-     <div class="mt-14 py-12 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:py-16 xlarge:mt-0 xlarge:py-16">
+     <div class="mt-14 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-20 xlarge:mt-0 xlarge:pt-14 xlarge:pb-20">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
       <h1 class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
       <span class="relative z-20">Projects</span> 
         <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
-          <img class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56" src="../assets/accent-line.svg">
+          <img class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56" src="../assets/accent-line.svg" alt="Accent Line">
           </span></h1>
         </div>
       </div>
+
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
+        <!-- Xtades -->
+        <div class="relative bg-white rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-8 xlarge:row-end-10">
+          <img class="w-xt small:w-xt2 phone:w-xt3 tab:w-28 xlarge:w-36" src="../assets/projects/xtades.svg" alt="Xtades">
+          <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+        </div>
+        <!-- Travu -->
+        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-10 xlarge:row-end-12">
+          <img class="w-24 small:w-28 phone:w-32 tab:w-36 xlarge:w-44" src="../assets/projects/travu.svg" alt="Travu">
+         <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+        </div>
+      </div>
+      
+     </div>
+
+     <!-- Designs -->
+     <div class="mt-4 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-6 tab:mt-12 tab:pt-10 tab:pb-14 large:pt-14 large:pb-20 xlarge:mt-14 xlarge:pt-14 xlarge:pb-20">
+      <div class="flex items-center justify-center">
+        <div class="text-center">
+        <!-- Heading -->
+      <h1 class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
+      <span class="relative z-20">Designs</span> 
+        <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
+          <img class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-52" src="../assets/accent-line.svg" alt="Accent Line">
+          </span></h1>
+        </div>
+      </div>
+
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
+        <!-- Findfont -->
+        <div class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-8 xlarge:row-end-10">
+          <img class="ml-4 w-xt3 small:w-ff phone:w-ff2 tab:w-ff3 xlarge:w-ff4" src="../assets/designs/findfont.svg" alt="Findfont">
+           <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+        </div>
+        <!-- Travu -->
+        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-10 xlarge:row-end-12">
+          <img class="w-24 small:w-28 phone:w-32 tab:w-36 xlarge:w-44" src="../assets/designs/travu.svg" alt="Travu">
+           <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+        </div>
+         <!-- VenZone -->
+        <div class="relative bg-venzone rounded-md grid justify-center items-center row-start-15 row-end-22 small:row-start-17 small:row-end-25 tab:row-start-21 tab:row-end-31 large:col-start-1 large:col-end-2 large:row-start-8 large:row-end-17 xlarge:row-start-10 xlarge:row-end-22">
+          <img class="w-24 small:w-28 phone:w-32 tab:w-36 xlarge:w-44 z-20" src="../assets/designs/venzone.svg" alt="VenZone">
+           <img class="absolute w-full h-full" src="../assets/noise.png" alt="noise">
+        </div>
+        <!-- Ear1 -->
+        <div class="relative bg-ear1 rounded-md grid justify-center	items-center row-start-22 row-end-29 small:row-start-25 small:row-end-33 tab:row-start-31 tab:row-end-41 large:col-start-2 large:col-end-3 large:row-start-10 large:row-end-17 xlarge:row-start-12 xlarge:row-end-22">
+          <img class="w-24 small:w-28 phone:w-32 tab:w-36 xlarge:w-44" src="../assets/designs/ear1.svg" alt="Ear1">
+           <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+        </div>
+
+      </div>
+      
      </div>
 
   </div>
