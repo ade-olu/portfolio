@@ -113,6 +113,7 @@ module.exports = {
        },
       screens: {
         'small': {'min': '360px'},
+        'medium': {'min': '375px'},
         'phone': {'min': '411px'},
         'mob': {'min': '412px'},
         'tab': {'min': '768px'},
