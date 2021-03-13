@@ -57,7 +57,7 @@
         </div>
       </div>
 
-      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
         <!-- Xtades -->
         <div class="relative bg-white rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-8 xlarge:row-end-10">
           <img class="w-xt small:w-xt2 phone:w-xt3 tab:w-28 xlarge:w-36" src="../assets/projects/xtades.svg" alt="Xtades">
@@ -73,7 +73,7 @@
      </div>
 
      <!-- Designs -->
-     <div class="mt-4 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-6 tab:mt-12 tab:pt-10 tab:pb-14 large:pt-14 large:pb-20 xlarge:mt-14 xlarge:pt-14 xlarge:pb-20">
+     <div class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-20 xlarge:mt-14 xlarge:pt-14 xlarge:pb-20">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
