@@ -45,7 +45,7 @@
      </div>
 
      <!-- Projects -->
-     <div class="mt-14 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-20 xlarge:mt-0 xlarge:pt-14 xlarge:pb-20">
+     <div class="mt-14 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-24 xlarge:mt-0">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
@@ -73,7 +73,7 @@
      </div>
 
      <!-- Designs -->
-     <div class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-20 xlarge:mt-14 xlarge:pt-14 xlarge:pb-20">
+     <div class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-24 xlarge:mt-14">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
         <!-- FindFont -->
         <div class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
           <img class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4" src="../assets/designs/findfont.svg" alt="FindFont">
