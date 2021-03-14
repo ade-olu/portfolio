@@ -57,14 +57,14 @@
         </div>
       </div>
 
-      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
         <!-- Xtades -->
-        <div class="relative bg-white rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-7 xlarge:row-end-9">
+        <div class="relative bg-white rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
           <img class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36" src="../assets/projects/xtades.svg" alt="Xtades">
           <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
         <!-- Travu -->
-        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-9 xlarge:row-end-11">
+        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-8 xlarge:row-end-9">
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44" src="../assets/projects/travu.svg" alt="Travu">
          <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
@@ -85,24 +85,24 @@
         </div>
       </div>
 
-      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-20 large:grid-cols-2 large:gap-20">
+      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14  large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
         <!-- FindFont -->
-        <div class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-7 xlarge:row-end-9">
+        <div class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
           <img class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4" src="../assets/designs/findfont.svg" alt="FindFont">
            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
         <!-- Travu -->
-        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-9 xlarge:row-end-11">
+        <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-8 xlarge:row-end-9">
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44" src="../assets/designs/travu.svg" alt="Travu">
            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
          <!-- VenZone -->
-        <div class="relative bg-venzone rounded-md grid justify-center items-center row-start-15 row-end-22 small:row-start-17 small:row-end-25 tab:row-start-21 tab:row-end-31 large:col-start-1 large:col-end-2 large:row-start-7 large:row-end-15 xlarge:row-start-9 xlarge:row-end-19">
+        <div class="relative bg-venzone rounded-md grid justify-center items-center row-start-15 row-end-22 small:row-start-17 small:row-end-25 tab:row-start-21 tab:row-end-31 large:col-start-1 large:col-end-2 large:row-start-6 large:row-end-13 xlarge:row-start-7 xlarge:row-end-15">
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44 z-20" src="../assets/designs/venzone.svg" alt="VenZone">
            <img class="absolute w-full h-full" src="../assets/noise.png" alt="noise">
         </div>
         <!-- Ear1 -->
-        <div class="relative bg-ear1 rounded-md grid justify-center	items-center row-start-22 row-end-29 small:row-start-25 small:row-end-33 tab:row-start-31 tab:row-end-41 large:col-start-2 large:col-end-3 large:row-start-9 large:row-end-15 xlarge:row-start-11 xlarge:row-end-19">
+        <div class="relative bg-ear1 rounded-md grid justify-center items-center row-start-22 row-end-29 small:row-start-25 small:row-end-33 tab:row-start-31 tab:row-end-41 large:col-start-2 large:col-end-3 large:row-start-8 large:row-end-13 xlarge:row-start-9 xlarge:row-end-15">
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44" src="../assets/designs/ear1.svg" alt="Ear1">
            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
