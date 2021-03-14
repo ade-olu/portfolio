@@ -42,6 +42,7 @@ module.exports = {
         ff2: '8.5rem',
         ff3: '9.5rem',
         ff4: '11.5rem',
+        sz3: '10.5rem'
       },
       height: {
         ht: '6rem',
