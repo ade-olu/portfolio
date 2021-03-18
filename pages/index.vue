@@ -125,11 +125,11 @@
         <!-- Form -->
         <form class="flex flex-col items-center justify-center px-8 mt-12 w-full tab:px-40 large:mt-16 large:px-60 xlarge:px-pw 2xlarge:px-pw2">
         <!-- Name -->
-        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full phone:text-lg tab:text-xl" type="text" name="Name" id="name" placeholder="Enter your name">
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl" type="text" name="Name" id="name" placeholder="Enter your name">
         <!-- Email -->
-        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Email" id="email" placeholder="Enter your email">
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Email" id="email" placeholder="Enter your email">
       <!-- Message -->
-        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Message" id="message" placeholder="Enter your message">
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Message" id="message" placeholder="Enter your message">
         <!-- Btn -->
       <button class="focus:outline-none bg-black font-bold text-white h-bsz px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-bht2 xlarge:px-20" style="cursor:none;">
         Send</button>
