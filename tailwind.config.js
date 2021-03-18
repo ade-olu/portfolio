@@ -42,7 +42,10 @@ module.exports = {
         ff2: '8.5rem',
         ff3: '9.5rem',
         ff4: '11.5rem',
-        sz3: '10.5rem'
+        sz3: '10.5rem',
+        cs: '12.979rem',
+        cs2: '16.727rem',
+        cs3: '17.474rem'
       },
       height: {
         ht: '6rem',
@@ -56,7 +59,12 @@ module.exports = {
         xlglht: '3.85rem'
       },
       padding: {
-        logo: '4.125rem'
+        logo: '4.125rem',
+        pw: '25rem',
+        pw2: '30rem'
+      },
+      borderWidth: {
+        one: '1.5px'
       },
       gridRowStart: {
         '8': '8',
