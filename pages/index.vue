@@ -123,7 +123,7 @@
         </div>
 
         <!-- Form -->
-        <form class="flex flex-col items-center justify-center px-8 mt-12 w-full tab:px-40 large:mt-16 large:px-60 xlarge:px-pw 2xlarge:px-pw2">
+        <form class="flex flex-col items-center justify-center px-8 mt-12 w-full tab:px-40 large:mt-16 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2">
         <!-- Name -->
         <input class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl" type="text" name="Name" id="name" placeholder="Enter your name">
         <!-- Email -->
