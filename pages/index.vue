@@ -106,9 +106,36 @@
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44" src="../assets/designs/ear1.svg" alt="Ear1">
            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
         </div>
-
       </div>
       
+     </div>
+
+     <!-- Contact -->
+     <div class="mt-2 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-6 large:pt-14 large:pb-20 xlarge:mt-14">
+      <div class="flex flex-col items-center justify-center">
+        <div class="text-center">
+        <!-- Heading -->
+      <h1 class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
+      <span class="relative z-20">Contact</span> 
+        <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
+          <img class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-52" src="../assets/accent-line.svg" alt="Accent Line">
+          </span></h1>
+        </div>
+
+        <!-- Form -->
+        <form class="flex flex-col items-center justify-center px-8 mt-12 w-full tab:px-40 large:mt-16 large:px-60 xlarge:px-pw 2xlarge:px-pw2">
+        <!-- Name -->
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full phone:text-lg tab:text-xl" type="text" name="Name" id="name" placeholder="Enter your name">
+        <!-- Email -->
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Email" id="email" placeholder="Enter your email">
+      <!-- Message -->
+        <input class="focus:outline-none bg-transparent border-b-one border-grey2 text-grey2 py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16" type="text" name="Message" id="message" placeholder="Enter your message">
+        <!-- Btn -->
+      <button class="focus:outline-none bg-black font-bold text-white h-bsz px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-bht2 xlarge:px-20" style="cursor:none;">
+        Send</button>
+      </form>
+      </div>
+
      </div>
 
   </div>
