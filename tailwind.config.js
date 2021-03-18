@@ -61,7 +61,8 @@ module.exports = {
       padding: {
         logo: '4.125rem',
         pw: '25rem',
-        pw2: '30rem'
+        pw2: '32rem',
+        pw3: '17rem'
       },
       borderWidth: {
         one: '1.5px'
