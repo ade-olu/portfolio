@@ -45,18 +45,27 @@ module.exports = {
         sz3: '10.5rem',
         cs: '12.979rem',
         cs2: '16.727rem',
-        cs3: '17.474rem'
+        cs3: '17.474rem',
+        media: '1.563rem',
+        media2: '1.688rem',
+        media3: '1.875rem'
       },
       height: {
         ht: '6rem',
         bsz: '3.625rem',
         bht: '4.5rem',
         bht2: '4.75rem',
+        media: '1.563rem',
+        media2: '1.688rem',
+        media3: '1.875rem'
       },
       lineHeight: {
         lht: '3rem',
         lglht: '3.75rem',
         xlglht: '3.85rem'
+      },
+      margin: {
+        mr: '1.125rem'
       },
       padding: {
         logo: '4.125rem',
