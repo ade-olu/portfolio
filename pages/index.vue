@@ -1,7 +1,7 @@
 <template>
   <div class="relative container font-body bg-white">
     <!-- Navbar -->
-    <nav class="bg-white z-20">
+    <nav class="bg-white z-20" id="nav">
   <div class="xlarge:absolute z-20 w-full h-ht flex items-center py-5 px-5 tab:h-32 tab:px-10 tab:justify-between large:px-logo large:h-36 xlarge:px-20">
       <!-- Logo -->
       <a href="/">
@@ -11,17 +11,17 @@
     <!-- Nav Menu -->
         <div class="nav-menu hidden large:block" id="nMenu">
             <ul class="large:flex large:flex-row large:items-center large:text-xl text-black" id="nLinks">
-                <li class="large:mx-6"><a href="#"><span><your-hover-class>Projects</your-hover-class></span></a></li>
+                <li class="large:mx-6"><a href="#" v-scroll-to="'#projects'"><span><your-hover-class>Projects</your-hover-class></span></a></li>
                 <li class="large:mx-6"><a href="#"><span><your-hover-class>Designs</your-hover-class></span></a></li>
                 <li class="large:mx-6"><a href="#"><span><your-hover-class>Resume</your-hover-class></span></a></li>
-                <li class="large:mx-6"><a href="#"><span><your-hover-class>Contact</your-hover-class></span></a></li>
+                <li class="large:mx-6"><a href="#" v-scroll-to="'#contact'"><span><your-hover-class>Contact</your-hover-class></span></a></li>
             </ul>
         </div> 
   </div>
     </nav>
 
     <!-- Home -->
-     <div class="bg-white relative w-full z-10 h-auto">
+     <div class="bg-white relative w-full z-10 h-auto" id="home">
       <div class="flex items-center justify-center xlarge:h-screen">
         <div class="text-center xlarge:mt-8">
         <!-- Heading -->
@@ -45,7 +45,7 @@
      </div>
 
      <!-- Projects -->
-     <div class="mt-14 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-24 xlarge:mt-0">
+     <div class="mt-14 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-24 xlarge:mt-0" id="projects">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
@@ -73,7 +73,7 @@
      </div>
 
      <!-- Designs -->
-     <div class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-24 xlarge:mt-14">
+     <div class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-24 xlarge:mt-14" id="designs">
       <div class="flex items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
@@ -111,7 +111,7 @@
      </div>
 
      <!-- Contact -->
-     <div class="mt-2 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-6 large:pt-14 large:pb-20 xlarge:mt-14">
+     <div class="mt-2 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-6 large:pt-14 large:pb-20 xlarge:mt-14" id="contact">
       <div class="flex flex-col items-center justify-center">
         <div class="text-center">
         <!-- Heading -->
@@ -139,7 +139,7 @@
      </div>
 
      <!-- Footer -->
-  <div class="bg-black z-20 relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-20">
+  <div class="bg-black z-20 relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-20" id="footer">
     <div class="flex flex-row">
     <!-- Mail -->
     <a href="mailto:adegbajuoezekiel@gmail.com" class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20">
