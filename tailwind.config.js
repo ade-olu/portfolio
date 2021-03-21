@@ -56,7 +56,9 @@ module.exports = {
         bht: '4.5rem',
         bht2: '4.75rem',
         media: '1.563rem',
+        med: '1.625rem',
         media2: '1.688rem',
+        med2: '1.813rem',
         media3: '1.875rem'
       },
       lineHeight: {
