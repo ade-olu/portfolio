@@ -168,7 +168,7 @@
   </div>
 
   <!-- Copyright -->
-    <p class="text-white mt-6 phone:text-lg tab:mt-8 tab:text-xl large:mt-0">©  2021 Oluwatobiloba Adegbaju</p>
+    <p class="text-white mt-6 phone:text-lg tab:mt-8 tab:text-xl large:mt-0">© {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju</p>
 
      <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
   </div>
