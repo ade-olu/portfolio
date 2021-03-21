@@ -153,17 +153,17 @@
 
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/tobiloba-adegbaju" target="_blank" class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20">
-    <img src="../assets/media/linkedin.svg" class="h-media phone:h-media2 tab:h-media3" alt="LinkedIn">
+    <img src="../assets/media/linkedin.svg" class="h-6 phone:h-med tab:h-med2" alt="LinkedIn">
     </a>
 
     <!-- Github -->
     <a href="https://www.github.com/ade-olu" target="_blank" class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20">
-    <img src="../assets/media/github.svg" class="h-media phone:h-media2 tab:h-media3" alt="Github">
+    <img src="../assets/media/github.svg" class="h-6 phone:h-med tab:h-med2" alt="Github">
     </a>
 
     <!-- Dribbble -->
     <a href="https://www.dribbble.com/ade-olu/" target="_blank" class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20">
-    <img src="../assets/media/dribbble.svg" class="h-media phone:h-media2 tab:h-media3" alt="Dribbble">
+    <img src="../assets/media/dribbble.svg" class="h-6 phone:h-med tab:h-med2" alt="Dribbble">
     </a>
   </div>
 
