@@ -8,8 +8,10 @@ module.exports = {
         light: '#F4F6FB',
         white: '#FAFAFA',
         black: '#0F1221',
+        bl: 'rgba(15, 18, 33, 0.5)',
         grey: '#3F4551',
         grey2: '#999DA5',
+        grey3: '#CBCCCF',
         lightorange: '#FAD0C7',
         travu: '#111827',
         venzone: '#743200',
@@ -22,7 +24,8 @@ module.exports = {
         fsize: '2.125rem',
         tfsize: '2.5rem',
         lfsize: '2.8rem',
-        xlfsize: '3.125rem'
+        xlfsize: '3.125rem',
+        fsz: '1.75rem'
       },
       lineHeight: {
         lht: '3rem',
