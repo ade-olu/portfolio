@@ -2,6 +2,16 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'small': {'min': '360px'},
+      'medium': {'min': '375px'},
+      'phone': {'min': '411px'},
+      'mob': {'min': '412px'},
+      'tab': {'min': '768px'},
+      'large': {'min': '1024px'},
+      'xlarge': {'min': '1280px'},
+      '2xlarge': {'min': '1536px'}
+    },
     extend: {
       colors: {
         orange: '#FD5531',
@@ -135,17 +145,8 @@ module.exports = {
         '41': '41',
         '43': '43',
         '49': '49'
-       },
-      screens: {
-        'small': {'min': '360px'},
-        'medium': {'min': '375px'},
-        'phone': {'min': '411px'},
-        'mob': {'min': '412px'},
-        'tab': {'min': '768px'},
-        'large': {'min': '1024px'},
-        'xlarge': {'min': '1280px'},
-        '2xlarge': {'min': '1536px'}
-      }
+       }
+     
     },
   },
   variants: {
