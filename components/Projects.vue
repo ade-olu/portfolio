@@ -14,10 +14,10 @@
 
       <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
         <!-- Xtades -->
-        <div class="relative bg-white rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
+        <div class="relative bg-black rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
           <img class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36" src="../assets/projects/xtades.svg" alt="Xtades">
           <!-- Overlay -->
-           <div class="overlay z-10 bg-bl rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100">
+           <div class="overlay z-10 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100">
              <div class="overlay-inner absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:px-10">
             <!-- Overlay Title & Subtitle -->
             <div class="z-20 mb-5 tab:mb-8 large:mb-7">
@@ -44,7 +44,7 @@
         <div class="relative bg-travu rounded-md grid justify-center items-center row-start-8 row-end-15 small:row-start-9 small:row-end-17 tab:row-start-11 tab:row-end-21 large:row-start-1 large:row-end-8 xlarge:row-end-9">
           <img class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44" src="../assets/projects/travu.svg" alt="Travu">
            <!-- Overlay -->
-           <div class="overlay z-10 bg-bl rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100">
+           <div class="overlay z-10 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100">
              <div class="overlay-inner absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:px-10">
             <!-- Overlay Title & Subtitle -->
             <div class="z-20 mb-5 tab:mb-8 large:mb-7">
