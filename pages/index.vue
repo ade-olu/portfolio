@@ -128,12 +128,3 @@ import Designs from '../components/Designs'
      }
     }
 </script>
-
-<style scoped>
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-</style>
