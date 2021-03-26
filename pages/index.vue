@@ -11,10 +11,10 @@
     <!-- Nav Menu -->
         <div class="nav-menu hidden large:block" id="nMenu">
             <ul class="large:flex large:flex-row large:items-center large:text-xl text-black" id="nLinks">
-                <li class="large:mx-6"><a href="#" v-scroll-to="{ el: '#projects', duration: 1000 }"><span><your-hover-class>Projects</your-hover-class></span></a></li>
-                <li class="large:mx-6"><a href="#"><span><your-hover-class>Designs</your-hover-class></span></a></li>
-                <li class="large:mx-6"><a href="#"><span><your-hover-class>Resume</your-hover-class></span></a></li>
-                <li class="large:mx-6"><a href="#" v-scroll-to="{ el: '#contact', duration: 1000 }"><span><your-hover-class>Contact</your-hover-class></span></a></li>
+                <li class="large:mx-6"><a href="#" v-scroll-to="{ el: '#projects', duration: 1000 }"><span><hover>Projects</hover></span></a></li>
+                <li class="large:mx-6"><a href="#"><span><hover>Designs</hover></span></a></li>
+                <li class="large:mx-6"><a href="#"><span><hover>Resume</hover></span></a></li>
+                <li class="large:mx-6"><a href="#" v-scroll-to="{ el: '#contact', duration: 1000 }"><span><hover>Contact</hover></span></a></li>
             </ul>
         </div> 
   </div>
@@ -110,7 +110,7 @@
   <!-- Copyright -->
     <p class="text-white mt-6 phone:text-lg tab:mt-8 tab:text-xl large:mt-0 xlarge:ml-20">© {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju</p>
 
-     <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+     <hover class="absolute w-full h-full"></hover>
   </div>
 
   </div>
