@@ -30,7 +30,7 @@
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5">Figma</span>
             </div>
              </div>
-            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+            <hover class="absolute w-full h-full"></hover>
             </div>
            </nuxt-link>
         </div>
@@ -52,7 +52,7 @@
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5">Figma</span>
             </div>
              </div>
-             <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+             <hover class="absolute w-full h-full"></hover>
             </div>
            </nuxt-link>
         </div>
@@ -74,9 +74,10 @@
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5">Figma</span>
             </div>
              </div>
-             <img class="absolute w-full h-full" src="../assets/noise.png" alt="noise">
+             <hover class="absolute w-full h-full"></hover>
             </div>
            </nuxt-link>
+           <img class="absolute w-full h-full" src="../assets/noise.png" alt="noise">
         </div>
 
         <!-- Ear1 -->
@@ -96,7 +97,7 @@
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5">Figma</span>
             </div>
             </div>
-            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+            <hover class="absolute w-full h-full"></hover>
             </div>
            </nuxt-link>
         </div>
