@@ -79,8 +79,8 @@
      </div>
 
      <!-- Footer -->
-  <div class="bg-black z-20 relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-20" id="footer">
-    <div class="flex flex-row">
+  <div class="bg-black z-20 relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-0" id="footer">
+    <div class="flex flex-row xlarge:px-20">
     <!-- Mail -->
     <a href="mailto:adegbajuoezekiel@gmail.com" class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20">
     <img src="../assets/media/mail.svg" class="w-media phone:w-media2 tab:w-media3" alt="Mail">
@@ -108,7 +108,7 @@
   </div>
 
   <!-- Copyright -->
-    <p class="text-white mt-6 phone:text-lg tab:mt-8 tab:text-xl large:mt-0">© {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju</p>
+    <p class="text-white mt-6 phone:text-lg tab:mt-8 tab:text-xl large:mt-0 xlarge:ml-20">© {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju</p>
 
      <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
   </div>
