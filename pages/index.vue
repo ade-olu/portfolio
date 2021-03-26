@@ -33,7 +33,7 @@
           </span></h1>
 
       <!-- Text -->
-      <p class="text-grey mt-6 phone:mt-10 phone:text-lg tab:text-xl tab:mt-10">I’m a Frontend Developer and <br>
+      <p class="text-grey mt-4 phone:mt-6 phone:text-lg tab:text-xl tab:mt-8">I’m a Frontend Developer and <br>
       Product Designer  who loves building <br> significant experiences for people.</p>
 
       <!-- Btn -->
@@ -63,7 +63,7 @@
         </div>
 
         <!-- Form -->
-        <form class="flex flex-col items-center justify-center px-8 mt-12 w-full tab:px-40 large:mt-16 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2">
+        <form class="flex flex-col items-center justify-center px-8 mt-10 w-full tab:px-40 large:mt-11 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2">
         <!-- Name -->
         <input class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl" type="text" name="Name" id="name" placeholder="Enter your name">
         <!-- Email -->
