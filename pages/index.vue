@@ -28,7 +28,7 @@
       <h1 class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
         Hey, I'm <br> Oluwatobiloba <br> <span class="text-orange">
           <span class="relative z-20">Adegbaju</span> 
-        <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
+        <span class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5">
           <img class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-64" src="../assets/accent-line.svg" alt="Accent Line"></span>
           </span></h1>
 
