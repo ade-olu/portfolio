@@ -57,7 +57,7 @@
         <!-- Heading -->
       <h1 class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
       <span class="relative z-20">Contact</span> 
-        <span class="relative flex justify-center -m-2 z-0 phone:-m-4 large:-m-5">
+        <span class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5">
           <img class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-52" src="../assets/accent-line.svg" alt="Accent Line">
           </span></h1>
         </div>
