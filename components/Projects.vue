@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="grid grid-col-1 px-8 gap-14 mt-12 phone:mt-16 tab:px-14 tab:gap-14 large:mt-20 large:px-24 large:grid-cols-2 large:gap-24">
+      <div class="grid grid-col-1 px-8 gap-14 mt-10 phone:mt-12 tab:px-14 tab:gap-14 large:mt-16 large:px-24 large:grid-cols-2 large:gap-24">
          <!-- Xtades -->
         <div class="relative bg-black rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7">
           <img class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36" src="../assets/projects/xtades.svg" alt="Xtades">
