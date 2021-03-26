@@ -37,7 +37,7 @@
             <button class="focus:outline-none font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:hidden tab:text-xl large:block large:text-xl large:px-8 large:py-2.5" style="cursor:none;">Tailwind CSS</button>
             </div>
              </div>
-            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+            <hover class="absolute w-full h-full"></hover>
             </div>
              </nuxt-link>
         </div>
@@ -66,7 +66,7 @@
             <button class="focus:outline-none font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:hidden tab:text-xl large:block large:text-xl large:px-8 large:py-2.5" style="cursor:none;">Tailwind CSS</button>
             </div>
             </div>
-            <img class="absolute w-full h-full" src="../assets/bg.png" alt="Bg">
+            <hover class="absolute w-full h-full"></hover>
            </div>
            </nuxt-link>
         </div>
