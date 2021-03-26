@@ -2,7 +2,7 @@
   <div>
       <!-- Cursor -->
    <custom-cursor
-      :targets="['a', 'button', 'input', 'hover']"
+      :targets="['a', 'button', 'input', 'hover', 'img']"
       :circleColor="'#0F1221'"
       :circleColorHover="'#0F1221'"
       :dotColor="'#0F1221'"
