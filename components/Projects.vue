@@ -29,7 +29,7 @@
             <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2">Vue.js</span>
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2">Nuxt.js</span>
-            <!-- For IPad -->
+            <!-- For iPad -->
             <span class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:hidden large:text-xl phone:text-lg large:px-8 large:py-2.5 2xlarge:block">Tailwind CSS</span>
             </div>
             <!-- For Other Screens (Except For iPad) -->
