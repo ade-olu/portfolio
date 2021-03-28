@@ -27,7 +27,7 @@
       <h1 class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize">
       <span class="relative z-20">Xtades</span> 
         <span class="relative w-full flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5">
-          <img class="w-28 phone:w-32 tab:w-40 large:w-48 xlarge:w-52" src="../../assets/accent-line.svg" alt="Accent Line">
+          <img class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-48" src="../../assets/accent-line.svg" alt="Accent Line">
           </span>
           </h1></div> 
           
