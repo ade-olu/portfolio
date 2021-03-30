@@ -4,9 +4,9 @@
     <nav class="bg-white z-20" id="nav">
   <div class="xlarge:absolute z-20 w-full h-ht flex items-center py-5 px-5 tab:h-32 tab:px-10 tab:justify-between large:px-logo large:h-36 xlarge:px-20">
       <!-- Logo -->
-      <nuxt-link to="/">
+      <a href="/">
     <img class="w-wt phone:w-sz tab:w-sz2 large:w-sz2" src="../assets/logo.svg" alt="Logo">
-      </nuxt-link>
+      </a>
 
     <!-- Nav Menu -->
         <div class="nav-menu hidden large:block" id="nMenu">
