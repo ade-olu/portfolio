@@ -33,7 +33,7 @@
           
           <div class="xlarge:flex xlarge:justify-between xlarge:items-start">
 
-          <div class="mt-12 px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20">
+          <div class="mt-12 px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20 xlarge:px-spc">
             <!-- About -->
             <div>
               <h2 class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz">About</h2>
@@ -65,7 +65,7 @@
           </div>
 
           <!-- Technologies (For Screens Higher Than 1280px) -->
-            <div class="hidden xlarge:mt-16 xlarge:pr-28 xlarge:block">
+            <div class="hidden xlarge:mt-16 xlarge:pr-spc2 xlarge:block">
             <div>
               <h2 class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz">Technologies</h2>
               <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
