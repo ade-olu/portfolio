@@ -77,7 +77,9 @@ module.exports = {
         logo: '4.125rem',
         pw: '25rem',
         pw2: '32rem',
-        pw3: '17rem'
+        pw3: '17rem',
+        spc: '5.5rem',
+        spc2: '6.5rem'
       },
       borderWidth: {
         one: '1.5px'
