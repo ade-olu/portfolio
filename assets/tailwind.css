@@ -6,73 +6,73 @@
 
 /* Fonts */
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-Bold.eot');
-    src: local('Eudoxus Sans Bold'), local('EudoxusSans-Bold'),
-        url('fonts/EudoxusSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-Bold.woff2') format('woff2'),
-        url('fonts/EudoxusSans-Bold.woff') format('woff'),
-        url('fonts/EudoxusSans-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-Bold.eot");
+  src: local("Eudoxus Sans Bold"), local("EudoxusSans-Bold"),
+    url("fonts/EudoxusSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-Bold.woff2") format("woff2"),
+    url("fonts/EudoxusSans-Bold.woff") format("woff"),
+    url("fonts/EudoxusSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-Light.eot');
-    src: local('Eudoxus Sans Light'), local('EudoxusSans-Light'),
-        url('fonts/EudoxusSans-Light.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-Light.woff2') format('woff2'),
-        url('fonts/EudoxusSans-Light.woff') format('woff'),
-        url('fonts/EudoxusSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-Light.eot");
+  src: local("Eudoxus Sans Light"), local("EudoxusSans-Light"),
+    url("fonts/EudoxusSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-Light.woff2") format("woff2"),
+    url("fonts/EudoxusSans-Light.woff") format("woff"),
+    url("fonts/EudoxusSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-ExtraBold.eot');
-    src: local('Eudoxus Sans ExtraBold'), local('EudoxusSans-ExtraBold'),
-        url('fonts/EudoxusSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-ExtraBold.woff2') format('woff2'),
-        url('fonts/EudoxusSans-ExtraBold.woff') format('woff'),
-        url('fonts/EudoxusSans-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-ExtraBold.eot");
+  src: local("Eudoxus Sans ExtraBold"), local("EudoxusSans-ExtraBold"),
+    url("fonts/EudoxusSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-ExtraBold.woff2") format("woff2"),
+    url("fonts/EudoxusSans-ExtraBold.woff") format("woff"),
+    url("fonts/EudoxusSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-ExtraLight.eot');
-    src: local('Eudoxus Sans ExtraLight'), local('EudoxusSans-ExtraLight'),
-        url('fonts/EudoxusSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-ExtraLight.woff2') format('woff2'),
-        url('fonts/EudoxusSans-ExtraLight.woff') format('woff'),
-        url('fonts/EudoxusSans-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-ExtraLight.eot");
+  src: local("Eudoxus Sans ExtraLight"), local("EudoxusSans-ExtraLight"),
+    url("fonts/EudoxusSans-ExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-ExtraLight.woff2") format("woff2"),
+    url("fonts/EudoxusSans-ExtraLight.woff") format("woff"),
+    url("fonts/EudoxusSans-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-Regular.eot');
-    src: local('Eudoxus Sans Regular'), local('EudoxusSans-Regular'),
-        url('fonts/EudoxusSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-Regular.woff2') format('woff2'),
-        url('fonts/EudoxusSans-Regular.woff') format('woff'),
-        url('fonts/EudoxusSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-Regular.eot");
+  src: local("Eudoxus Sans Regular"), local("EudoxusSans-Regular"),
+    url("fonts/EudoxusSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-Regular.woff2") format("woff2"),
+    url("fonts/EudoxusSans-Regular.woff") format("woff"),
+    url("fonts/EudoxusSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eudoxus Sans';
-    src: url('fonts/EudoxusSans-Medium.eot');
-    src: local('Eudoxus Sans Medium'), local('EudoxusSans-Medium'),
-        url('fonts/EudoxusSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('fonts/EudoxusSans-Medium.woff2') format('woff2'),
-        url('fonts/EudoxusSans-Medium.woff') format('woff'),
-        url('fonts/EudoxusSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Eudoxus Sans";
+  src: url("fonts/EudoxusSans-Medium.eot");
+  src: local("Eudoxus Sans Medium"), local("EudoxusSans-Medium"),
+    url("fonts/EudoxusSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/EudoxusSans-Medium.woff2") format("woff2"),
+    url("fonts/EudoxusSans-Medium.woff") format("woff"),
+    url("fonts/EudoxusSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
