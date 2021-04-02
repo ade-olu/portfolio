@@ -105,20 +105,31 @@
                 class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
                 >Nuxt.js</span
               >
-              <!-- For iPad -->
+              <!-- For Screens Higher Than 767px -->
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2.5"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
                 >Tailwind CSS</span
               >
             </div>
-            <!-- For Other Screens (Except For iPad) -->
-            <div>
-              <button
-                class="focus:outline-none font-bold bg-grey text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:hidden tab:text-xl large:text-xl large:px-8 large:py-2.5"
+            <!-- For Screens lower Than 768px -->
+            <div class="flex mb-6 small:mb-0 tab:hidden">
+              <span
+                class="focus:outline-none font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
                 style="cursor: none"
               >
                 Tailwind CSS
-              </button>
+              </span>
+              <span
+                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:block small:mt-0 small:ml-6 tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
+              >
+            </div>
+            <!-- For Screens Lower Than 321px -->
+            <div class="flex small:hidden">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5"
+                >Figma</span
+              >
             </div>
           </div>
 
@@ -139,7 +150,7 @@
           </div>
         </div>
 
-        <!-- Technologies (For Screens Higher Than 1280px) -->
+        <!-- Technologies (For Screens Higher Than 1279px) -->
         <div class="hidden xlarge:mt-16 xlarge:pr-spc2 xlarge:block">
           <div>
             <h2
@@ -147,7 +158,7 @@
             >
               Technologies
             </h2>
-            <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
+            <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
               <span
                 class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
                 >Vue.js</span
@@ -157,8 +168,14 @@
                 >Nuxt.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2.5"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
                 >Tailwind CSS</span
+              >
+            </div>
+            <div class="flex">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
               >
             </div>
           </div>
