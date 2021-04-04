@@ -134,7 +134,7 @@
           </div>
 
           <!-- Link -->
-          <div class="mt-16 tab:mt-20 xlarge:mt-14">
+          <div class="mt-16 tab:mt-20 xlarge:mt-36">
             <h2
               class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
             >
