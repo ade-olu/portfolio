@@ -29,7 +29,7 @@
     >
       <!-- FindFont -->
       <div
-        class="relative bg-orange rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7"
+        class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-start-1 row-end-8 small:row-end-9 tab:row-end-11 large:row-end-6 xlarge:row-end-7"
       >
         <img
           class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
