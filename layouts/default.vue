@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="-webkit-tap-highlight-color: transparent !important;">
     <!-- Cursor -->
     <custom-cursor
       :targets="['a', 'button', 'input', 'hover', 'img']"
