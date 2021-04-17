@@ -53,14 +53,14 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize"
+          class="font-body font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht tab:mt-6 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
           <span class="relative z-20">Xtades</span>
           <span
             class="relative w-full flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
           >
             <img
-              class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-48"
+              class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-52"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
