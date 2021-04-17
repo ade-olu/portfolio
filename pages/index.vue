@@ -51,7 +51,7 @@
         <div class="text-center xlarge:mt-8">
           <!-- Heading -->
           <h1
-            class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize"
+            class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
             Hey, I'm <br />
             Oluwatobiloba <br />
@@ -61,7 +61,7 @@
                 class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
               >
                 <img
-                  class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-64"
+                  class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
                   src="../assets/accent-line.svg"
                   alt="Accent Line"
               /></span>
@@ -104,14 +104,14 @@
         <div class="text-center">
           <!-- Heading -->
           <h1
-            class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize"
+            class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
             <span class="relative z-20">Contact</span>
             <span
               class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
             >
               <img
-                class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-52"
+                class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
                 src="../assets/accent-line.svg"
                 alt="Accent Line"
               />
