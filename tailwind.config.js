@@ -25,18 +25,22 @@ module.exports = {
       fontSize: {
         fsize: "2.125rem",
         tfsize: "2.5rem",
+        ofsize: "2.625rem",
         lfsize: "2.8rem",
-        xlfsize: "3.125rem",
+        xlfsize: "3.25rem",
+        "2xlfsize": "3.375rem",
         fsz: "1.75rem",
       },
       lineHeight: {
-        lht: "3rem",
+        pht: "2.75rem",
+        lht: "3.25rem",
         lglht: "3.75rem",
-        xlglht: "3.85rem",
+        xlglht: "4.25rem",
       },
       width: {
         mwh: "10.938rem",
         wh: "9.5rem",
+        wh2: "17rem",
         sz: "3.125rem",
         sz2: "3.85rem",
         wt: "2.85rem",
@@ -65,11 +69,6 @@ module.exports = {
         media2: "1.688rem",
         med2: "1.813rem",
         media3: "1.875rem",
-      },
-      lineHeight: {
-        lht: "3rem",
-        lglht: "3.75rem",
-        xlglht: "3.85rem",
       },
       margin: {
         mr: "1.125rem",
