@@ -8,14 +8,14 @@
       <div class="text-center">
         <!-- Heading -->
         <h1
-          class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-lht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-5xl xlarge:leading-xlglht 2xlarge:text-xlfsize"
+          class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
           <span class="relative z-20">Projects</span>
           <span
             class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
           >
             <img
-              class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
+              class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-60"
               src="../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -48,12 +48,12 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-8 large:mb-7">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl"
+                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   Xtades
                 </h1>
                 <p
-                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
                 >
                   My portfolio website.
                 </p>
@@ -114,12 +114,12 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-8 large:mb-7">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl"
+                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   Travu (WIP)
                 </h1>
                 <p
-                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
                 >
                   A travel and booking website.
                 </p>
@@ -180,12 +180,12 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-7 tab:mb-10 large:mb-9">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl"
+                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   VenZone
                 </h1>
                 <p
-                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+                  class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
                 >
                   A personalized food ordering website.
                 </p>
