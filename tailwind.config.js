@@ -84,6 +84,10 @@ module.exports = {
       borderWidth: {
         one: "1.5px",
       },
+      maxWidth: {
+        mw: "26rem",
+        mw2: "34rem",
+      },
       gridRowStart: {
         "8": "8",
         "9": "9",
