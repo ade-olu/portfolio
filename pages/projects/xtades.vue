@@ -80,12 +80,10 @@
               About
             </h2>
             <p
-              class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+              class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
             >
-              Xtades is a portfolio project that showcases
-              <br class="hidden xlarge:block 2xlarge:hidden" />
-              my projects <br class="hidden 2xlarge:block" />
-              and designs.
+              Xtades is a portfolio project that showcases my projects and
+              designs.
             </p>
           </div>
 
