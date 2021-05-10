@@ -3,7 +3,7 @@
     <!-- Navbar -->
     <nav class="bg-white z-20" id="nav">
       <div
-        class="xlarge:absolute z-20 w-full h-ht flex items-center py-5 px-5 tab:h-32 tab:px-10 tab:justify-between large:px-logo large:h-36 xlarge:px-20"
+        class="z-20 w-full h-ht flex items-center py-5 px-5 tab:h-32 tab:px-10 tab:justify-between large:px-logo large:h-36 xlarge:px-20"
       >
         <!-- Logo -->
         <nuxt-link to="/">
@@ -44,6 +44,146 @@
         </div>
       </div>
     </nav>
+
+    <!-- VenZone -->
+    <div
+      class="bg-white relative w-full z-10 h-auto pb-16 phone:pb-20 tab:pb-24"
+      id="xtades"
+    >
+      <!-- Heading -->
+      <div class="text-center">
+        <h1
+          class="font-body font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht tab:mt-6 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+        >
+          <span class="relative z-20">VenZone</span>
+          <span
+            class="relative w-full flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
+          >
+            <img
+              class="w-36 phone:w-40 tab:w-48 large:w-52 xlarge:w-60"
+              src="../../assets/accent-line.svg"
+              alt="Accent Line"
+            />
+          </span>
+        </h1>
+      </div>
+
+      <div class="xlarge:flex xlarge:justify-between xlarge:items-start">
+        <div
+          class="mt-12 px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20 xlarge:px-spc"
+        >
+          <!-- About -->
+          <div>
+            <h2
+              class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+            >
+              About
+            </h2>
+            <p
+              class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
+            >
+              VenZone is a landing page project that involves personalized food
+              ordering for food vendors.
+            </p>
+          </div>
+
+          <!-- Technologies (For Screens Lower Than 1280px) -->
+          <div class="mt-12 tab:mt-14 xlarge:hidden">
+            <h2
+              class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+            >
+              Technologies
+            </h2>
+            <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                >Vue.js</span
+              >
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                >Nuxt.js</span
+              >
+              <!-- For Screens Higher Than 767px -->
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
+                >Tailwind CSS</span
+              >
+              <span
+                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 tab:ml-10 phone:text-lg tab:block tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
+              >
+            </div>
+            <!-- For Screens lower Than 768px -->
+            <div class="flex mb-6 small:mb-0 tab:hidden">
+              <span
+                class="focus:outline-none font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                style="cursor: none"
+              >
+                Tailwind CSS
+              </span>
+              <span
+                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:block small:mt-0 small:ml-6 tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
+              >
+            </div>
+            <!-- For Screens Lower Than 321px -->
+            <div class="flex small:hidden">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5"
+                >Figma</span
+              >
+            </div>
+          </div>
+
+          <!-- Link -->
+          <div class="mt-16 tab:mt-20 xlarge:mt-36">
+            <h2
+              class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+            >
+              Link
+            </h2>
+            <a href="https://venzone.vercel.app" target="_blank"
+              ><p
+                class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+              >
+                <hover>https://venzone.vercel.app</hover>
+              </p></a
+            >
+          </div>
+        </div>
+
+        <!-- Technologies (For Screens Higher Than 1279px) -->
+        <div class="hidden xlarge:mt-16 xlarge:pr-spc2 xlarge:block">
+          <div>
+            <h2
+              class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+            >
+              Technologies
+            </h2>
+            <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                >Vue.js</span
+              >
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                >Nuxt.js</span
+              >
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
+                >Tailwind CSS</span
+              >
+            </div>
+            <div class="flex">
+              <span
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
