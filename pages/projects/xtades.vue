@@ -192,5 +192,5 @@ export default {};
 </script>
 
 <style scoped>
-@import "../styles/nav.css";
+@import "../../styles/nav.css";
 </style>
