@@ -108,6 +108,10 @@
                 class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
                 >Tailwind CSS</span
               >
+              <span
+                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 tab:ml-10 phone:text-lg tab:block tab:text-xl tab:py-2 large:text-xl large:px-8"
+                >Figma</span
+              >
             </div>
             <!-- For Screens lower Than 768px -->
             <div class="flex mb-6 small:mb-0 tab:hidden">
