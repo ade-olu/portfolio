@@ -1,0 +1,27 @@
+/* Nav Links Animation */
+.nav-links li a,
+.nav-links li a:after,
+.nav-links li a:before {
+  transition: all 0.3s;
+}
+.nav-links li a:hover {
+  color: #0f1221;
+}
+.nav-links li a {
+  position: relative;
+}
+.nav-links li a:after {
+  position: absolute;
+  bottom: -5px !important;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #fd5531;
+  height: 0.156rem;
+}
+.nav-links li a:hover:after {
+  width: 100%;
+}
