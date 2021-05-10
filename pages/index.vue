@@ -17,7 +17,7 @@
         <!-- Nav Menu -->
         <div class="nav-menu hidden large:block" id="nMenu">
           <ul
-            class="large:flex large:flex-row large:items-center large:text-xl text-black"
+            class="nav-links large:flex large:flex-row large:items-center large:text-xl text-black"
             id="nLinks"
           >
             <li class="large:mx-6">
@@ -253,3 +253,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@import "../styles/nav.css";
+</style>
