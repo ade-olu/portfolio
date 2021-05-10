@@ -12,7 +12,7 @@
 }
 .nav-links li a:after {
   position: absolute;
-  bottom: -5px !important;
+  bottom: -10px !important;
   left: 0;
   right: 0;
   margin: auto;
