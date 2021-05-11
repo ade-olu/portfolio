@@ -5,37 +5,39 @@
   >
     <!-- For Screens Lower Than 769px -->
     <!-- Nav Menu -->
-    <div
-      class="nav-menu-2 fixed w-full h-screen bg-light z-30 hidden flex-col items-center justify-center large:hidden"
-      :class="{ change: isActive }"
-      id="nMenu"
-    >
-      <ul
-        class="nav-links phone:text-lg flex flex-col items-center justify-center text-black"
-        id="nLinks"
+    <transition name="fade" v-on:enter="enter">
+      <div
+        class="nav-menu-2 fixed w-full h-screen bg-light z-30 flex flex-col items-center justify-center large:hidden"
+        v-if="isActive"
+        id="nMenu"
       >
-        <li class="my-6">
-          <nuxt-link to="/#projects"
-            ><span><hover>Projects</hover></span></nuxt-link
-          >
-        </li>
-        <li class="my-6">
-          <a href="#"
-            ><span><hover>Designs</hover></span></a
-          >
-        </li>
-        <li class="my-6">
-          <a href="#"
-            ><span><hover>Resume</hover></span></a
-          >
-        </li>
-        <li class="my-6">
-          <nuxt-link to="/#contact"
-            ><span><hover>Contact</hover></span></nuxt-link
-          >
-        </li>
-      </ul>
-    </div>
+        <ul
+          class="nav-links phone:text-lg flex flex-col items-center justify-center text-black"
+          id="nLinks"
+        >
+          <li class="my-6">
+            <nuxt-link to="/#projects"
+              ><span><hover>Projects</hover></span></nuxt-link
+            >
+          </li>
+          <li class="my-6">
+            <a href="#"
+              ><span><hover>Designs</hover></span></a
+            >
+          </li>
+          <li class="my-6">
+            <a href="#"
+              ><span><hover>Resume</hover></span></a
+            >
+          </li>
+          <li class="my-6">
+            <nuxt-link to="/#contact"
+              ><span><hover>Contact</hover></span></nuxt-link
+            >
+          </li>
+        </ul>
+      </div>
+    </transition>
 
     <!-- Navbar -->
     <nav class="bg-white z-20" id="nav">
