@@ -40,7 +40,7 @@
     <!-- Navbar -->
     <nav class="bg-white z-20" id="nav">
       <div
-        class="xlarge:absolute z-20 w-full h-ht flex items-center py-5 px-5 justify-between tab:h-32 tab:px-10 large:px-logo large:h-36 xlarge:px-20"
+        class="z-20 w-full h-ht flex items-center py-5 px-5 justify-between tab:h-32 tab:px-10 large:px-logo large:h-36 xlarge:px-20"
       >
         <!-- Logo -->
         <a href="/" class="z-40">
