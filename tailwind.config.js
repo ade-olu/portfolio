@@ -58,6 +58,9 @@ module.exports = {
         media: "1.563rem",
         media2: "1.688rem",
         media3: "1.875rem",
+        hb: "1.125rem",
+        hb2: "2.125rem",
+        hb3: "1.0625rem",
       },
       height: {
         ht: "6rem",
