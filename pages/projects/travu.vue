@@ -212,21 +212,21 @@
             </h2>
             <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 text-xl"
                 >Vue.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 ml-10 text-xl"
                 >Nuxt.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 ml-10 text-xl"
                 >Tailwind CSS</span
               >
             </div>
             <div class="flex">
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 text-xl"
                 >Figma</span
               >
             </div>
