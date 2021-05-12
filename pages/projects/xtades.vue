@@ -144,42 +144,21 @@
             >
               Technologies
             </h2>
-            <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
+            <div class="flex flex-wrap">
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                 >Vue.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl tab:py-2 large:px-8 large:py-2"
                 >Nuxt.js</span
               >
-              <!-- For Screens Higher Than 767px -->
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 mr-4 small:mr-6 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:mr-10 tab:text-xl tab:py-2 large:px-8 large:py-2"
                 >Tailwind CSS</span
               >
               <span
-                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 tab:ml-10 phone:text-lg tab:block tab:text-xl tab:py-2 large:text-xl large:px-8"
-                >Figma</span
-              >
-            </div>
-            <!-- For Screens lower Than 768px -->
-            <div class="flex mb-6 small:mb-0 tab:hidden">
-              <span
-                class="focus:outline-none font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
-                style="cursor: none"
-              >
-                Tailwind CSS
-              </span>
-              <span
-                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:block small:mt-0 small:ml-6 tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
-                >Figma</span
-              >
-            </div>
-            <!-- For Screens Lower Than 321px -->
-            <div class="flex small:hidden">
-              <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-7 phone:text-lg tab:mt-0 tab:text-xl tab:py-2 large:px-8"
                 >Figma</span
               >
             </div>
@@ -203,7 +182,7 @@
         </div>
 
         <!-- Technologies (For Screens Higher Than 1279px) -->
-        <div class="hidden xlarge:mt-16 xlarge:pr-spc2 xlarge:block">
+        <div class="hidden xlarge:block xlarge:pr-spc2 xlarge:mt-16">
           <div>
             <h2
               class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
@@ -212,21 +191,21 @@
             </h2>
             <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 text-xl"
                 >Vue.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 ml-10 text-xl"
                 >Nuxt.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 hidden tab:block tab:ml-10 tab:text-xl large:text-xl phone:text-lg large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 ml-10 text-xl"
                 >Tailwind CSS</span
               >
             </div>
             <div class="flex">
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 text-xl"
                 >Figma</span
               >
             </div>
