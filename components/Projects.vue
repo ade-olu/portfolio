@@ -43,7 +43,7 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:pl-10 large:pr-5"
             >
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-8 large:mb-7">
@@ -59,31 +59,21 @@
                 </p>
               </div>
               <!-- Technologies -->
-              <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+              <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2"
                   >Nuxt.js</span
                 >
-                <!-- For 768px And 1536px -->
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:hidden large:text-xl phone:text-lg large:px-8 large:py-2 2xlarge:block"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 2xlarge:ml-10 2xlarge:mt-0 2xlarge:block"
                   >Tailwind CSS</span
                 >
-              </div>
-              <!-- For Other Screens -->
-              <div class="flex">
                 <span
-                  class="focus:outline-none font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:hidden tab:text-xl large:block large:text-xl large:px-8 large:py-2 2xlarge:hidden"
-                  style="cursor: none"
-                >
-                  Tailwind CSS
-                </span>
-                <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 phone:block tab:block tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
                   >Figma</span
                 >
               </div>
@@ -109,7 +99,7 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-6 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:pl-10 large:pr-5"
             >
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-8 large:mb-7">
@@ -125,31 +115,21 @@
                 </p>
               </div>
               <!-- Technologies -->
-              <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+              <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2"
                   >Nuxt.js</span
                 >
-                <!-- For 768px And 1536px -->
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:hidden large:text-xl phone:text-lg large:px-8 large:py-2 2xlarge:block"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 2xlarge:ml-10 2xlarge:mt-0 2xlarge:block"
                   >Tailwind CSS</span
                 >
-              </div>
-              <!-- For Other Screens -->
-              <div class="flex">
                 <span
-                  class="focus:outline-none font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:hidden tab:text-xl large:block large:text-xl large:px-8 large:py-2 2xlarge:hidden"
-                  style="cursor: none"
-                >
-                  Tailwind CSS
-                </span>
-                <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 phone:block tab:block tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
                   >Figma</span
                 >
               </div>
@@ -175,7 +155,7 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-8 small:px-6 small:pb-8 tab:pb-12 tab:px-10 large:pb-12 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-8 small:px-6 small:pb-8 tab:pb-12 tab:px-10 large:pb-12 large:pl-10 large:pr-5"
             >
               <!-- Overlay Title & Subtitle -->
               <div class="mb-7 tab:mb-10 large:mb-9">
@@ -191,31 +171,21 @@
                 </p>
               </div>
               <!-- Technologies -->
-              <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+              <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2"
                   >Nuxt.js</span
                 >
-                <!-- For 768px And 1536px -->
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 hidden tab:block tab:ml-10 tab:text-xl large:hidden large:text-xl phone:text-lg large:px-8 large:py-2 2xlarge:block"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 2xlarge:ml-10 2xlarge:mt-0 2xlarge:block"
                   >Tailwind CSS</span
                 >
-              </div>
-              <!-- For Other Screens -->
-              <div class="flex">
                 <span
-                  class="focus:outline-none font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:hidden tab:text-xl large:block large:text-xl large:px-8 large:py-2 2xlarge:hidden"
-                  style="cursor: none"
-                >
-                  Tailwind CSS
-                </span>
-                <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 phone:block tab:block tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 2xlarge:ml-0"
                   >Figma</span
                 >
               </div>
