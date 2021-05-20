@@ -217,6 +217,8 @@
 </template>
 
 <script>
+import { TweenMax, Power4 } from "gsap";
+
 export default {
   data() {
     return {
