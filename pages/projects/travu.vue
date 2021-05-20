@@ -98,7 +98,7 @@
     <!-- Travu -->
     <div
       class="bg-white relative w-full z-10 h-auto pb-16 phone:pb-20 tab:pb-24"
-      id="xtades"
+      id="travu"
     >
       <!-- Heading -->
       <div class="text-center">
@@ -238,6 +238,8 @@
 </template>
 
 <script>
+import { TweenMax, Power4 } from "gsap";
+
 export default {
   data() {
     return {
@@ -253,6 +255,27 @@ export default {
     close: function() {
       this.isActive = !this.isActive;
     },
+  },
+
+  // GSAP
+  mounted() {
+    const app = document.getElementById("travu");
+    let pageYOffset = window.pageYOffset;
+
+    const render = () => {
+      const newPageOffset = window.pageYOffset;
+      const diff = newPageOffset - pageYOffset;
+
+      TweenMax.to(app, 0.8, {
+        skewY: diff * 0.05,
+        ease: Power4.ease,
+      });
+
+      pageYOffset = newPageOffset;
+      requestAnimationFrame(render);
+    };
+
+    render();
   },
 };
 </script>
