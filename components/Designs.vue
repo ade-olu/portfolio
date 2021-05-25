@@ -33,12 +33,12 @@
       >
         <img
           class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
-          src="../assets/designs/findfont.svg"
+          src="../assets/works/findfont.svg"
           alt="FindFont"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/designs/findfont"
+          to="/works/findfont"
           class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
@@ -77,12 +77,12 @@
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
-          src="../assets/designs/ear1.svg"
+          src="../assets/works/ear1.svg"
           alt="Ear1"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/designs/ear1"
+          to="/works/ear1"
           class="overlay z-10 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
