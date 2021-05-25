@@ -33,12 +33,12 @@
       >
         <img
           class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36"
-          src="../assets/projects/xtades.svg"
+          src="../assets/works/xtades.svg"
           alt="Xtades"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/projects/xtades"
+          to="/works/xtades"
           class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
@@ -89,12 +89,12 @@
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
-          src="../assets/projects/travu.svg"
+          src="../assets/works/travu.svg"
           alt="Travu"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/projects/travu"
+          to="/works/travu"
           class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
@@ -145,12 +145,12 @@
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44 z-10"
-          src="../assets/designs/venzone.svg"
+          src="../assets/works/venzone.svg"
           alt="VenZone"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/projects/venzone"
+          to="/works/venzone"
           class="overlay z-10 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
