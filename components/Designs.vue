@@ -55,7 +55,7 @@
                 <p
                   class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
                 >
-                  An app design for finding typeface names on images.
+                  An app design for finding typefaces on images.
                 </p>
               </div>
               <!-- Technologies -->
