@@ -132,8 +132,8 @@
             <p
               class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
             >
-              FindFont is an app design project that helps you find typeface
-              names on images.
+              FindFont is an app design project that helps you find typefaces
+              on images.
             </p>
           </div>
 
