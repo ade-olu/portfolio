@@ -132,8 +132,8 @@
             <p
               class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
             >
-              VenZone is a landing page project that involves personalized food
-              ordering for food vendors.
+              VenZone is a landing page project that helps set up personalized food
+              ordering website for food vendors.
             </p>
           </div>
 
