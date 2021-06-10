@@ -1,7 +1,7 @@
 <template>
   <!-- Designs -->
   <div
-    class="mt-2 pt-10 pb-14 bg-white relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-24 xlarge:mt-14"
+    class="mt-2 pt-10 pb-14 bg-white relative w-full h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-8 large:pt-14 large:pb-24 xlarge:mt-14"
     id="designs"
   >
     <div class="flex items-center justify-center">
@@ -10,7 +10,7 @@
         <h1
           class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
-          <span class="relative z-20">Designs</span>
+          <span class="relative z-10">Designs</span>
           <span
             class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
           >
@@ -55,7 +55,7 @@
                 <p
                   class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
                 >
-                  An app design for finding typefaces on images.
+                  An app design for finding typeface names on images.
                 </p>
               </div>
               <!-- Technologies -->
