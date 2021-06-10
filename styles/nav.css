@@ -88,17 +88,21 @@
 /* Nav Menu (Screens Lower Than 769px) Animation */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 300ms;
+  transition: opacity 300ms !important;
 }
 
 .fade-enter,
 .fade-leave-to {
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .stop {
   height: 100vh;
   overflow-y: hidden;
+}
+
+.change {
+  z-index: 0;
 }
 
 /* Media Queries (411px) */
@@ -131,7 +135,7 @@
   .nav-links li a:after {
     height: 0.156rem;
   }
-  
+
   .hamburger-menu {
     width: calc(2.5rem / 2);
     height: 0.156rem;
