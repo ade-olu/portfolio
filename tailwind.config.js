@@ -91,6 +91,10 @@ module.exports = {
       maxWidth: {
         mw: "26rem",
         mw2: "34rem",
+        mx: "22rem",
+        mx2: "21.886rem",
+        mx3: "22.886rem",
+        mx4: "23.136rem",
       },
       gridRowStart: {
         "8": "8",
