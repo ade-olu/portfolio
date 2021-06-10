@@ -1,7 +1,7 @@
 <template>
   <div
     class="relative container font-body bg-white"
-    :class="{ stop: isActive }"
+    :class="{ stop: active }"
     id="container"
   >
     <!-- For Screens Lower Than 769px -->
@@ -22,7 +22,7 @@
             >
           </li>
           <li class="my-6">
-            <a href="#"
+            <a href="#" @click="visible"
               ><span><hover>Designs</hover></span></a
             >
           </li>
@@ -67,7 +67,7 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="#"
+              <a href="#" @click="visible"
                 ><span><hover>Designs</hover></span></a
               >
             </li>
@@ -97,7 +97,11 @@
     </nav>
 
     <!-- Home -->
-    <div class="bg-white relative w-full z-10 h-auto" id="home">
+    <div
+      class="bg-white relative w-full h-auto"
+      id="home"
+      :class="{ change: zIndex }"
+    >
       <div class="flex items-center justify-center xlarge:h-screen">
         <div class="text-center xlarge:mt-8">
           <!-- Heading -->
@@ -107,7 +111,7 @@
             Hey, I'm <br />
             Oluwatobiloba <br />
             <span class="text-orange">
-              <span class="relative z-20">Adegbaju</span>
+              <span class="relative z-10">Adegbaju</span>
               <span
                 class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
               >
@@ -148,7 +152,7 @@
 
     <!-- Contact -->
     <div
-      class="mt-2 pt-10 pb-14 bg-light relative w-full z-10 h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-6 large:pt-14 large:pb-20 xlarge:mt-14"
+      class="mt-2 pt-10 pb-14 bg-light relative w-full h-auto phone:mt-4 tab:mt-10 tab:pt-10 tab:pb-14 large:mt-6 large:pt-14 large:pb-20 xlarge:mt-14"
       id="contact"
     >
       <div class="flex flex-col items-center justify-center">
@@ -211,7 +215,7 @@
 
     <!-- Footer -->
     <div
-      class="bg-black z-20 relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-0"
+      class="bg-black relative flex flex-col justify-center items-center w-full py-8 px-5 tab:px-10 tab:py-10 large:flex-row-reverse large:justify-between large:h-36 large:px-logo xlarge:px-0"
       id="footer"
     >
       <div class="flex flex-row xlarge:px-20">
@@ -289,6 +293,54 @@
 
       <hover class="absolute w-full h-full"></hover>
     </div>
+
+    <!-- Design Modal -->
+    <transition name="fade" v-on:enter="enter">
+      <div class="absolute" v-if="isVisible">
+        <div
+          class="bg-bl fixed inset-0 z-30 flex justify-center items-center px-6 tab:px-0"
+        >
+          <div
+            class="modal flex flex-col w-full rounded-md bg-light p-8 max-w-mx tab:max-w-mx2 large:max-w-mx3 large:p-10 xlarge:max-w-mx4"
+          >
+            <div class="flex justify-between items-start">
+              <ul
+                class="nav-links large:flex large:flex-col phone:text-lg large:text-xl text-black"
+                id="nLinks"
+              >
+                <li class="mb-8 large:mb-5">
+                  <a href="#designs" @click="notVisible"
+                    ><span><hover>Designs</hover></span></a
+                  >
+                </li>
+                <li class="my-8 large:my-5">
+                  <a href="#"
+                    ><span><hover>UI</hover></span></a
+                  >
+                </li>
+                <li class="my-8 large:my-5">
+                  <a href="#"
+                    ><span><hover>Illustrations</hover></span></a
+                  >
+                </li>
+                <li class="mt-8 large:mt-5">
+                  <a href="#"
+                    ><span><hover>3D</hover></span></a
+                  >
+                </li>
+              </ul>
+              <!-- Close -->
+              <button class="focus:outline-none" @click="visible">
+                <img
+                  src="../assets/close.svg"
+                  class="h-6 phone:h-7 large:h-media3"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -306,20 +358,36 @@ export default {
   data() {
     return {
       isActive: false,
+      active: false,
+      isVisible: false,
+      zIndex: false,
     };
   },
 
   methods: {
-    menu: function() {
+    menu() {
       this.isActive = !this.isActive;
+      this.active = !this.active;
     },
 
-    enter: function(el, done) {
+    visible() {
+      this.isVisible = !this.isVisible;
+      this.zIndex = !this.zIndex;
+    },
+
+    notVisible() {
+      this.isActive = !this.isActive;
+      this.isVisible = !this.isVisible;
+      this.zIndex = !this.zIndex;
+    },
+
+    enter(el, done) {
       var that = this;
     },
 
-    close: function() {
+    close() {
       this.isActive = !this.isActive;
+      this.active = !this.active;
     },
   },
 
