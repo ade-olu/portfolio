@@ -1,16 +1,22 @@
 /* Nav Links Animation */
 .nav-links li a,
 .nav-links li a:after,
-.nav-links li a:before {
+.nav-links li a:before,
+.nav-links li span,
+.nav-links li span:after,
+.nav-links li span:before {
   transition: all 0.3s;
 }
-.nav-links li a:hover {
+.nav-links li a:hover,
+.nav-links li span:hover {
   color: #0f1221;
 }
-.nav-links li a {
+.nav-links li a,
+.nav-links li span {
   position: relative;
 }
-.nav-links li a:after {
+.nav-links li a:after,
+.nav-links li span:after {
   position: absolute;
   bottom: -0.625rem;
   left: 0;
@@ -22,7 +28,8 @@
   background: #fd5531;
   height: 0.125rem;
 }
-.nav-links li a:hover:after {
+.nav-links li a:hover:after,
+.nav-links li span:hover:after {
   width: 100%;
 }
 
@@ -132,7 +139,8 @@
 
 /* Media Queries (768px) */
 @media screen and (min-width: 768px) {
-  .nav-links li a:after {
+  .nav-links li a:after,
+  .nav-links li span:after {
     height: 0.156rem;
   }
 
