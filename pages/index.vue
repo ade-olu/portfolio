@@ -378,6 +378,7 @@ export default {
     notVisible() {
       this.isActive = !this.isActive;
       this.isVisible = !this.isVisible;
+      this.active = false;
       this.zIndex = !this.zIndex;
     },
 
