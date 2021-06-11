@@ -22,9 +22,7 @@
             >
           </li>
           <li class="my-6">
-            <a href="#" @click="visible"
-              ><span><hover>Designs</hover></span></a
-            >
+            <span @click="visible"><hover>Designs</hover></span>
           </li>
           <li class="my-6">
             <a href="#"
@@ -67,9 +65,7 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="#" @click="visible"
-                ><span><hover>Designs</hover></span></a
-              >
+              <span @click="visible"><hover>Designs</hover></span>
             </li>
             <li class="large:mx-6">
               <a href="#"
