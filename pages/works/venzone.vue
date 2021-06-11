@@ -1,7 +1,7 @@
 <template>
   <div
     class="relative container font-body bg-white"
-    :class="{ stop: isActive }"
+    :class="{ stop: active }"
     id="container"
   >
     <!-- For Screens Lower Than 769px -->
@@ -22,7 +22,7 @@
             >
           </li>
           <li class="my-6">
-            <a href="#"
+            <a href="#" @click="visible"
               ><span><hover>Designs</hover></span></a
             >
           </li>
@@ -67,7 +67,7 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="#"
+              <a href="#" @click="visible"
                 ><span><hover>Designs</hover></span></a
               >
             </li>
@@ -98,7 +98,8 @@
 
     <!-- VenZone -->
     <div
-      class="bg-white relative w-full z-10 h-auto pb-16 phone:pb-20 tab:pb-24"
+      class="bg-white relative w-full h-auto pb-16 phone:pb-20 tab:pb-24"
+      :class="{ change: zIndex }"
     >
       <!-- Heading -->
       <div class="text-center">
@@ -132,8 +133,8 @@
             <p
               class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
             >
-              VenZone is a landing page project that helps set up a personalized food
-              ordering website for food vendors.
+              VenZone is a landing page project that helps set up a personalized
+              food ordering website for food vendors.
             </p>
           </div>
 
@@ -234,6 +235,53 @@
         </div>
       </div>
     </div>
+    <!-- Design Modal -->
+    <transition name="fade" v-on:enter="enter">
+      <div class="absolute" v-if="isVisible">
+        <div
+          class="bg-bl fixed inset-0 z-30 flex justify-center items-center px-6 tab:px-0"
+        >
+          <div
+            class="modal flex flex-col w-full rounded-md bg-light p-8 max-w-mx tab:max-w-mx2 large:max-w-mx3 large:p-10 xlarge:max-w-mx4"
+          >
+            <div class="flex justify-between items-start">
+              <ul
+                class="nav-links large:flex large:flex-col phone:text-lg large:text-xl text-black"
+                id="nLinks"
+              >
+                <li class="mb-8 large:mb-5">
+                  <nuxt-link to="/#designs" @click="notVisible"
+                    ><span><hover>Designs</hover></span></nuxt-link
+                  >
+                </li>
+                <li class="my-8 large:my-5">
+                  <a href="#"
+                    ><span><hover>UI</hover></span></a
+                  >
+                </li>
+                <li class="my-8 large:my-5">
+                  <a href="#"
+                    ><span><hover>Illustrations</hover></span></a
+                  >
+                </li>
+                <li class="mt-8 large:mt-5">
+                  <a href="#"
+                    ><span><hover>3D</hover></span></a
+                  >
+                </li>
+              </ul>
+              <!-- Close -->
+              <button class="focus:outline-none" @click="visible">
+                <img
+                  src="../../assets/close.svg"
+                  class="h-6 phone:h-7 large:h-media3"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -244,16 +292,37 @@ export default {
   data() {
     return {
       isActive: false,
+      active: false,
+      isVisible: false,
+      zIndex: false,
     };
   },
 
   methods: {
-    menu: function() {
+    menu() {
       this.isActive = !this.isActive;
+      this.active = !this.active;
     },
 
-    close: function() {
+    visible() {
+      this.isVisible = !this.isVisible;
+      this.zIndex = !this.zIndex;
+    },
+
+    notVisible() {
       this.isActive = !this.isActive;
+      this.isVisible = !this.isVisible;
+      this.active = false;
+      this.zIndex = !this.zIndex;
+    },
+
+    enter(el, done) {
+      var that = this;
+    },
+
+    close() {
+      this.isActive = !this.isActive;
+      this.active = !this.active;
     },
   },
 
