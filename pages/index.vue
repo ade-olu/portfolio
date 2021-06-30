@@ -131,8 +131,8 @@
           <!-- Btn -->
           <button
             v-scroll-to="{ el: '#contact', duration: 1000 }"
-            class="focus:outline-none bg-black font-bold text-white h-bsz px-14 py-2.5 rounded-full mt-8 phone:mt-10 phone:text-lg phone:h-16 phone:px-20 tab:text-xl tab:h-bht tab:px-20 tab:mt-12 xlarge:h-bht2 xlarge:px-20"
-            style="cursor: none"
+            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-8 phone:mt-10 phone:text-lg phone:h-16 phone:px-20 tab:text-xl tab:h-bht tab:px-20 tab:mt-12 xlarge:h-bht2 xlarge:px-20"
+            style="cursor: none;"
           >
             Get In Touch
           </button>
@@ -200,8 +200,8 @@
           />
           <!-- Btn -->
           <button
-            class="focus:outline-none bg-black font-bold text-white h-bsz px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-bht2 xlarge:px-20"
-            style="cursor: none"
+            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-bht2 xlarge:px-20"
+            style="cursor: none;"
           >
             Send
           </button>
