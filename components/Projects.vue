@@ -61,11 +61,11 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
@@ -117,11 +117,11 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
@@ -173,11 +173,11 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
