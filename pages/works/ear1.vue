@@ -141,16 +141,16 @@
             >
               Technologies
             </h2>
-            <div class="flex mb-6 small:mb-7 tab:mb-0 large:mb-9 2xlarge:mb-0">
+            <div class="flex flex-wrap">
               <span
-                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:block small:mt-0 tab:ml-0 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                class="font-bold hidden bg-grey text-white rounded-full w-auto px-6 py-1.5 small:block phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
                 >Figma</span
               >
             </div>
           </div>
 
           <!-- Link -->
-          <div class="mt-16 tab:mt-20 xlarge:mt-14">
+          <div class="mt-16 tab:mt-20 xlarge:mt-36">
             <h2
               class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
             >
@@ -176,7 +176,7 @@
             >
               Technologies
             </h2>
-            <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+            <div class="flex mb-6 small:mb-6 tab:mb-10 large:mb-10">
               <span
                 class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
                 >Figma</span
