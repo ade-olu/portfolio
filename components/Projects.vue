@@ -12,7 +12,7 @@
         >
           <span class="relative z-10">Projects</span>
           <span
-            class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
+            class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
           >
             <img
               class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-60"
@@ -25,7 +25,7 @@
     </div>
 
     <div
-      class="grid grid-col-1 px-8 gap-14 mt-10 phone:mt-12 tab:px-14 tab:gap-14 large:mt-16 large:px-24 large:grid-cols-2 large:gap-24"
+      class="grid grid-col-1 px-8 gap-14 mt-11 phone:mt-12 tab:px-14 tab:gap-14 large:mt-16 large:px-24 large:grid-cols-2 large:gap-24"
     >
       <!-- Xtades -->
       <div
