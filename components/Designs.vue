@@ -43,10 +43,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-12 tab:px-10 large:pb-10 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-5 tab:mb-8 large:mb-7">
+              <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
@@ -87,10 +87,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-12 tab:px-10 large:pb-10 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-5 tab:mb-8 large:mb-7">
+              <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
