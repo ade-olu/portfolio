@@ -3,6 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
+      small: { min: "360px" },
+      medium: { min: "375px" },
       phone: { min: "411px" },
       mob: { min: "412px" },
       tab: { min: "601px" },
