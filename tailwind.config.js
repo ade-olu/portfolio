@@ -92,6 +92,7 @@ module.exports = {
       margin: {
         mr: "1.125rem",
         "mr-sp": "21.076rem",
+        t: "3.25rem",
       },
       padding: {
         logo: "4.125rem",
