@@ -43,10 +43,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:pl-10 large:pr-5"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-5 tab:mb-8 large:mb-7">
+              <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
@@ -65,15 +65,15 @@
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 desktop:mt-9 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
                   >Figma</span
                 >
               </div>
@@ -99,10 +99,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-10 tab:px-10 large:pb-10 large:pl-10 large:pr-5"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-5 tab:mb-8 large:mb-7">
+              <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
@@ -121,15 +121,15 @@
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 desktop:mt-9 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
                   >Figma</span
                 >
               </div>
@@ -155,14 +155,14 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-12 tab:px-10 large:pb-10 large:pl-10 large:pr-5"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-5 tab:mb-8 large:mb-7">
+              <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
-                  VenZone
+                  VenZone (WIP)
                 </h1>
                 <p
                   class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
@@ -177,15 +177,15 @@
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-10 large:text-xl large:px-8 large:py-2 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-9 large:px-8 large:py-2 desktop:mt-9 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-4 small:mt-7 small:ml-6 phone:block phone:text-lg tab:mt-9 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
                   >Figma</span
                 >
               </div>
