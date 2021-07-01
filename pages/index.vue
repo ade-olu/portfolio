@@ -109,7 +109,7 @@
             <span class="text-orange">
               <span class="relative z-10">Adegbaju</span>
               <span
-                class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
+                class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
               >
                 <img
                   class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
@@ -121,7 +121,7 @@
 
           <!-- Text -->
           <p
-            class="text-grey mt-4 phone:mt-6 phone:text-lg tab:text-xl tab:mt-8"
+            class="text-grey mt-5 phone:mt-6 phone:text-lg tab:text-xl tab:mt-8"
           >
             I’m a Frontend Developer and <br />
             Product Designer who loves building <br />
@@ -159,7 +159,7 @@
           >
             <span class="relative z-20">Contact</span>
             <span
-              class="relative flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
+              class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
             >
               <img
                 class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
@@ -172,7 +172,7 @@
 
         <!-- Form -->
         <form
-          class="flex flex-col items-center justify-center px-8 mt-10 w-full tab:px-40 large:mt-11 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2"
+          class="flex flex-col items-center justify-center px-8 mt-11 w-full tab:px-40 large:mt-11 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2"
         >
           <!-- Name -->
           <input
