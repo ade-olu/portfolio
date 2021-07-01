@@ -147,15 +147,15 @@
                 >Vue.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-4 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl tab:py-2 large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 ml-6 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl large:ml-10 large:text-xl tab:py-2 large:px-8 large:py-2"
                 >Nuxt.js</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 mr-4 small:mr-6 small:mt-7 phone:text-lg tab:mt-0 tab:ml-10 tab:mr-10 tab:text-xl tab:py-2 large:px-8 large:py-2"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 mr-6 small:mr-6 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:mr-10 tab:text-xl tab:py-2 large:px-8 large:py-2"
                 >Tailwind CSS</span
               >
               <span
-                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-7 phone:text-lg tab:mt-0 tab:text-xl tab:py-2 large:px-8"
+                class="font-bold bg-grey text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-6 phone:text-lg tab:mt-0 tab:text-xl tab:py-2 large:px-8"
                 >Figma</span
               >
             </div>
@@ -186,7 +186,7 @@
             >
               Technologies
             </h2>
-            <div class="flex mb-6 small:mb-7 tab:mb-9 large:mb-9">
+            <div class="flex mb-6 small:mb-6 tab:mb-10 large:mb-10">
               <span
                 class="font-bold bg-grey text-white rounded-full w-auto px-8 py-2 text-xl"
                 >Vue.js</span
