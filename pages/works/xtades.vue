@@ -104,7 +104,7 @@
         >
           <span class="relative z-10">Xtades</span>
           <span
-            class="relative w-full flex justify-center items-center -mt-2 z-0 phone:-mt-4 large:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
           >
             <img
               class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-52"
@@ -117,7 +117,7 @@
 
       <div class="xlarge:flex xlarge:justify-between xlarge:items-start">
         <div
-          class="mt-12 px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20 xlarge:px-spc"
+          class="mt-t px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20 xlarge:px-spc"
         >
           <!-- About -->
           <div>
