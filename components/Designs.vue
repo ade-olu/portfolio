@@ -43,10 +43,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-8 small:px-6 small:pb-8 tab:pb-12 tab:px-10 large:pb-12 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-12 tab:px-10 large:pb-10 large:px-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-7 tab:mb-10 large:mb-9">
+              <div class="mb-5 tab:mb-8 large:mb-7">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
@@ -59,9 +59,9 @@
                 </p>
               </div>
               <!-- Technologies -->
-              <div>
+              <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
                   >Figma</span
                 >
               </div>
@@ -87,10 +87,10 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-5 pb-8 small:px-6 small:pb-8 tab:pb-12 tab:px-10 large:pb-12 large:px-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full px-6 pb-7 small:px-6 small:pb-7 tab:pb-12 tab:px-10 large:pb-10 large:px-10"
             >
               <!-- Overlay Title & Subtitle -->
-              <div class="mb-7 tab:mb-10 large:mb-9">
+              <div class="mb-5 tab:mb-8 large:mb-7">
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
@@ -103,9 +103,9 @@
                 </p>
               </div>
               <!-- Technologies -->
-              <div>
+              <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-2 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2.5"
+                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
                   >Figma</span
                 >
               </div>
