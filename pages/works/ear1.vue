@@ -240,6 +240,12 @@
 import { gsap } from "gsap";
 
 export default {
+  head() {
+    return {
+      title: "Designs - Ear1",
+    };
+  },
+  
   data() {
     return {
       isActive: false,
