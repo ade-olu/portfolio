@@ -265,6 +265,12 @@
 import { gsap } from "gsap";
 
 export default {
+  head() {
+    return {
+      title: "Projects - Xtades",
+    };
+  },
+  
   data() {
     return {
       isActive: false,
