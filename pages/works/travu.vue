@@ -210,6 +210,7 @@
         </div>
       </div>
     </div>
+    
     <!-- Design Modal -->
     <transition name="fade" v-on:enter="enter">
       <div class="absolute" v-if="isVisible">
@@ -225,23 +226,23 @@
                 id="nLinks"
               >
                 <li class="mb-8 large:mb-5">
-                  <nuxt-link to="/#designs" @click="notVisible"
-                    ><span><hover>Designs</hover></span></nuxt-link
+                  <a href="#designs" @click="notVisible"
+                    ><span><hover>Designs</hover></span></a
                   >
                 </li>
                 <li class="my-8 large:my-5">
-                  <a href="#"
-                    ><span><hover>UI</hover></span></a
+                  <nuxt-link to="/designs/ui"
+                    ><span><hover>UI</hover></span></nuxt-link
                   >
                 </li>
                 <li class="my-8 large:my-5">
-                  <a href="#"
-                    ><span><hover>Illustrations</hover></span></a
+                  <nuxt-link to="/designs/illustrations"
+                    ><span><hover>Illustrations</hover></span></nuxt-link
                   >
                 </li>
                 <li class="mt-8 large:mt-5">
-                  <a href="#"
-                    ><span><hover>3D</hover></span></a
+                  <nuxt-link to="/designs/3d"
+                    ><span><hover>3D</hover></span></nuxt-link
                   >
                 </li>
               </ul>
