@@ -264,6 +264,12 @@
 import { gsap } from "gsap";
 
 export default {
+  head() {
+    return {
+      title: "Projects - Travu",
+    };
+  },
+  
   data() {
     return {
       isActive: false,
