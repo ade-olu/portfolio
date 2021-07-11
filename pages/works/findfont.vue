@@ -240,6 +240,12 @@
 import { gsap } from "gsap";
 
 export default {
+  head() {
+    return {
+      title: "Designs - FindFont",
+    };
+  },
+  
   data() {
     return {
       isActive: false,
