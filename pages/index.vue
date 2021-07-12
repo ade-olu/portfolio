@@ -18,20 +18,22 @@
         >
           <li class="my-6">
             <a href="#projects" @click="close"
-              ><span><hover>Projects</hover></span></a
+              ><span class="n-active"><hover>Projects</hover></span></a
             >
           </li>
           <li class="my-6">
-            <span @click="visible"><hover>Designs</hover></span>
+            <span @click="visible" class="n-active"
+              ><hover>Designs</hover></span
+            >
           </li>
           <li class="my-6">
             <a href="#"
-              ><span><hover>Resume</hover></span></a
+              ><span class="n-active"><hover>Resume</hover></span></a
             >
           </li>
           <li class="my-6">
             <a href="#contact" @click="close"
-              ><span><hover>Contact</hover></span></a
+              ><span class="n-active"><hover>Contact</hover></span></a
             >
           </li>
         </ul>
@@ -61,20 +63,22 @@
           >
             <li class="large:mx-6">
               <a href="#" v-scroll-to="{ el: '#projects', duration: 1000 }"
-                ><span><hover>Projects</hover></span></a
+                ><span class="n-active"><hover>Projects</hover></span></a
               >
             </li>
             <li class="large:mx-6">
-              <span @click="visible"><hover>Designs</hover></span>
+              <span @click="visible" class="n-active"
+                ><hover>Designs</hover></span
+              >
             </li>
             <li class="large:mx-6">
               <a href="#"
-                ><span><hover>Resume</hover></span></a
+                ><span class="n-active"><hover>Resume</hover></span></a
               >
             </li>
             <li class="large:mx-6">
               <a href="#" v-scroll-to="{ el: '#contact', duration: 1000 }"
-                ><span><hover>Contact</hover></span></a
+                ><span class="n-active"><hover>Contact</hover></span></a
               >
             </li>
           </ul>
@@ -305,23 +309,27 @@
                 id="nLinks"
               >
                 <li class="mb-8 large:mb-5">
-                  <a href="#designs" @click="notVisible"
-                    ><span><hover>Designs</hover></span></a
+                  <nuxt-link to="/#designs" @click="notVisible"
+                    ><span class="n-active"
+                      ><hover>Designs</hover></span
+                    ></nuxt-link
                   >
                 </li>
                 <li class="my-8 large:my-5">
                   <nuxt-link to="/designs/ui"
-                    ><span><hover>UI</hover></span></nuxt-link
+                    ><span class="n-active"><hover>UI</hover></span></nuxt-link
                   >
                 </li>
                 <li class="my-8 large:my-5">
                   <nuxt-link to="/designs/illustrations"
-                    ><span><hover>Illustrations</hover></span></nuxt-link
+                    ><span class="n-active"
+                      ><hover>Illustrations</hover></span
+                    ></nuxt-link
                   >
                 </li>
                 <li class="mt-8 large:mt-5">
                   <nuxt-link to="/designs/3d"
-                    ><span><hover>3D</hover></span></nuxt-link
+                    ><span class="n-active"><hover>3D</hover></span></nuxt-link
                   >
                 </li>
               </ul>
