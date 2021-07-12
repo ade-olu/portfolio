@@ -309,10 +309,8 @@
                 id="nLinks"
               >
                 <li class="mb-8 large:mb-5">
-                  <nuxt-link to="/#designs" @click="notVisible"
-                    ><span class="n-active"
-                      ><hover>Designs</hover></span
-                    ></nuxt-link
+                  <a href="#designs" @click="notVisible"
+                    ><span class="n-active"><hover>Designs</hover></span></a
                   >
                 </li>
                 <li class="my-8 large:my-5">
