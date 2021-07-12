@@ -18,20 +18,22 @@
         >
           <li class="my-6">
             <nuxt-link to="/#projects"
-              ><span><hover>Projects</hover></span></nuxt-link
+              ><span class="n-active"><hover>Projects</hover></span></nuxt-link
             >
           </li>
           <li class="my-6">
-            <span @click="visible"><hover>Designs</hover></span>
+            <span @click="visible" class="n-active"
+              ><hover>Designs</hover></span
+            >
           </li>
           <li class="my-6">
             <a href="#"
-              ><span><hover>Resume</hover></span></a
+              ><span class="n-active"><hover>Resume</hover></span></a
             >
           </li>
           <li class="my-6">
             <nuxt-link to="/#contact"
-              ><span><hover>Contact</hover></span></nuxt-link
+              ><span class="n-active"><hover>Contact</hover></span></nuxt-link
             >
           </li>
         </ul>
@@ -61,20 +63,24 @@
           >
             <li class="large:mx-6">
               <nuxt-link to="/#projects"
-                ><span><hover>Projects</hover></span></nuxt-link
+                ><span class="n-active"
+                  ><hover>Projects</hover></span
+                ></nuxt-link
               >
             </li>
             <li class="large:mx-6">
-              <span @click="visible"><hover>Designs</hover></span>
+              <span @click="visible" class="n-active"
+                ><hover>Designs</hover></span
+              >
             </li>
             <li class="large:mx-6">
               <a href="#"
-                ><span><hover>Resume</hover></span></a
+                ><span class="n-active"><hover>Resume</hover></span></a
               >
             </li>
             <li class="large:mx-6">
               <nuxt-link to="/#contact"
-                ><span><hover>Contact</hover></span></nuxt-link
+                ><span class="n-active"><hover>Contact</hover></span></nuxt-link
               >
             </li>
           </ul>
@@ -210,7 +216,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Design Modal -->
     <transition name="fade" v-on:enter="enter">
       <div class="absolute" v-if="isVisible">
@@ -227,22 +233,26 @@
               >
                 <li class="mb-8 large:mb-5">
                   <nuxt-link to="/#designs" @click="notVisible"
-                    ><span><hover>Designs</hover></span></nuxt-link
+                    ><span class="n-active"
+                      ><hover>Designs</hover></span
+                    ></nuxt-link
                   >
                 </li>
                 <li class="my-8 large:my-5">
                   <nuxt-link to="/designs/ui"
-                    ><span><hover>UI</hover></span></nuxt-link
+                    ><span class="n-active"><hover>UI</hover></span></nuxt-link
                   >
                 </li>
                 <li class="my-8 large:my-5">
                   <nuxt-link to="/designs/illustrations"
-                    ><span><hover>Illustrations</hover></span></nuxt-link
+                    ><span class="n-active"
+                      ><hover>Illustrations</hover></span
+                    ></nuxt-link
                   >
                 </li>
                 <li class="mt-8 large:mt-5">
                   <nuxt-link to="/designs/3d"
-                    ><span><hover>3D</hover></span></nuxt-link
+                    ><span class="n-active"><hover>3D</hover></span></nuxt-link
                   >
                 </li>
               </ul>
@@ -263,14 +273,13 @@
 
 <script>
 import { gsap } from "gsap";
-
 export default {
   head() {
     return {
       title: "Projects - VenZone",
     };
   },
-  
+
   data() {
     return {
       isActive: false,
@@ -279,35 +288,29 @@ export default {
       zIndex: false,
     };
   },
-
   methods: {
     menu() {
       this.isActive = !this.isActive;
       this.active = !this.active;
     },
-
     visible() {
       this.isVisible = !this.isVisible;
       this.zIndex = !this.zIndex;
     },
-
     notVisible() {
       this.isActive = !this.isActive;
       this.isVisible = !this.isVisible;
       this.active = false;
       this.zIndex = !this.zIndex;
     },
-
     enter(el, done) {
       var that = this;
     },
-
     close() {
       this.isActive = !this.isActive;
       this.active = !this.active;
     },
   },
-
   // GSAP
   mounted() {},
 };
