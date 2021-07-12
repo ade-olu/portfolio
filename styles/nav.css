@@ -1,22 +1,13 @@
 /* Nav Links Animation */
-.nav-links li a,
-.nav-links li a:after,
-.nav-links li a:before,
-.nav-links li span,
-.nav-links li span:after,
-.nav-links li span:before {
+.n-active {
   transition: all 0.3s;
-}
-.nav-links li a:hover,
-.nav-links li span:hover {
-  color: #0f1221;
-}
-.nav-links li a,
-.nav-links li span {
   position: relative;
 }
-.nav-links li a:after,
-.nav-links li span:after {
+.n-active:before {
+  transition: all 0.3s;
+}
+.n-active:after {
+  transition: all 0.3s;
   position: absolute;
   bottom: -0.625rem;
   left: 0;
@@ -28,9 +19,26 @@
   background: #fd5531;
   height: 0.125rem;
 }
-.nav-links li a:hover:after,
-.nav-links li span:hover:after {
+.n-active:hover:after {
   width: 100%;
+}
+
+/* Active */
+.active {
+  position: relative;
+}
+
+.active:after {
+  position: absolute;
+  bottom: -0.625rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  content: ".";
+  color: transparent;
+  background: #fd5531;
+  height: 0.125rem;
 }
 
 /* Hamburger Menu */
@@ -139,8 +147,8 @@
 
 /* Media Queries (768px) */
 @media screen and (min-width: 768px) {
-  .nav-links li a:after,
-  .nav-links li span:after {
+  .n-active:after,
+  .active:after {
     height: 0.156rem;
   }
 
