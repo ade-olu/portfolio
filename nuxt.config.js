@@ -25,7 +25,7 @@ export default {
       {
         name: "apple-mobile-web-app-title",
         property: "apple-mobile-web-app-title",
-        content: "Xtades",
+        content: "Oluwatobiloba Adegbaju",
       },
 
       { hid: "og:type", property: "og:type", content: "website" },
@@ -42,7 +42,7 @@ export default {
       {
         name: "og:site_name",
         property: "og:site_name",
-        content: "Xtades",
+        content: "Oluwatobiloba Adegbaju",
       },
       {
         name: "og:image",
@@ -52,7 +52,7 @@ export default {
       {
         name: "twitter:title",
         property: "og:title",
-        content: "Xtades",
+        content: "Oluwatobiloba Adegbaju",
       },
 
       {
