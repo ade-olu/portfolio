@@ -29,7 +29,7 @@
     >
       <!-- FindFont -->
       <div
-        class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
       >
         <img
           class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
@@ -73,7 +73,7 @@
 
       <!-- Ear1 -->
       <div
-        class="relative bg-ear1 rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-ear1 rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
