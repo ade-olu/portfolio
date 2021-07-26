@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Oluwatobiloba Adegbaju - Xtades",
+    title: "Oluwatobiloba Adegbaju - Frontend Developer & Product Designer",
     htmlAttrs: {
       lang: "en",
     },
@@ -32,7 +32,7 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://xtades.vercel.app",
+        content: "https://adeolu.vercel.app",
       },
       {
         name: "og:title",
@@ -47,7 +47,7 @@ export default {
       {
         name: "og:image",
         property: "og:image",
-        content: "https://xtades.vercel.app/twitter.png",
+        content: "https://adeolu.vercel.app/twitter.png",
       },
       {
         name: "twitter:title",
@@ -72,7 +72,7 @@ export default {
 
       {
         name: "twitter:image",
-        content: "https://xtades.vercel.app/twitter.png",
+        content: "https://adeolu.vercel.app/twitter.png",
       },
       {
         hid: "twitter:image:alt",
@@ -82,7 +82,7 @@ export default {
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "https://xtades.vercel.app/twitter.png",
+        content: "https://adeolu.vercel.app/twitter.png",
       },
       {
         hid: "og:image:alt",
@@ -95,7 +95,7 @@ export default {
       {
         hid: "canonical",
         rel: "canonical",
-        href: "https://xtades.vercel.app",
+        href: "https://adeolu.vercel.app",
       },
     ],
   },
@@ -121,5 +121,7 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    transpile: ["gsap"],
+  },
 };
