@@ -7,7 +7,7 @@
     <!-- Nav -->
     <navigation></navigation>
 
-    <!-- Xtades -->
+    <!-- Portfolio -->
     <div
       class="bg-white relative w-full h-auto pb-16 phone:pb-20 tab:pb-24"
       :class="{ change: zIndex }"
@@ -17,12 +17,12 @@
         <h1
           class="font-body font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
-          <span class="relative z-10">Xtades</span>
+          <span class="relative z-10">Portfolio</span>
           <span
             class="relative w-full flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
           >
             <img
-              class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-52"
+              class="w-36 phone:w-40 tab:w-48 large:w-52 xlarge:w-64"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -44,8 +44,7 @@
             <p
               class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
             >
-              Xtades is a portfolio project that showcases my projects and
-              designs.
+              A portfolio project that showcases my projects and designs.
             </p>
           </div>
 
@@ -83,11 +82,11 @@
             >
               Link
             </h2>
-            <a href="https://xtades.xyz" target="_blank"
+            <a href="https://adeolu.dev" target="_blank"
               ><p
                 class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
               >
-                <hover>https://xtades.xyz</hover>
+                <hover>https://adeolu.dev</hover>
               </p></a
             >
           </div>
@@ -139,11 +138,10 @@ export default {
 
   head() {
     return {
-      title: "Projects - Xtades",
+      title: "Projects - Portfolio",
     };
   },
 
-  // GSAP
   mounted() {},
 };
 </script>
