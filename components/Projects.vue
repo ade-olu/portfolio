@@ -27,18 +27,18 @@
     <div
       class="grid grid-col-1 px-8 gap-14 mt-11 phone:mt-12 tab:px-14 tab:gap-14 large:mt-16 large:px-24 large:grid-cols-2 large:gap-24"
     >
-      <!-- Xtades -->
+      <!-- Portfolio -->
       <div
-        class="relative bg-black rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        class="relative bg-black rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
       >
         <img
           class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36"
-          src="../assets/works/xtades.svg"
-          alt="Xtades"
+          src="../assets/works/portfolio.svg"
+          alt="Portfolio"
         />
         <!-- Overlay -->
         <nuxt-link
-          to="/works/xtades"
+          to="/works/portfolio"
           class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
         >
           <div class="overlay-inner w-full h-full">
@@ -50,7 +50,7 @@
                 <h1
                   class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
-                  Xtades
+                  Portfolio
                 </h1>
                 <p
                   class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
@@ -85,7 +85,7 @@
 
       <!-- Travu -->
       <div
-        class="relative bg-travu rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-travu rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
@@ -141,7 +141,7 @@
 
       <!-- VenZone -->
       <div
-        class="relative bg-venzone rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-venzone rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44 z-10"
