@@ -29,7 +29,7 @@
     >
       <!-- FindFont -->
       <div
-        class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
       >
         <img
           class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
@@ -61,7 +61,7 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
                   >Figma</span
                 >
               </div>
@@ -73,7 +73,7 @@
 
       <!-- Ear1 -->
       <div
-        class="relative bg-ear1 rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-ear1 rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
@@ -105,7 +105,7 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl large:text-xl large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
                   >Figma</span
                 >
               </div>
