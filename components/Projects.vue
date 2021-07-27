@@ -29,7 +29,7 @@
     >
       <!-- Portfolio -->
       <div
-        class="relative bg-black rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        class="relative bg-black rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
       >
         <img
           class="w-xt small:w-20 phone:w-24 tab:w-28 xlarge:w-36"
@@ -61,19 +61,19 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
                   >Figma</span
                 >
               </div>
@@ -85,7 +85,7 @@
 
       <!-- Travu -->
       <div
-        class="relative bg-travu rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-travu rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
@@ -117,19 +117,19 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
                   >Figma</span
                 >
               </div>
@@ -141,7 +141,7 @@
 
       <!-- VenZone -->
       <div
-        class="relative bg-venzone rounded-md grid justify-center items-center row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
+        class="relative bg-venzone rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
         <img
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44 z-10"
@@ -173,19 +173,19 @@
               <!-- Technologies -->
               <div class="flex flex-wrap">
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mr-6 small:mr-0 phone:text-lg tab:text-xl large:text-xl tab:py-2 large:px-8 large:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
                   >Vue.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto px-6 py-1.5 mt-6 small:mt-0 small:ml-6 tab:ml-10 phone:text-lg tab:text-xl tab:py-2 large:ml-8 large:text-xl large:px-8 large:py-2 xlarge:ml-10 desktop:mr-10 surface:mr-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                   >Nuxt.js</span
                 >
                 <span
-                  class="font-bold bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 small:mt-6 phone:text-lg tab:mt-0 tab:ml-10 tab:text-xl tab:py-2 large:text-xl large:ml-0 large:mt-8 large:px-8 large:py-2 xlarge:mt-10 desktop:block surface:ml-10 surface:mt-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
                   >Tailwind CSS</span
                 >
                 <span
-                  class="font-bold hidden bg-grey2 text-white rounded-full w-auto mt-6 px-6 py-1.5 ml-6 small:mt-6 small:ml-6 phone:block phone:text-lg tab:mt-10 tab:block tab:ml-0 tab:text-xl tab:py-2 large:hidden large:text-xl large:px-8 xlarge:block xlarge:ml-10 surface:ml-0"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
                   >Figma</span
                 >
               </div>
