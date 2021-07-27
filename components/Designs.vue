@@ -43,7 +43,7 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10"
             >
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
@@ -87,7 +87,7 @@
         >
           <div class="overlay-inner w-full h-full">
             <div
-              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
+              class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10"
             >
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
