@@ -30,7 +30,7 @@ module.exports = {
         bl: "rgba(15, 18, 33, 0.5)",
         bl2: "rgba(15, 18, 33, 0.1)",
         grey: "#3F4551",
-        grey2: "#999DA5",
+        grey2: "#858A93",
         grey3: "#CBCCCF",
         lightorange: "#FAD0C7",
         travu: "#111827",
