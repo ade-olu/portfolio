@@ -42,7 +42,7 @@
         <!-- Logo -->
         <a href="/" class="z-40">
           <img
-            class="w-wt phone:w-sz tab:w-sz2 large:w-sz2"
+            class="w-wt phone:w-sz tab:w-16 large:w-16"
             src="../assets/logo.svg"
             alt="Logo"
           />
