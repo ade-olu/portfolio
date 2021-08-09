@@ -93,15 +93,15 @@
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
             type="text"
-            name="Name"
+            name="name"
             id="name"
             placeholder="Enter your name"
           />
           <!-- Email -->
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
-            type="text"
-            name="Email"
+            type="email"
+            name="email"
             id="email"
             placeholder="Enter your email"
           />
@@ -109,7 +109,7 @@
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
             type="text"
-            name="Message"
+            name="message"
             id="message"
             placeholder="Enter your message"
           />
