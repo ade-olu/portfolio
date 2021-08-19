@@ -88,14 +88,12 @@
         <!-- Form -->
         <form
           class="flex flex-col items-center justify-center px-8 mt-11 w-full tab:px-40 large:mt-11 large:px-pw3 xlarge:px-pw 2xlarge:px-pw2"
-          action="https://formspree.io/f/mrgroypw"
-          method="POST"
         >
           <!-- Name -->
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
             type="text"
-            name="Name"
+            name="name"
             id="name"
             placeholder="Enter your name"
           />
@@ -103,7 +101,7 @@
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
             type="email"
-            name="Email"
+            name="email"
             id="email"
             placeholder="Enter your email"
           />
@@ -111,7 +109,7 @@
           <input
             class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
             type="text"
-            name="Message"
+            name="message"
             id="message"
             placeholder="Enter your message"
           />
@@ -214,14 +212,12 @@ import { gsap } from "gsap";
 import Projects from "../components/Projects";
 import Designs from "../components/Designs";
 import MainNav from "../components/MainNav";
-
 export default {
   components: {
     MainNav,
     Projects,
     Designs,
   },
-
   mounted() {},
 };
 </script>
