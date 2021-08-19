@@ -38,7 +38,8 @@ module.exports = {
         travu2: "#171E2D",
         venzone: "#743200",
         venzone2: "#F2EBE6",
-        ear1: "#00BF69",
+        green: "#00BF69",
+        ear1: "#00070F",
       },
       fontFamily: {
         body: ["Eudoxus Sans"],
