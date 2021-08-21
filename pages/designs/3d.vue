@@ -69,7 +69,7 @@
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
         >
           <img
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/living-room.png"
             alt="Living Room"
           />
@@ -81,7 +81,7 @@
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
         >
           <img
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/room.png"
             alt="Room"
           />
@@ -93,7 +93,7 @@
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
         >
           <img
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/kitchen.png"
             alt="Kitchen"
           />
@@ -105,7 +105,7 @@
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
         >
           <img
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/house.png"
             alt="House"
           />
@@ -117,7 +117,7 @@
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
         >
           <img
-            class="w-full h-full rounded-md"
+            class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/living-room-2.png"
             alt="Living Room 2"
           />
