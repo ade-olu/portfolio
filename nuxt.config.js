@@ -32,7 +32,7 @@ export default {
       {
         hid: "og:url",
         property: "og:url",
-        content: "https://adeolu.vercel.app",
+        content: "https://adeolu.dev",
       },
       {
         name: "og:title",
@@ -47,7 +47,7 @@ export default {
       {
         name: "og:image",
         property: "og:image",
-        content: "https://adeolu.vercel.app/twitter.png",
+        content: "https://adeolu.dev/twitter.png",
       },
       {
         name: "twitter:title",
@@ -72,7 +72,7 @@ export default {
 
       {
         name: "twitter:image",
-        content: "https://adeolu.vercel.app/twitter.png",
+        content: "https://adeolu.dev/twitter.png",
       },
       {
         hid: "twitter:image:alt",
@@ -82,7 +82,7 @@ export default {
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "https://adeolu.vercel.app/twitter.png",
+        content: "https://adeolu.dev/twitter.png",
       },
       {
         hid: "og:image:alt",
@@ -95,7 +95,7 @@ export default {
       {
         hid: "canonical",
         rel: "canonical",
-        href: "https://adeolu.vercel.app",
+        href: "https://adeolu.dev",
       },
     ],
   },
