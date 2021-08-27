@@ -21,7 +21,7 @@
             <span @click="visible" class="active"><hover>Designs</hover></span>
           </li>
           <li class="my-6">
-            <a href="#"
+            <a href="https://bit.ly/2WpaPTK" target="_blank"
               ><span class="n-active"><hover>Resume</hover></span></a
             >
           </li>
@@ -68,7 +68,7 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="#"
+              <a href="https://bit.ly/2WpaPTK" target="_blank"
                 ><span class="n-active"><hover>Resume</hover></span></a
               >
             </li>
