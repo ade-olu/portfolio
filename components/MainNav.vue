@@ -23,7 +23,7 @@
             >
           </li>
           <li class="my-6">
-            <a href="#"
+            <a href="https://bit.ly/2WpaPTK" target="_blank"
               ><span class="n-active"><hover>Resume</hover></span></a
             >
           </li>
@@ -58,7 +58,9 @@
             id="nLinks"
           >
             <li class="large:mx-6">
-              <a href="#" v-scroll-to="{ el: '#projects', duration: 1000 }"
+              <a
+                href="#projects"
+                v-scroll-to="{ el: '#projects', duration: 1000 }"
                 ><span class="n-active"><hover>Projects</hover></span></a
               >
             </li>
@@ -68,12 +70,14 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="#"
+              <a href="https://bit.ly/2WpaPTK" target="_blank"
                 ><span class="n-active"><hover>Resume</hover></span></a
               >
             </li>
             <li class="large:mx-6">
-              <a href="#" v-scroll-to="{ el: '#contact', duration: 1000 }"
+              <a
+                href="#contact"
+                v-scroll-to="{ el: '#contact', duration: 1000 }"
                 ><span class="n-active"><hover>Contact</hover></span></a
               >
             </li>
