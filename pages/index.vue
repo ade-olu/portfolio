@@ -94,42 +94,42 @@
           <!-- Name -->
           <div class="input-div relative w-full">
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-2 border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
               type="text"
               name="Name"
               id="name"
               placeholder="Enter your name"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-2 border-orange transition-all duration-300"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
             ></span>
           </div>
 
           <!-- Email -->
           <div class="input-div relative w-full mt-12 large:mt-16">
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-2 border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
               type="email"
               name="Email"
               id="email"
               placeholder="Enter your email"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-2 border-orange transition-all duration-300"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
             ></span>
           </div>
 
           <!-- Message -->
           <div class="input-div relative w-full mt-12 large:mt-16">
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-2 border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
               type="text"
               name="Message"
               id="message"
               placeholder="Enter your message"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-2 border-orange transition-all duration-300"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
             ></span>
           </div>
 
