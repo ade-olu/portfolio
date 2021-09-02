@@ -92,29 +92,47 @@
           method="POST"
         >
           <!-- Name -->
-          <input
-            class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
-            type="text"
-            name="Name"
-            id="name"
-            placeholder="Enter your name"
-          />
+          <div class="input-div relative w-full">
+            <input
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              type="text"
+              name="Name"
+              id="name"
+              placeholder="Enter your name"
+            />
+            <span
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
+            ></span>
+          </div>
+
           <!-- Email -->
-          <input
-            class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
-            type="email"
-            name="Email"
-            id="email"
-            placeholder="Enter your email"
-          />
+          <div class="input-div relative w-full mt-12 large:mt-16">
+            <input
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              type="email"
+              name="Email"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <span
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
+            ></span>
+          </div>
+
           <!-- Message -->
-          <input
-            class="focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full mt-12 phone:text-lg tab:text-xl large:mt-16"
-            type="text"
-            name="Message"
-            id="message"
-            placeholder="Enter your message"
-          />
+          <div class="input-div relative w-full mt-12 large:mt-16">
+            <input
+              class="input-effect focus:outline-none bg-transparent border-b-one border-grey2 placeholder-grey2 text-black py-2.5 w-full phone:text-lg tab:text-xl"
+              type="text"
+              name="Message"
+              id="message"
+              placeholder="Enter your message"
+            />
+            <span
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-300"
+            ></span>
+          </div>
+
           <!-- Btn -->
           <button
             class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-20 xlarge:px-20"
@@ -228,4 +246,10 @@ export default {
 
 <style scoped>
 @import "../styles/nav.css";
+
+.input-effect:focus ~ .focus-border {
+  width: 100%;
+  transition: 300ms ease;
+  left: 0;
+}
 </style>
