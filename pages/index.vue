@@ -101,7 +101,7 @@
               placeholder="Enter your name"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-500"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all"
             ></span>
           </div>
 
@@ -115,7 +115,7 @@
               placeholder="Enter your email"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-500"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all"
             ></span>
           </div>
 
@@ -129,7 +129,7 @@
               placeholder="Enter your message"
             />
             <span
-              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all duration-500"
+              class="focus-border absolute bottom-0 left-1/2 w-0 border-b-one border-orange transition-all"
             ></span>
           </div>
 
@@ -246,10 +246,13 @@ export default {
 
 <style scoped>
 @import "../styles/nav.css";
+.focus-border {
+  transition-duration: 400ms;
+}
 
 .input-effect:focus ~ .focus-border {
   width: 100%;
-  transition: 500ms ease;
+  transition: 400ms ease;
   left: 0;
 }
 </style>
