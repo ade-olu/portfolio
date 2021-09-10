@@ -15,26 +15,24 @@
     >
       <div class="flex items-center justify-center xlarge:h-screen">
         <div class="text-center xlarge:mt-8">
-          <div class="overflow-hidden">
-            <!-- Heading -->
-            <h1
-              class="quote font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
-            >
-              Hey, I'm <br />
-              Oluwatobiloba <br />
-              <span class="text-orange">
-                <span class="relative z-10">Adegbaju</span>
-                <span
-                  class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
-                >
-                  <img
-                    class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
-                    src="../assets/accent-line.svg"
-                    alt="Accent Line"
-                /></span>
-              </span>
-            </h1>
-          </div>
+          <!-- Heading -->
+          <h1
+            class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          >
+            Hey, I'm <br />
+            Oluwatobiloba <br />
+            <span class="text-orange">
+              <span class="relative z-10">Adegbaju</span>
+              <span
+                class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+              >
+                <img
+                  class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
+                  src="../assets/accent-line.svg"
+                  alt="Accent Line"
+              /></span>
+            </span>
+          </h1>
 
           <!-- Text -->
           <p
@@ -69,10 +67,10 @@
       id="contact"
     >
       <div class="flex flex-col items-center justify-center">
-        <div class="text-center overflow-hidden">
+        <div class="text-center">
           <!-- Heading -->
           <h1
-            class="quote font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+            class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
             <span class="relative z-20">Contact</span>
             <span
@@ -231,68 +229,24 @@
 
 <script>
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Projects from "../components/Projects";
 import Designs from "../components/Designs";
 import MainNav from "../components/MainNav";
-import SplitText from "~/SplitText.min.js";
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default {
   components: {
     MainNav,
     Projects,
     Designs,
   },
-
-  mounted() {
-    const quotes = document.querySelectorAll(".quote");
-
-    function setupSplits() {
-      quotes.forEach((quote) => {
-        if (quote.anim) {
-          quote.anim.progress(1).kill();
-          quote.split.revert();
-        }
-
-        quote.split = new SplitText(quote, {
-          type: "lines,words,chars",
-          linesClass: "split-line",
-        });
-
-        // Set up the anim
-        quote.anim = gsap.from(quote.split.chars, {
-          scrollTrigger: {
-            trigger: quote,
-            toggleActions: "restart pause resume reverse",
-            start: "top 50%",
-          },
-          duration: 0.6,
-          ease: "circ.out",
-          y: 80,
-          stagger: 0,
-        });
-      });
-    }
-
-    ScrollTrigger.addEventListener("refresh", setupSplits);
-    setupSplits();
-  },
+  mounted() {},
 };
 </script>
 
 <style scoped>
 @import "../styles/nav.css";
-
-.split-line {
-  overflow: hidden;
-}
-
 .focus-border {
   transition-duration: 400ms;
 }
-
 .input-effect:focus ~ .focus-border {
   width: 100%;
   transition: 400ms ease;
