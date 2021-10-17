@@ -48,7 +48,8 @@ module.exports = {
         purple: "#546DEE",
       },
       fontFamily: {
-        body: ["Eudoxus Sans"],
+        head: ["Grifter"],
+        body: ["Plus Jakarta Sans"],
       },
       fontSize: {
         fsize: "2.125rem",
