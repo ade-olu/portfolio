@@ -17,7 +17,7 @@
         <div class="text-center xlarge:mt-8">
           <!-- Heading -->
           <h1
-            class="font-body font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+            class="font-head font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
             Hey, I'm <br />
             Oluwatobiloba <br />
@@ -70,7 +70,7 @@
         <div class="text-center">
           <!-- Heading -->
           <h1
-            class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+            class="font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
             <span class="relative z-20">Contact</span>
             <span
