@@ -21,91 +21,106 @@ export default {
   components: {
     CustomCursor,
   },
+
+  mounted() {},
 };
 </script>
 
 <style>
 /* Fonts */
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-Bold.eot");
-  src: local("Eudoxus Sans Bold"), local("EudoxusSans-Bold"),
-    url("../assets/fonts/EudoxusSans-Bold.eot?#iefix")
+  font-family: "Grifter";
+  src: url("../assets/fonts/Grifter-Bold.eot");
+  src: local("Grifter Bold"), local("Grifter-Bold"),
+    url("../assets/fonts/Grifter-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-Bold.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-Bold.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-Bold.ttf") format("truetype");
+    url("../assets/fonts/Grifter-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Grifter-Bold.woff") format("woff"),
+    url("../assets/fonts/Grifter-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-Light.eot");
-  src: local("Eudoxus Sans Light"), local("EudoxusSans-Light"),
-    url("../assets/fonts/EudoxusSans-Light.eot?#iefix")
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-Bold.eot");
+  src: local("Plus Jakarta Sans Bold"), local("PlusJakartaSans-Bold"),
+    url("../assets/fonts/PlusJakartaSans-Bold.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-Light.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-Light.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-Light.ttf") format("truetype");
+    url("../assets/fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-Bold.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-Light.eot");
+  src: local("Plus Jakarta Sans Light"), local("PlusJakartaSans-Light"),
+    url("../assets/fonts/PlusJakartaSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/fonts/PlusJakartaSans-Light.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-Light.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-ExtraBold.eot");
-  src: local("Eudoxus Sans ExtraBold"), local("EudoxusSans-ExtraBold"),
-    url("../assets/fonts/EudoxusSans-ExtraBold.eot?#iefix")
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-ExtraBold.eot");
+  src: local("Plus Jakarta Sans ExtraBold"), local("PlusJakartaSans-ExtraBold"),
+    url("../assets/fonts/PlusJakartaSans-ExtraBold.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-ExtraBold.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-ExtraBold.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-ExtraBold.ttf") format("truetype");
+    url("../assets/fonts/PlusJakartaSans-ExtraBold.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-ExtraBold.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-ExtraLight.eot");
-  src: local("Eudoxus Sans ExtraLight"), local("EudoxusSans-ExtraLight"),
-    url("../assets/fonts/EudoxusSans-ExtraLight.eot?#iefix")
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-ExtraLight.eot");
+  src: local("Plus Jakarta Sans ExtraLight"), local("PlusJakartaSans-ExtraLight"),
+    url("../assets/fonts/PlusJakartaSans-ExtraLight.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-ExtraLight.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-ExtraLight.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-ExtraLight.ttf") format("truetype");
+    url("../assets/fonts/PlusJakartaSans-ExtraLight.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-ExtraLight.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-Regular.eot");
-  src: local("Eudoxus Sans Regular"), local("EudoxusSans-Regular"),
-    url("../assets/fonts/EudoxusSans-Regular.eot?#iefix")
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-Regular.eot");
+  src: local("Plus Jakarta Sans Regular"), local("PlusJakartaSans-Regular"),
+    url("../assets/fonts/PlusJakartaSans-Regular.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-Regular.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-Regular.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-Regular.ttf") format("truetype");
+    url("../assets/fonts/PlusJakartaSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-Regular.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Eudoxus Sans";
-  src: url("../assets/fonts/EudoxusSans-Medium.eot");
-  src: local("Eudoxus Sans Medium"), local("EudoxusSans-Medium"),
-    url("../assets/fonts/EudoxusSans-Medium.eot?#iefix")
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/fonts/PlusJakartaSans-Medium.eot");
+  src: local("Plus Jakarta Sans Medium"), local("PlusJakartaSans-Medium"),
+    url("../assets/fonts/PlusJakartaSans-Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/EudoxusSans-Medium.woff2") format("woff2"),
-    url("../assets/fonts/EudoxusSans-Medium.woff") format("woff"),
-    url("../assets/fonts/EudoxusSans-Medium.ttf") format("truetype");
+    url("../assets/fonts/PlusJakartaSans-Medium.woff2") format("woff2"),
+    url("../assets/fonts/PlusJakartaSans-Medium.woff") format("woff"),
+    url("../assets/fonts/PlusJakartaSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 html {
-  font-family: "Eudoxus Sans";
+  font-family: "Plus Jakarta Sans";
   background-color: #fafafa;
 }
 
