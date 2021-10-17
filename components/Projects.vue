@@ -5,10 +5,10 @@
     id="projects"
   >
     <div class="flex items-center justify-center">
-      <div class="text-center">
+      <div class="text-center overflow-hidden">
         <!-- Heading -->
         <h1
-          class="font-body font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          class="quote font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
           <span class="relative z-10">Projects</span>
           <span
@@ -48,7 +48,7 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   Portfolio
                 </h1>
@@ -104,7 +104,7 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   Travu (WIP)
                 </h1>
@@ -160,7 +160,7 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
-                  class="font-bold text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
                   VenZone (WIP)
                 </h1>
