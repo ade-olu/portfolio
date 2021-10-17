@@ -15,7 +15,7 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-body font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
           <span class="relative z-20">FindFont</span>
           <span
@@ -37,7 +37,7 @@
           <!-- About -->
           <div>
             <h2
-              class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+              class="font-head font-bold text-xl text-black phone:text-2xl tab:text-fsz"
             >
               About
             </h2>
@@ -52,7 +52,7 @@
           <!-- Technologies (For Screens Lower Than 1280px) -->
           <div class="mt-12 tab:mt-14 xlarge:hidden">
             <h2
-              class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+              class="font-head font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
             >
               Technologies
             </h2>
@@ -67,7 +67,7 @@
           <!-- Link -->
           <div class="mt-16 tab:mt-20 xlarge:mt-36">
             <h2
-              class="font-body font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+              class="font-head font-bold text-xl text-black phone:text-2xl tab:text-fsz"
             >
               Link
             </h2>
@@ -87,7 +87,7 @@
         >
           <div>
             <h2
-              class="font-body font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+              class="font-head font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
             >
               Technologies
             </h2>
@@ -119,7 +119,6 @@ export default {
     };
   },
 
-  // GSAP
   mounted() {},
 };
 </script>
