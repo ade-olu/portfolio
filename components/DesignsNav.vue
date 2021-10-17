@@ -68,7 +68,7 @@
               >
             </li>
             <li class="large:mx-6">
-              <a href="https://bit.ly/2WpaPTK" target="_blank"
+              <a href="https://bit.ly/3vj857c" target="_blank"
                 ><span class="n-active"><hover>Resume</hover></span></a
               >
             </li>
