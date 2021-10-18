@@ -19,7 +19,7 @@
         >
           <span class="relative z-20">VenZone</span>
           <span
-            class="relative w-full flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
               class="w-36 phone:w-40 tab:w-48 large:w-52 xlarge:w-60"
