@@ -12,7 +12,7 @@
         >
           <span class="relative z-10">Projects</span>
           <span
-            class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+            class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
               class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-60"
