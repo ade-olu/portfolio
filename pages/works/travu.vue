@@ -19,7 +19,7 @@
         >
           <span class="relative z-20">Travu</span>
           <span
-            class="relative w-full flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
               class="w-28 phone:w-32 tab:w-40 large:w-44 xlarge:w-48"
