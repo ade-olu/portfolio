@@ -19,7 +19,7 @@
         >
           <span class="relative z-20">FindFont</span>
           <span
-            class="relative w-full flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
               class="w-40 phone:w-44 tab:w-52 large:w-56 xlarge:w-64"
