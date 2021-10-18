@@ -24,7 +24,7 @@
             <span class="text-orange">
               <span class="relative z-10">Adegbaju</span>
               <span
-                class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-4 large:-mt-5"
+                class="relative flex justify-center items-center -mt-3 z-0 phone:-mt-5 large:-mt-5"
               >
                 <img
                   class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
