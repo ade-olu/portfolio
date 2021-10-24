@@ -123,7 +123,7 @@ export default {};
 </script>
 
 <style scoped>
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1280px) {
   .overlay-inner > * {
     transform: translateY(1.25rem);
     transition: all 200ms;
