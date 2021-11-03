@@ -13,24 +13,24 @@
           id="nLinks"
         >
           <li class="my-6">
-            <a href="#projects" @click="close"
-              ><span class="n-active"><hover>Projects</hover></span></a
-            >
+            <a href="#projects" @click="close">
+              <span class="n-active"><hover>Projects</hover></span>
+            </a>
           </li>
           <li class="my-6">
-            <span @click="visible" class="n-active"
-              ><hover>Designs</hover></span
-            >
+            <span @click="visible" class="n-active">
+              <hover>Designs</hover>
+            </span>
           </li>
           <li class="my-6">
-            <a href="https://bit.ly/3vj857c" target="_blank"
-              ><span class="n-active"><hover>Resume</hover></span></a
-            >
+            <a href="https://bit.ly/3EBSrY0" target="_blank">
+              <span class="n-active"><hover>Resume</hover></span>
+            </a>
           </li>
           <li class="my-6">
-            <a href="#contact" @click="close"
-              ><span class="n-active"><hover>Contact</hover></span></a
-            >
+            <a href="#contact" @click="close">
+              <span class="n-active"><hover>Contact</hover></span>
+            </a>
           </li>
         </ul>
       </div>
@@ -61,25 +61,27 @@
               <a
                 href="#projects"
                 v-scroll-to="{ el: '#projects', duration: 1000 }"
-                ><span class="n-active"><hover>Projects</hover></span></a
               >
+                <span class="n-active"><hover>Projects</hover></span>
+              </a>
             </li>
             <li class="large:mx-6">
-              <span @click="visible" class="n-active"
-                ><hover>Designs</hover></span
-              >
+              <span @click="visible" class="n-active">
+                <hover>Designs</hover>
+              </span>
             </li>
             <li class="large:mx-6">
-              <a href="https://bit.ly/3vj857c" target="_blank"
-                ><span class="n-active"><hover>Resume</hover></span></a
-              >
+              <a href="https://bit.ly/3EBSrY0" target="_blank">
+                <span class="n-active"><hover>Resume</hover></span>
+              </a>
             </li>
             <li class="large:mx-6">
               <a
                 href="#contact"
                 v-scroll-to="{ el: '#contact', duration: 1000 }"
-                ><span class="n-active"><hover>Contact</hover></span></a
               >
+                <span class="n-active"><hover>Contact</hover></span>
+              </a>
             </li>
           </ul>
         </div>
@@ -111,26 +113,24 @@
               id="nLinks"
             >
               <li class="mb-8 large:mb-5">
-                <a href="#designs" @click="notVisible"
-                  ><span class="n-active"><hover>Designs</hover></span></a
-                >
+                <a href="#designs" @click="notVisible">
+                  <span class="n-active"><hover>Designs</hover></span>
+                </a>
               </li>
               <li class="my-8 large:my-5">
-                <nuxt-link to="/designs/ui"
-                  ><span class="n-active"><hover>UI</hover></span></nuxt-link
-                >
+                <nuxt-link to="/designs/ui">
+                  <span class="n-active"><hover>UI</hover></span>
+                </nuxt-link>
               </li>
               <li class="my-8 large:my-5">
-                <nuxt-link to="/designs/illustrations"
-                  ><span class="n-active"
-                    ><hover>Illustrations</hover></span
-                  ></nuxt-link
-                >
+                <nuxt-link to="/designs/illustrations">
+                  <span class="n-active"><hover>Illustrations</hover></span>
+                </nuxt-link>
               </li>
               <li class="mt-8 large:mt-5">
-                <nuxt-link to="/designs/3d"
-                  ><span class="n-active"><hover>3D</hover></span></nuxt-link
-                >
+                <nuxt-link to="/designs/3d">
+                  <span class="n-active"><hover>3D</hover></span>
+                </nuxt-link>
               </li>
             </ul>
             <!-- Close -->
@@ -155,39 +155,39 @@ export default {
       active: false,
       isVisible: false,
       zIndex: false,
-    };
+    }
   },
 
   methods: {
     menu() {
-      this.isActive = !this.isActive;
-      this.active = !this.active;
+      this.isActive = !this.isActive
+      this.active = !this.active
     },
 
     visible() {
-      this.isVisible = !this.isVisible;
-      this.zIndex = !this.zIndex;
+      this.isVisible = !this.isVisible
+      this.zIndex = !this.zIndex
     },
 
     notVisible() {
-      this.isActive = !this.isActive;
-      this.isVisible = !this.isVisible;
-      this.active = false;
-      this.zIndex = !this.zIndex;
+      this.isActive = !this.isActive
+      this.isVisible = !this.isVisible
+      this.active = false
+      this.zIndex = !this.zIndex
     },
 
     enter(el, done) {
-      var that = this;
+      var that = this
     },
 
     close() {
-      this.isActive = !this.isActive;
-      this.active = !this.active;
+      this.isActive = !this.isActive
+      this.active = !this.active
     },
   },
-};
+}
 </script>
 
 <style scoped>
-@import "../styles/nav.css";
+@import '../styles/nav.css';
 </style>
