@@ -41,6 +41,7 @@ module.exports = {
         venzone2: "#F2EBE6",
         green: "#00BF69",
         ear1: "#00070F",
+        getfood: '#064442',
         lightpurple: "#F3F5FF",
         lightskyblue: "#ECF0F3",
         macos: "#1E1F2B",
