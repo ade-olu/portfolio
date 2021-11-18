@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ['./pages/**/*.html', './pages/**/*.vue', './components/**/*.vue'],
+    content: ['./pages/**/*.vue', './components/**/*.vue'],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
