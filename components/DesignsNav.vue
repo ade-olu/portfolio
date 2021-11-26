@@ -1,5 +1,4 @@
-https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8<template>
-  <div>
+<div>
     <!-- For Screens Lower Than 769px -->
     <!-- Nav Menu -->
     <transition name="fade" v-on:enter="enter">
@@ -21,7 +20,7 @@ https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly
             <span @click="visible" class="active"><hover>Designs</hover></span>
           </li>
           <li class="my-6">
-            <a href="https://bit.ly/3cRmajX" target="_blank">
+            <a href="https://bit.ly/3FN9JC8" target="_blank">
               <span class="n-active"><hover>Resume</hover></span>
             </a>
           </li>
@@ -66,7 +65,7 @@ https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly/3FN9JC8https://bit.ly
               </span>
             </li>
             <li class="large:mx-6">
-              <a href="https://bit.ly/3cRmajX" target="_blank">
+              <a href="https://bit.ly/3FN9JC8" target="_blank">
                 <span class="n-active"><hover>Resume</hover></span>
               </a>
             </li>
