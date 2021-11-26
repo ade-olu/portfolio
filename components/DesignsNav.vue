@@ -1,4 +1,5 @@
-<div>
+<template>  
+  <div>
     <!-- For Screens Lower Than 769px -->
     <!-- Nav Menu -->
     <transition name="fade" v-on:enter="enter">
