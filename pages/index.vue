@@ -39,7 +39,7 @@
             class="text-grey mt-5 phone:mt-6 phone:text-lg tab:text-xl tab:mt-8"
           >
             I’m a Frontend Developer and <br />
-            Product Designer who loves building <br />
+            UI/UX Designer who loves building <br />
             significant experiences for people.
           </p>
 
