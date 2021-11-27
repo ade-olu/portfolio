@@ -19,8 +19,10 @@
           <h1
             class="font-head font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
           >
-            Hey, I'm <br />
-            Oluwatobiloba <br />
+            Hey, I'm
+            <br />
+            Oluwatobiloba
+            <br />
             <span class="text-orange">
               <span class="relative z-10">Adegbaju</span>
               <span
@@ -30,7 +32,8 @@
                   class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
                   src="../assets/accent-line.svg"
                   alt="Accent Line"
-              /></span>
+                />
+              </span>
             </span>
           </h1>
 
@@ -38,8 +41,10 @@
           <p
             class="text-grey mt-5 phone:mt-6 phone:text-lg tab:text-xl tab:mt-8"
           >
-            I’m a Frontend Developer and <br />
-            UI/UX Designer who loves building <br />
+            I’m a Frontend Developer and
+            <br />
+            UI/UX Designer who loves building
+            <br />
             significant experiences for people.
           </p>
 
@@ -228,10 +233,9 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
-import Projects from "../components/Projects";
-import Designs from "../components/Designs";
-import MainNav from "../components/MainNav";
+import Projects from '../components/Projects'
+import Designs from '../components/Designs'
+import MainNav from '../components/MainNav'
 export default {
   components: {
     MainNav,
@@ -239,11 +243,11 @@ export default {
     Designs,
   },
   mounted() {},
-};
+}
 </script>
 
 <style scoped>
-@import "../styles/nav.css";
+@import '../styles/nav.css';
 .focus-border {
   transition-duration: 400ms;
 }
