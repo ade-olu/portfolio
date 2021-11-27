@@ -233,6 +233,7 @@
 </template>
 
 <script>
+import { gsap } from 'gsap'
 import Projects from '../components/Projects'
 import Designs from '../components/Designs'
 import MainNav from '../components/MainNav'
