@@ -1,4 +1,4 @@
-https://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGry<template>  
+<template>
   <div>
     <!-- For Screens Lower Than 769px -->
     <!-- Nav Menu -->
