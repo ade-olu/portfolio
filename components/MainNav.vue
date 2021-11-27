@@ -1,4 +1,4 @@
-https://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGry<template> 
+<template> 
   <div>
     <!-- For Screens Lower Than 769px -->
     <!-- Nav Menu -->
@@ -23,7 +23,7 @@ https://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly
             </span>
           </li>
           <li class="my-6">
-            <a href="https://bit.ly/3FN9JC8" target="_blank">
+            <a href="https://bit.ly/3nVnGry" target="_blank">
               <span class="n-active"><hover>Resume</hover></span>
             </a>
           </li>
@@ -71,7 +71,7 @@ https://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly/3nVnGryhttps://bit.ly
               </span>
             </li>
             <li class="large:mx-6">
-              <a href="https://bit.ly/3FN9JC8" target="_blank">
+              <a href="https://bit.ly/3nVnGry" target="_blank">
                 <span class="n-active"><hover>Resume</hover></span>
               </a>
             </li>
