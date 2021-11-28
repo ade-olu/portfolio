@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: "CustomCursor",
+  name: 'CustomCursor',
   props: {
     targets: Array,
     circleColor: String,
@@ -35,23 +35,23 @@ export default {
       dotPosY: null,
       circleStyle: null,
       dotStyle: null,
-    };
+    }
   },
   methods: {
     customCursor(e) {
       // Cursor Pos
-      this.x = e.clientX;
-      this.y = e.clientY;
+      this.x = e.clientX
+      this.y = e.clientY
 
       // Cursor Circle
-      const circle = this.$refs.customCursorCircle;
-      this.circlePosX = this.x - circle.clientWidth / 2;
-      this.circlePosY = this.y - circle.clientWidth / 2;
+      const circle = this.$refs.customCursorCircle
+      this.circlePosX = this.x - circle.clientWidth / 2
+      this.circlePosY = this.y - circle.clientWidth / 2
 
       // Cursor Circle
-      const dot = this.$refs.customCursorDot;
-      this.dotPosX = this.x - dot.clientWidth / 2;
-      this.dotPosY = this.y - dot.clientHeight / 2;
+      const dot = this.$refs.customCursorDot
+      this.dotPosX = this.x - dot.clientWidth / 2
+      this.dotPosY = this.y - dot.clientHeight / 2
 
       // Change Style When Hovering On Selected Targets
       if (
@@ -59,24 +59,24 @@ export default {
           this.targets.includes(e.target.tagName.toLowerCase())) ||
         this.targets.includes(e.target.className.toLowerCase())
       ) {
-        this.scale = this.hoverSize;
-        this.circleStyle = { borderColor: this.circleColorHover };
-        this.dotStyle = { backgroundColor: this.dotColorHover };
+        this.scale = this.hoverSize
+        this.circleStyle = { borderColor: this.circleColorHover }
+        this.dotStyle = { backgroundColor: this.dotColorHover }
       } else {
-        this.scale = 1;
-        this.circleStyle = { borderColor: this.circleColor };
-        this.dotStyle = { backgroundColor: this.dotColor };
+        this.scale = 1
+        this.circleStyle = { borderColor: this.circleColor }
+        this.dotStyle = { backgroundColor: this.dotColor }
       }
 
       // Move Custom Cursor
-      circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`;
-      dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`;
+      circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`
+      dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`
     },
   },
   mounted() {
-    window.addEventListener("mousemove", this.customCursor);
+    window.addEventListener('mousemove', this.customCursor)
   },
-};
+}
 </script>
 
 <style scoped>
