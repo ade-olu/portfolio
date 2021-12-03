@@ -43,9 +43,11 @@
           >
             I’m a Frontend Developer and
             <br />
-            UI/UX Designer who loves building
+            UI/UX Designer based in Maryland,
             <br />
-            significant experiences for people.
+            USA who loves building significant
+            <br />
+            experiences for people.
           </p>
 
           <!-- Btn -->

@@ -1,0 +1,20 @@
+{
+  "CustomCursor": {
+    "description": "Auto imported from components/CustomCursor.vue"
+  },
+  "Designs": {
+    "description": "Auto imported from components/Designs.vue"
+  },
+  "DesignsNav": {
+    "description": "Auto imported from components/DesignsNav.vue"
+  },
+  "MainNav": {
+    "description": "Auto imported from components/MainNav.vue"
+  },
+  "Navigation": {
+    "description": "Auto imported from components/Navigation.vue"
+  },
+  "Projects": {
+    "description": "Auto imported from components/Projects.vue"
+  }
+}
