@@ -62,20 +62,24 @@
               <div class="flex flex-wrap">
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
-                  >Vue.js</span
                 >
+                  Vue.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
-                  >Nuxt.js</span
                 >
+                  Nuxt.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
-                  >Tailwind CSS</span
                 >
+                  Tailwind CSS
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
-                  >Figma</span
                 >
+                  Figma
+                </span>
               </div>
             </div>
             <hover class="absolute w-full h-full"></hover>
@@ -118,20 +122,24 @@
               <div class="flex flex-wrap">
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
-                  >Vue.js</span
                 >
+                  Vue.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
-                  >Nuxt.js</span
                 >
+                  Nuxt.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
-                  >Tailwind CSS</span
                 >
+                  Tailwind CSS
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
-                  >Figma</span
                 >
+                  Figma
+                </span>
               </div>
             </div>
             <hover class="absolute w-full h-full"></hover>
@@ -174,20 +182,24 @@
               <div class="flex flex-wrap">
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
-                  >Vue.js</span
                 >
+                  Vue.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
-                  >Nuxt.js</span
                 >
+                  Nuxt.js
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
-                  >Tailwind CSS</span
                 >
+                  Tailwind CSS
+                </span>
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto mt-4 ml-4 px-4 py-1.5 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:mt-6 xlarge:ml-0 surface:mt-0 surface:ml-6"
-                  >Figma</span
                 >
+                  Figma
+                </span>
               </div>
             </div>
             <hover class="absolute w-full h-full"></hover>
@@ -204,7 +216,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>

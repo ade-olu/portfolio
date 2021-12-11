@@ -157,29 +157,24 @@ export default {
       zIndex: false,
     }
   },
-
   methods: {
     menu() {
       this.isActive = !this.isActive
       this.active = !this.active
     },
-
     visible() {
       this.isVisible = !this.isVisible
       this.zIndex = !this.zIndex
     },
-
     notVisible() {
       this.isActive = !this.isActive
       this.isVisible = !this.isVisible
       this.active = false
       this.zIndex = !this.zIndex
     },
-
     enter(el, done) {
       var that = this
     },
-
     close() {
       this.isActive = !this.isActive
       this.active = !this.active

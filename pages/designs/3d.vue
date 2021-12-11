@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative container font-body bg-white"
+    class="relative h-screen container font-body bg-white"
     :class="{ stop: active }"
     id="container"
   >
@@ -37,26 +37,24 @@
           id="nLinks"
         >
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/works"
-              ><span><hover class="n-active">Works</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/works">
+              <span><hover class="n-active">Works</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/ui"
-              ><span class="n-active"><hover>UI</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/ui">
+              <span class="n-active"><hover>UI</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/illustrations"
-              ><span class="n-active"
-                ><hover>Illustrations</hover></span
-              ></nuxt-link
-            >
+            <nuxt-link to="/designs/illustrations">
+              <span class="n-active"><hover>Illustrations</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/3d"
-              ><span class="active"><hover>3D</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/3d">
+              <span class="active"><hover>3D</hover></span>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -129,8 +127,8 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
-import DesignsNav from "../../components/DesignsNav";
+import { gsap } from 'gsap'
+import DesignsNav from '../../components/DesignsNav'
 
 export default {
   components: {
@@ -139,14 +137,14 @@ export default {
 
   head() {
     return {
-      title: "Designs - 3D",
-    };
+      title: 'Designs - 3D',
+    }
   },
 
   mounted() {},
-};
+}
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import '../../styles/nav.css';
 </style>

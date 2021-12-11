@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative container font-body bg-white"
+    class="relative h-screen container font-body bg-white"
     :class="{ stop: active }"
     id="container"
   >
@@ -37,26 +37,24 @@
           id="nLinks"
         >
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/works"
-              ><span><hover class="n-active">Works</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/works">
+              <span><hover class="n-active">Works</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/ui"
-              ><span class="active"><hover>UI</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/ui">
+              <span class="active"><hover>UI</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/illustrations"
-              ><span class="n-active"
-                ><hover>Illustrations</hover></span
-              ></nuxt-link
-            >
+            <nuxt-link to="/designs/illustrations">
+              <span class="n-active"><hover>Illustrations</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/3d"
-              ><span class="n-active"><hover>3D</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/3d">
+              <span class="n-active"><hover>3D</hover></span>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -95,7 +93,7 @@
         <!-- Wallet App -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #EBF1FF;"
+          style="background: #ebf1ff;"
         >
           <div class="py-6 mx-auto tab:py-10">
             <img
@@ -110,7 +108,7 @@
         <!-- VenZone -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #F2EBE6;"
+          style="background: #f2ebe6;"
         >
           <div class="absolute p-6 pb-0 z-10 tab:p-10">
             <img
@@ -130,7 +128,7 @@
         <!-- VenZone App -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #F2EBE6;"
+          style="background: #f2ebe6;"
         >
           <div class="py-6 z-10 mx-auto flex tab:py-10">
             <img
@@ -155,7 +153,7 @@
         <!-- Ear1 -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #00BF69;"
+          style="background: #00bf69;"
         >
           <div class="absolute p-6 pb-0 tab:p-10">
             <img
@@ -170,7 +168,7 @@
         <!-- Ear1 App -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #00BF69;"
+          style="background: #00bf69;"
         >
           <div class="py-6 mx-auto flex tab:py-10">
             <img
@@ -192,8 +190,8 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
-import DesignsNav from "../../components/DesignsNav";
+import { gsap } from 'gsap'
+import DesignsNav from '../../components/DesignsNav'
 
 export default {
   components: {
@@ -202,14 +200,14 @@ export default {
 
   head() {
     return {
-      title: "Designs - UI",
-    };
+      title: 'Designs - UI',
+    }
   },
 
   mounted() {},
-};
+}
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import '../../styles/nav.css';
 </style>

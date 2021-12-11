@@ -239,18 +239,23 @@ import { gsap } from 'gsap'
 import Projects from '../components/Projects'
 import Designs from '../components/Designs'
 import MainNav from '../components/MainNav'
+
 export default {
   components: {
     MainNav,
     Projects,
     Designs,
   },
+
   mounted() {},
 }
 </script>
 
 <style scoped>
 @import '../styles/nav.css';
+html {
+  overflow: hidden;
+}
 .focus-border {
   transition-duration: 400ms;
 }

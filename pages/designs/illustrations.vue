@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative container font-body bg-white"
+    class="relative h-screen container font-body bg-white"
     :class="{ stop: active }"
     id="container"
   >
@@ -37,26 +37,24 @@
           id="nLinks"
         >
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/works"
-              ><span><hover class="n-active">Works</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/works">
+              <span><hover class="n-active">Works</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/ui"
-              ><span class="n-active"><hover>UI</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/ui">
+              <span class="n-active"><hover>UI</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/illustrations"
-              ><span class="active"
-                ><hover>Illustrations</hover></span
-              ></nuxt-link
-            >
+            <nuxt-link to="/designs/illustrations">
+              <span class="active"><hover>Illustrations</hover></span>
+            </nuxt-link>
           </li>
           <li class="mx-3 small:mx-5 phone:mx-6">
-            <nuxt-link to="/designs/3d"
-              ><span class="n-active"><hover>3D</hover></span></nuxt-link
-            >
+            <nuxt-link to="/designs/3d">
+              <span class="n-active"><hover>3D</hover></span>
+            </nuxt-link>
           </li>
         </ul>
       </div>
@@ -81,7 +79,7 @@
         <!-- Desktop -->
         <div
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
-          style="background: #546DEE;"
+          style="background: #546dee;"
         >
           <div class="absolute w-full h-full">
             <img
@@ -210,8 +208,8 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
-import DesignsNav from "../../components/DesignsNav";
+import { gsap } from 'gsap'
+import DesignsNav from '../../components/DesignsNav'
 
 export default {
   components: {
@@ -220,14 +218,14 @@ export default {
 
   head() {
     return {
-      title: "Designs - Illustrations",
-    };
+      title: 'Designs - Illustrations',
+    }
   },
 
   mounted() {},
-};
+}
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import '../../styles/nav.css';
 </style>
