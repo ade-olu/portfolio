@@ -158,6 +158,8 @@ module.exports = {
     },
   },
   variants: {
+    margin: ['hover'],
+    margin: ['responsive', 'hover'],
     extend: {},
   },
   plugins: [],

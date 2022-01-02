@@ -71,7 +71,7 @@
                   Nuxt.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
+                  class="tw-css font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0 desktop:mr-6"
                 >
                   Tailwind CSS
                 </span>
@@ -131,7 +131,7 @@
                   Nuxt.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
+                  class="tw-css font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0 desktop:mr-6"
                 >
                   Tailwind CSS
                 </span>
@@ -191,7 +191,7 @@
                   Nuxt.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0"
+                  class="tw-css font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mt-4 phone:text-sm tab:mt-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2 large:ml-0 large:mt-6 xlarge:ml-6 xlarge:mt-0 desktop:mr-6"
                 >
                   Tailwind CSS
                 </span>
@@ -228,6 +228,12 @@ export default {}
 
   .overlay-inner:hover > * {
     transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .tw-css {
+    margin-right: 0px !important;
   }
 }
 </style>
