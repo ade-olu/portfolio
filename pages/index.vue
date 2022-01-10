@@ -176,7 +176,7 @@
           class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20"
         >
           <img
-            src="../assets/media/tw.svg"
+            src="../assets/media/twitter.svg"
             class="w-media phone:w-media2 tab:w-media3"
             alt="Twitter"
           />
