@@ -177,7 +177,7 @@
         >
           <img
             src="../assets/media/twitter.svg"
-            class="w-media h-media phone:w-media2 phone:h-media2 tab:w-media3 tab:h-media3"
+            class="w-media phone:w-media2 tab:w-media3"
             alt="Twitter"
           />
         </a>
