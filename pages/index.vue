@@ -173,7 +173,7 @@
         <a
           href="https://www.twitter.com/tobiadegbaju/"
           target="_blank"
-          class="mx-4 phone:mx-mr tab:mx-5 large:mx-6 z-20"
+          class="mx-4 phone:mx-mr tab:mx-5 large:mx-6"
         >
           <div>
             <svg
