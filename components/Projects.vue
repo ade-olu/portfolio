@@ -110,7 +110,7 @@
                 <h1
                   class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                 >
-                  Travu (WIP)
+                  Travu
                 </h1>
                 <p
                   class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
