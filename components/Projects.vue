@@ -1,7 +1,7 @@
 <template>
   <!-- Projects -->
   <div
-    class="mt-14 pt-10 pb-14 bg-light relative w-full h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-24 xlarge:mt-0"
+    class="mt-14 pt-10 pb-14 relative bg-light w-full h-auto phone:mt-16 tab:mt-24 tab:pt-10 tab:pb-14 large:pt-14 large:pb-24 xlarge:mt-0"
     id="projects"
   >
     <div class="flex items-center justify-center">
