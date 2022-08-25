@@ -23,7 +23,7 @@
             </span>
           </li>
           <li class="my-6">
-            <a href="https://bit.ly/3lzqHw6" target="_blank">
+            <a href="https://bit.ly/3AkqOSV" target="_blank">
               <span class="n-active"><hover>Resume</hover></span>
             </a>
           </li>
@@ -71,7 +71,7 @@
               </span>
             </li>
             <li class="large:mx-6">
-              <a href="https://bit.ly/3lzqHw6" target="_blank">
+              <a href="https://bit.ly/3AkqOSV" target="_blank">
                 <span class="n-active"><hover>Resume</hover></span>
               </a>
             </li>
@@ -155,34 +155,34 @@ export default {
       active: false,
       isVisible: false,
       zIndex: false,
-    }
+    };
   },
   methods: {
     menu() {
-      this.isActive = !this.isActive
-      this.active = !this.active
+      this.isActive = !this.isActive;
+      this.active = !this.active;
     },
     visible() {
-      this.isVisible = !this.isVisible
-      this.zIndex = !this.zIndex
+      this.isVisible = !this.isVisible;
+      this.zIndex = !this.zIndex;
     },
     notVisible() {
-      this.isActive = !this.isActive
-      this.isVisible = !this.isVisible
-      this.active = false
-      this.zIndex = !this.zIndex
+      this.isActive = !this.isActive;
+      this.isVisible = !this.isVisible;
+      this.active = false;
+      this.zIndex = !this.zIndex;
     },
     enter(el, done) {
-      var that = this
+      var that = this;
     },
     close() {
-      this.isActive = !this.isActive
-      this.active = !this.active
+      this.isActive = !this.isActive;
+      this.active = !this.active;
     },
   },
-}
+};
 </script>
 
 <style scoped>
-@import '../styles/nav.css';
+@import "../styles/nav.css";
 </style>
