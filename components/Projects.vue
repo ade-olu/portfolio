@@ -66,7 +66,7 @@
                   Vue.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mx-4 phone:ml-0 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                 >
                   Nuxt.js
                 </span>
@@ -126,7 +126,7 @@
                   Vue.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mx-4 phone:ml-0 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                 >
                   Nuxt.js
                 </span>
@@ -186,7 +186,7 @@
                   Vue.js
                 </span>
                 <span
-                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 ml-4 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
+                  class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 mx-4 phone:ml-0 phone:text-sm phone:mr-4 tab:mr-0 tab:ml-6 tab:text-base tab:px-6 tab:py-2"
                 >
                   Nuxt.js
                 </span>
