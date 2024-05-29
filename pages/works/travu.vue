@@ -83,11 +83,11 @@
             >
               Link
             </h2>
-            <a href="https://travu.co" target="_blank"
+            <a href="https://travu.netlify.app" target="_blank"
               ><p
                 class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
               >
-                <hover>https://travu.co</hover>
+                <hover>https://travu.netlify.app</hover>
               </p></a
             >
           </div>
