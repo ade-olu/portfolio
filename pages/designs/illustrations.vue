@@ -15,14 +15,14 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
         >
           <span class="relative z-10">Designs</span>
           <span
             class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
-              class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
+              class="w-32 phone:w-36 tab:w-44 large:w-48 2xlarge:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -208,8 +208,8 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import DesignsNav from '../../components/DesignsNav'
+import { gsap } from "gsap";
+import DesignsNav from "../../components/DesignsNav";
 
 export default {
   components: {
@@ -218,14 +218,14 @@ export default {
 
   head() {
     return {
-      title: 'Designs - Illustrations',
-    }
+      title: "Designs - Illustrations",
+    };
   },
 
   mounted() {},
-}
+};
 </script>
 
 <style scoped>
-@import '../../styles/nav.css';
+@import "../../styles/nav.css";
 </style>

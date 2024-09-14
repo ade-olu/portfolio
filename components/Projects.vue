@@ -8,14 +8,14 @@
       <div class="text-center overflow-hidden">
         <!-- Heading -->
         <h1
-          class="quote font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          class="quote font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
         >
           <span class="relative z-10">Projects</span>
           <span
             class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
-              class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-60"
+              class="w-32 phone:w-36 tab:w-44 large:w-48 2xlarge:w-60"
               src="../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -48,7 +48,7 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
-                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl 2xlarge:text-ofsize"
                 >
                   Portfolio
                 </h1>
@@ -108,7 +108,7 @@
               <!-- Overlay Title & Subtitle -->
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
-                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl 2xlarge:text-ofsize"
                 >
                   Travu
                 </h1>
@@ -147,7 +147,7 @@
         </nuxt-link>
       </div>
 
-      <!-- VenZone -->
+      <!-- VenZone 
       <div
         class="relative bg-venzone rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-6 xlarge:row-span-8"
       >
@@ -155,8 +155,8 @@
           class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44 z-10"
           src="../assets/works/venzone.svg"
           alt="VenZone"
-        />
-        <!-- Overlay -->
+        /> -->
+      <!-- Overlay 
         <nuxt-link
           to="/works/venzone"
           class="overlay z-10 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
@@ -164,8 +164,8 @@
           <div class="overlay-inner w-full h-full">
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10"
-            >
-              <!-- Overlay Title & Subtitle -->
+            > -->
+      <!-- Overlay Title & Subtitle
               <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                 <h1
                   class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
@@ -177,8 +177,8 @@
                 >
                   A personalized food ordering website.
                 </p>
-              </div>
-              <!-- Technologies -->
+              </div> -->
+      <!-- Technologies
               <div class="flex flex-wrap">
                 <span
                   class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
@@ -210,13 +210,13 @@
           src="../assets/noise.png"
           alt="noise"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>

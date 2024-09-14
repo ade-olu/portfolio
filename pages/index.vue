@@ -17,7 +17,7 @@
         <div class="text-center xlarge:mt-8">
           <!-- Heading -->
           <h1
-            class="font-head font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+            class="font-head font-bold text-3xl text-black mt-4 leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht tab:mt-6 large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
           >
             Hey, I'm
             <br />
@@ -29,7 +29,7 @@
                 class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
               >
                 <img
-                  class="w-wh phone:w-mwh tab:w-52 large:w-56 xlarge:w-wh2"
+                  class="w-wh phone:w-mwh tab:w-52 large:w-56 2xlarge:w-wh2"
                   src="../assets/accent-line.svg"
                   alt="Accent Line"
                 />
@@ -53,7 +53,7 @@
           <!-- Btn -->
           <button
             v-scroll-to="{ el: '#contact', duration: 1000 }"
-            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-8 phone:mt-10 phone:text-lg phone:h-16 phone:px-20 tab:text-xl tab:h-bht tab:px-20 tab:mt-12 xlarge:h-20 xlarge:px-20"
+            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-8 phone:mt-10 phone:text-lg phone:h-16 phone:px-20 tab:text-xl tab:h-bht tab:px-20 tab:mt-12 2xlarge:h-20 2xlarge:px-20"
             style="cursor: none;"
           >
             Get In Touch
@@ -77,14 +77,14 @@
         <div class="text-center">
           <!-- Heading -->
           <h1
-            class="font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+            class="font-head font-bold text-3xl text-black leading-10 phone:text-fsize phone:leading-pht tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
           >
             <span class="relative z-20">Contact</span>
             <span
               class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
             >
               <img
-                class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
+                class="w-32 phone:w-36 tab:w-44 large:w-48 2xlarge:w-56"
                 src="../assets/accent-line.svg"
                 alt="Accent Line"
               />
@@ -142,7 +142,7 @@
 
           <!-- Btn -->
           <button
-            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 xlarge:h-20 xlarge:px-20"
+            class="focus:outline-none bg-black font-bold text-white h-16 px-14 py-2.5 rounded-full mt-16 w-cs phone:text-lg phone:h-16 phone:px-20 phone:w-cs2 tab:text-xl tab:h-bht tab:w-cs3 tab:px-20 large:mt-24 2xlarge:h-20 2xlarge:px-20"
             style="cursor: none;"
           >
             Send
@@ -235,10 +235,10 @@
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import Projects from '../components/Projects'
-import Designs from '../components/Designs'
-import MainNav from '../components/MainNav'
+import { gsap } from "gsap";
+import Projects from "../components/Projects";
+import Designs from "../components/Designs";
+import MainNav from "../components/MainNav";
 
 export default {
   components: {
@@ -248,11 +248,11 @@ export default {
   },
 
   mounted() {},
-}
+};
 </script>
 
 <style scoped>
-@import '../styles/nav.css';
+@import "../styles/nav.css";
 html {
   overflow: hidden;
 }

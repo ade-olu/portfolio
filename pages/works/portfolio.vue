@@ -15,14 +15,14 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
+          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
         >
           <span class="relative z-10">Portfolio</span>
           <span
             class="relative w-full flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
-              class="w-36 phone:w-40 tab:w-48 large:w-52 xlarge:w-64"
+              class="w-36 phone:w-40 tab:w-48 large:w-52 2xlarge:w-64"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -82,11 +82,11 @@
             >
               Link
             </h2>
-            <a href="https://adeolu.dev" target="_blank"
+            <a href="https://adeolu.netlify.app" target="_blank"
               ><p
                 class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
               >
-                <hover>https://adeolu.dev</hover>
+                <hover>https://adeolu.netlify.app</hover>
               </p></a
             >
           </div>
