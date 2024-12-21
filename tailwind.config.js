@@ -46,6 +46,8 @@ module.exports = {
         green: "#00BF69",
         ear1: "#00070F",
         getfood: "#064442",
+        talkease: '#6C47FF',
+        tripvoyager: '#3E64FF',
         lightpurple: "#F3F5FF",
         lightskyblue: "#ECF0F3",
         macos: "#1E1F2B",
