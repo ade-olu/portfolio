@@ -15,14 +15,14 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
+          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht xlarge:text-xlfsize xlarge:leading-xlglht 2xlarge:text-2xlfsize"
         >
           <span class="relative z-10">Designs</span>
           <span
             class="relative flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
           >
             <img
-              class="w-32 phone:w-36 tab:w-44 large:w-48 2xlarge:w-56"
+              class="w-32 phone:w-36 tab:w-44 large:w-48 xlarge:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -62,6 +62,96 @@
       <div
         class="grid grid-col-1 px-8 gap-14 mt-14 tab:px-14 tab:gap-14 large:mt-20 large:px-24 large:grid-cols-2 large:gap-24"
       >
+        <!-- TalkEase -->
+        <div
+          class="relative bg-talkease rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        >
+          <img
+            class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
+            src="../../assets/works/talkease.svg"
+            alt="TalkEase"
+          />
+          <!-- Overlay -->
+          <nuxt-link
+            to="/works/talkease"
+            class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
+          >
+            <div class="overlay-inner w-full h-full">
+              <div
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
+              >
+                <!-- Overlay Title & Subtitle -->
+                <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
+                  <h1
+                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  >
+                    TalkEase
+                  </h1>
+                  <p
+                    class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
+                  >
+                  An app design for real-time multilingual communication using AI translation.
+                  </p>
+                </div>
+                <!-- Technologies -->
+                <div class="flex flex-wrap">
+                  <span
+                    class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
+                  >
+                    Figma
+                  </span>
+                </div>
+              </div>
+              <hover class="absolute w-full h-full"></hover>
+            </div>
+          </nuxt-link>
+        </div>
+
+        <!-- TripVoyager -->
+        <div
+          class="relative bg-tripvoyager rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
+        >
+          <img
+            class="ml-4 w-xt3 small:w-28 phone:w-32 tab:w-ff3 xlarge:w-ff4"
+            src="../../assets/works/tripvoyager.svg"
+            alt="TripVoyager"
+          />
+          <!-- Overlay -->
+          <nuxt-link
+            to="/works/tripvoyager"
+            class="overlay z-20 bg-gradient-to-t from-bl to-bl2 rounded-md absolute w-full h-full xlarge:opacity-0 xlarge:transition-all xlarge:duration-200 hover:opacity-100"
+          >
+            <div class="overlay-inner w-full h-full">
+              <div
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 small:p-6 tab:p-10 large:p-8 xlarge:p-10"
+              >
+                <!-- Overlay Title & Subtitle -->
+                <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
+                  <h1
+                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
+                  >
+                    TripVoyager
+                  </h1>
+                  <p
+                    class="text-grey3 mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:mt-5"
+                  >
+                  An app design for planning vacations and trips.
+                  </p>
+                </div>
+                <!-- Technologies -->
+                <div class="flex flex-wrap">
+                  <span
+                    class="font-bold bg-grey2 text-xs text-white rounded-full w-auto px-4 py-1.5 phone:text-sm tab:text-base tab:px-6 tab:py-2"
+                  >
+                    Figma
+                  </span>
+                </div>
+              </div>
+              <hover class="absolute w-full h-full"></hover>
+            </div>
+          </nuxt-link>
+        </div>
+
         <!-- FindFont -->
         <div
           class="relative bg-gradient-to-tr from-orange to-orange2 rounded-md grid justify-center items-center row-span-6 small:row-span-7 phone:row-span-8 tab:row-span-10 large:row-span-5 xlarge:row-span-6"
@@ -83,7 +173,7 @@
                 <!-- Overlay Title & Subtitle -->
                 <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                   <h1
-                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl 2xlarge:text-ofsize"
+                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                   >
                     FindFont
                   </h1>
@@ -128,7 +218,7 @@
                 <!-- Overlay Title & Subtitle -->
                 <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                   <h1
-                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl 2xlarge:text-ofsize"
+                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                   >
                     Ear1
                   </h1>
@@ -159,7 +249,7 @@
           <img
             class="w-24 small:w-xt3 phone:w-ff tab:w-36 xlarge:w-44"
             src="../../assets/works/getfood.svg"
-            alt="Ear1"
+            alt="GetFood"
           />
           <!-- Overlay -->
           <nuxt-link
@@ -173,7 +263,7 @@
                 <!-- Overlay Title & Subtitle -->
                 <div class="mb-5 tab:mb-9 large:mb-7 xlarge:mb-9">
                   <h1
-                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl 2xlarge:text-ofsize"
+                    class="font-head text-white text-2xl phone:text-fsz tab:text-4xl large:text-4xl xlarge:text-ofsize"
                   >
                     GetFood
                   </h1>
@@ -196,14 +286,15 @@
             </div>
           </nuxt-link>
         </div>
+        
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { gsap } from "gsap";
-import DesignsNav from "../../components/DesignsNav";
+import { gsap } from 'gsap'
+import DesignsNav from '../../components/DesignsNav'
 
 export default {
   components: {
@@ -212,16 +303,16 @@ export default {
 
   head() {
     return {
-      title: "Designs - Works",
-    };
+      title: 'Designs - Works',
+    }
   },
 
   mounted() {},
-};
+}
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import '../../styles/nav.css';
 
 @media screen and (min-width: 1280px) {
   .overlay-inner > * {
