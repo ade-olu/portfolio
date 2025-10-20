@@ -71,7 +71,7 @@
               >
                 Link
               </h2>
-              <a href="https://bit.ly/4gmYxir" target="_blank"
+              <a href="https://drive.google.com/file/d/106lkAoF_8YyL2A6VGbrnZTeBXzJqyE6F/view?usp=sharing" target="_blank"
                 ><p
                   class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
                 >
@@ -126,4 +126,5 @@
   <style scoped>
   @import "../../styles/nav.css";
   </style>
+
   
