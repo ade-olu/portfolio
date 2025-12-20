@@ -21,7 +21,7 @@
             <span @click="visible" class="active"><hover>Designs</hover></span>
           </li>
           <li class="my-6">
-            <a href="https://tinyurl.com/2x44tn6c" target="_blank">
+            <a href="https://tinyurl.com/mr396s3c" target="_blank">
               <span class="n-active"><hover>Resume</hover></span>
             </a>
           </li>
@@ -66,7 +66,7 @@
               </span>
             </li>
             <li class="large:mx-6">
-              <a href="https://tinyurl.com/2x44tn6c" target="_blank">
+              <a href="https://tinyurl.com/mr396s3c" target="_blank">
                 <span class="n-active"><hover>Resume</hover></span>
               </a>
             </li>
@@ -183,4 +183,5 @@ export default {
 <style scoped>
 @import "../styles/nav.css";
 </style>
+
 
