@@ -376,7 +376,7 @@ const zIndex = ref(false);
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import "../../assets/styles/nav.css";
 
 @media screen and (min-width: 1280px) {
   .overlay-inner > * {

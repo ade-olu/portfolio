@@ -262,7 +262,7 @@ const scrollToContact = () => {
 </script>
 
 <style scoped>
-@import "../styles/nav.css";
+@import "../assets/styles/nav.css";
 
 html {
   overflow: hidden;

@@ -118,5 +118,5 @@ const zIndex = ref(false);
 </script>
 
 <style scoped>
-@import "../../styles/nav.css";
+@import "../../assets/styles/nav.css";
 </style>

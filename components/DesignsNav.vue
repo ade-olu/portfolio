@@ -193,5 +193,5 @@ const close = () => {
 </script>
 
 <style scoped>
-@import "../styles/nav.css";
+@import "../assets/styles/nav.css";
 </style>
