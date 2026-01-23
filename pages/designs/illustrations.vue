@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="relative h-screen container font-body bg-whiteSoft"
+    class="relative h-screen container font-body bg-white-soft"
     :class="{ stop: active }"
     id="container"
   >
@@ -13,7 +13,7 @@
     <!-- Illustrations -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
+      class="bg-white-soft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,7 +22,7 @@
       <div class="text-center">
 
         <h1
-          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-"
         >
 
           <span class="relative z-10">Designs</span>
@@ -144,7 +144,7 @@
         <!-- Standing -->
 
         <div
-          class="relative bg-purpleLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -164,7 +164,7 @@
         <!-- Coding -->
 
         <div
-          class="relative bg-purpleLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -184,7 +184,7 @@
         <!-- Coding 2 -->
 
         <div
-          class="relative bg-purpleLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -204,7 +204,7 @@
         <!-- Deadpool -->
 
         <div
-          class="relative bg-skyLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-sky-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -224,7 +224,7 @@
         <!-- macOS Icons -->
 
         <div
-          class="relative bg-macosDark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-macos-dark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -244,7 +244,7 @@
         <!-- One UI Icons -->
 
         <div
-          class="relative bg-oneuiDark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-oneui-dark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -264,7 +264,7 @@
         <!-- Naruto -->
 
         <div
-          class="relative bg-skyLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-sky-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">
@@ -284,7 +284,7 @@
         <!-- Madara -->
 
         <div
-          class="relative bg-purpleLight overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <div class="absolute w-full h-full">

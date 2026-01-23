@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="relative h-screen container font-body bg-whiteSoft"
+    class="relative h-screen container font-body bg-white-soft"
     :class="{ stop: active }"
     id="container"
   >
@@ -13,7 +13,7 @@
     <!-- 3D -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
+      class="bg-white-soft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,7 +22,7 @@
       <div class="text-center">
 
         <h1
-          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-"
         >
 
           <span class="relative z-10">Designs</span>

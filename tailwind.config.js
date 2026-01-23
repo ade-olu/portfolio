@@ -27,32 +27,32 @@ module.exports = {
     },
     extend: {
       colors: {
-        brandOrange: "#FD5531", // orange
-        brandOrangeLight: "#FE673B", // orange2
-        backgroundLight: "#F4F6FB", // light
-        backgroundLightAlt: "#EBF1FF", // light2
-        whiteSoft: "#FAFAFA", // white
-        blackPrimary: "#0F1221", // black
-        blackOpacity50: "rgba(15, 18, 33, 0.5)", // bl
-        blackOpacity10: "rgba(15, 18, 33, 0.1)", // bl2
-        grayDark: "#3F4551", // grey
+        "brand-orange": "#FD5531", // orange
+        "brand-orange-light": "#FE673B", // orange2
+        "background-light": "#F4F6FB", // light
+        "background-light-alt": "#EBF1FF", // light2
+        "white-soft": "#FAFAFA", // white
+        "black-primary": "#0F1221", // black
+        "black-opacity-50": "rgba(15, 18, 33, 0.5)", // bl
+        "black-opacity-10": "rgba(15, 18, 33, 0.1)", // bl2
+        "gray-dark": "#3F4551", // grey
         gray: "#858A93", // grey2
-        grayLight: "#CBCCCF", // grey3
-        orangePastel: "#FAD0C7", // lightorange
-        travuPrimary: "#111827", // travu
-        travuSecondary: "#171E2D", // travu2
+        "gray-light": "#CBCCCF", // grey3
+        "orange-pastel": "#FAD0C7", // lightorange
+        "travu-dark-1": "#111827", // travu
+        "travu-dark-2": "#171E2D", // travu2
         weatherly: "#061f18", // weatherly
-        vectPrimary: "#16131D", // vect
-        successGreen: "#00BF69", // green
-        ear1Primary: "#00070F", // ear1
-        getfoodPrimary: "#064442", // getfood
-        talkeasePrimary: "#6C47FF", // talkease
-        tripvoyagerPrimary: "#3E64FF", // tripvoyager
-        purpleLight: "#F3F5FF", // lightpurple
-        skyLight: "#ECF0F3", // lightskyblue
-        macosDark: "#1E1F2B", // macos
-        oneuiDark: "#20222C", // oneui
-        purplePrimary: "#546DEE", // purple
+        vect: "#16131D", // vect
+        "success-green": "#00BF69", // green
+        ear1: "#00070F", // ear1
+        getfood: "#064442", // getfood
+        talkease: "#6C47FF", // talkease
+        tripvoyager: "#3E64FF", // tripvoyager
+        "purple-light": "#F3F5FF", // lightpurple
+        "sky-light": "#ECF0F3", // lightskyblue
+        "macos-dark": "#1E1F2B", // macos
+        "oneui-dark": "#20222C", // oneui
+        "purple-primary": "#546DEE", // purple
       },
       fontFamily: {
         heading: ["Grifter"], // head
@@ -71,7 +71,7 @@ module.exports = {
         tight: "2.75rem", // pht
         normal: "3.25rem", // lht
         loose: "3.75rem", // lglht
-        extraLoose: "4.25rem", // xlglht
+        "extra-loose": "4.25rem", // xlglht
       },
       width: {
         "width-1": "1.0625rem", // hb3

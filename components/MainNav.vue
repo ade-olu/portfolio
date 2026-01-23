@@ -9,13 +9,13 @@
     <transition name="fade" v-on:enter="enter">
 
       <div
-        class="nav-menu-2 fixed w-full h-screen bg-backgroundLight z-30 flex flex-col items-center justify-center lg:hidden"
+        class="nav-menu-2 fixed w-full h-screen bg-background-light z-30 flex flex-col items-center justify-center lg:hidden"
         v-if="isActive"
         id="nMenu"
       >
 
         <ul
-          class="nav-links phone-sm:text-lg flex flex-col items-center justify-center text-blackPrimary"
+          class="nav-links phone-sm:text-lg flex flex-col items-center justify-center text-black-primary"
           id="nLinks"
         >
 
@@ -67,7 +67,7 @@
 
     <!-- Navbar -->
 
-    <nav class="bg-whiteSoft z-20" id="nav">
+    <nav class="bg-white-soft z-20" id="nav">
 
       <div
         class="xl:absolute z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tablet-xs:h-32 tablet-xs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
@@ -92,7 +92,7 @@
         <div class="nav-menu hidden lg:block" id="nMenu">
 
           <ul
-            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-xl text-blackPrimary"
+            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-xl text-black-primary"
             id="nLinks"
           >
 
@@ -169,18 +169,18 @@
     <transition name="fade" v-on:enter="enter">
 
       <div
-        class="bg-blackOpacity50 fixed inset-0 z-30 flex justify-center items-center px-6 tablet-xs:px-0"
+        class="bg-black-opacity-50 fixed inset-0 z-30 flex justify-center items-center px-6 tablet-xs:px-0"
         v-if="isVisible"
       >
 
         <div
-          class="modal flex flex-col w-full rounded-md bg-backgroundLight p-8 max-w-max-width-2 tablet-xs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
+          class="modal flex flex-col w-full rounded-md bg-background-light p-8 max-w-max-width-2 tablet-xs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
         >
 
           <div class="flex justify-between items-start">
 
             <ul
-              class="nav-links lg:flex lg:flex-col phone-sm:text-lg lg:text-xl text-blackPrimary"
+              class="nav-links lg:flex lg:flex-col phone-sm:text-lg lg:text-xl text-black-primary"
               id="nLinks"
             >
 

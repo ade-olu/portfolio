@@ -3,7 +3,7 @@
   <!-- Projects -->
 
   <div
-    class="mt-14 pt-10 pb-14 bg-backgroundLight relative w-full h-auto phone-sm:mt-16 tablet-xs:mt-24 tablet-xs:pt-10 tablet-xs:pb-14 lg:pt-14 lg:pb-24 xl:mt-0"
+    class="mt-14 pt-10 pb-14 bg-background-light relative w-full h-auto phone-sm:mt-16 tablet-xs:mt-24 tablet-xs:pt-10 tablet-xs:pb-14 lg:pt-14 lg:pb-24 xl:mt-0"
     id="projects"
   >
 
@@ -14,7 +14,7 @@
         <!-- Heading -->
 
         <h1
-          class="quote font-heading font-bold text-3xl text-blackPrimary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+          class="quote font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-"
         >
 
           <span class="relative z-10">Projects</span>
@@ -44,7 +44,7 @@
       <!-- Vect -->
 
       <div
-        class="relative bg-vectPrimary rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+        class="relative bg-vect rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
       >
 
         <img
@@ -57,7 +57,7 @@
 
         <nuxt-link
           to="/works/vect"
-          class="overlay z-10 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
           <div class="overlay-inner w-full h-full">
@@ -71,13 +71,13 @@
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    Vect
                 </h1>
 
                 <p
-                  class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                  class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                 >
                    A simple tool for sketching and drawing.
                 </p>
@@ -89,25 +89,25 @@
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    HTML
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    SCSS
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    JavaScript
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -140,7 +140,7 @@
 
         <nuxt-link
           to="/works/weatherly"
-          class="overlay z-10 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
           <div class="overlay-inner w-full h-full">
@@ -154,13 +154,13 @@
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    Weatherly
                 </h1>
 
                 <p
-                  class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                  class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                 >
                    An app that provides real-time weather forecasts and metrics for
                   cities around the world.
@@ -173,31 +173,31 @@
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    HTML
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    CSS
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    JavaScript
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Node.js
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -217,7 +217,7 @@
       <!-- Travu -->
 
       <div
-        class="relative bg-travuPrimary rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8"
+        class="relative bg-travu-dark-1 rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8"
       >
 
         <img
@@ -230,7 +230,7 @@
 
         <nuxt-link
           to="/works/travu"
-          class="overlay z-20 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
           <div class="overlay-inner w-full h-full">
@@ -244,13 +244,13 @@
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl 2xl:text-heading-3"
+                  class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl 2xl:text-heading-3"
                 >
                    Travu
                 </h1>
 
                 <p
-                  class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                  class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                 >
                    A travel planning and booking website.
                 </p>
@@ -262,25 +262,25 @@
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Vue.js
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Nuxt.js
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Tailwind CSS
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -300,7 +300,7 @@
       <!-- Portfolio -->
 
       <div
-        class="relative bg-blackPrimary rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+        class="relative bg-black-primary rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
       >
 
         <img
@@ -313,7 +313,7 @@
 
         <nuxt-link
           to="/works/portfolio"
-          class="overlay z-20 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
           <div class="overlay-inner w-full h-full">
@@ -327,13 +327,13 @@
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl 2xl:text-heading-3"
+                  class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl 2xl:text-heading-3"
                 >
                    Portfolio
                 </h1>
 
                 <p
-                  class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                  class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                 >
                    My portfolio website.
                 </p>
@@ -345,25 +345,25 @@
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Vue.js
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Nuxt.js
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Tailwind CSS
                 </span>
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>

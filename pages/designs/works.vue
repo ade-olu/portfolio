@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="relative h-screen container font-body bg-whiteSoft"
+    class="relative h-screen container font-body bg-white-soft"
     :class="{ stop: active }"
     id="container"
   >
@@ -13,7 +13,7 @@
     <!-- Works -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
+      class="bg-white-soft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,7 +22,7 @@
       <div class="text-center">
 
         <h1
-          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading-extraLoose 2xl:text-heading-6"
+          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading- 2xl:text-heading-6"
         >
 
           <span class="relative z-10">Designs</span>
@@ -103,7 +103,7 @@
         <!-- TalkEase -->
 
         <div
-          class="relative bg-talkeasePrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-talkease rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
@@ -116,7 +116,7 @@
 
           <nuxt-link
             to="/works/talkease"
-            class="overlay z-20 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
           >
 
             <div class="overlay-inner w-full h-full">
@@ -130,13 +130,13 @@
                 <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      TalkEase
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for real-time multilingual communication using
                     AI translation.
@@ -149,7 +149,7 @@
                 <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -169,7 +169,7 @@
         <!-- TripVoyager -->
 
         <div
-          class="relative bg-tripvoyagerPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-tripvoyager rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
@@ -182,7 +182,7 @@
 
           <nuxt-link
             to="/works/tripvoyager"
-            class="overlay z-20 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
           >
 
             <div class="overlay-inner w-full h-full">
@@ -196,13 +196,13 @@
                 <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      TripVoyager
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for planning vacations and trips.
                   </p>
@@ -214,7 +214,7 @@
                 <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -234,7 +234,7 @@
         <!-- FindFont -->
 
         <div
-          class="relative bg-gradient-to-tr from-brandOrange to-brandOrangeLight rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-gradient-to-tr from-brand-orange to-brand-orange-light rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
@@ -247,7 +247,7 @@
 
           <nuxt-link
             to="/works/findfont"
-            class="overlay z-20 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
           >
 
             <div class="overlay-inner w-full h-full">
@@ -261,13 +261,13 @@
                 <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      FindFont
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for finding typeface names on images.
                   </p>
@@ -279,7 +279,7 @@
                 <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -299,7 +299,7 @@
         <!-- Ear1 -->
 
         <div
-          class="relative bg-ear1Primary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-ear1 rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
@@ -312,7 +312,7 @@
 
           <nuxt-link
             to="/works/ear1"
-            class="overlay z-10 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
           >
 
             <div class="overlay-inner w-full h-full">
@@ -326,13 +326,13 @@
                 <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      Ear1
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      A website design concept for Ear1.
                   </p>
@@ -344,7 +344,7 @@
                 <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -364,7 +364,7 @@
         <!-- GetFood -->
 
         <div
-          class="relative bg-getfoodPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-getfood rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
@@ -377,7 +377,7 @@
 
           <nuxt-link
             to="/works/getfood"
-            class="overlay z-10 bg-gradient-to-t from-blackOpacity50 to-blackOpacity10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
           >
 
             <div class="overlay-inner w-full h-full">
@@ -391,13 +391,13 @@
                 <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      GetFood
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for ordering meals.
                   </p>
@@ -409,7 +409,7 @@
                 <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
