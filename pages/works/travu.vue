@@ -13,7 +13,7 @@
     <!-- Travu -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phoneSm:pb-20 tabletXs:pb-24"
+      class="bg-whiteSoft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,17 +22,17 @@
       <div class="text-center">
 
         <h1
-          class="font-heading font-bold text-3xl text-blackPrimary leading-10 mt-4 phoneSm:text-heading-1 phoneSm:leading-tight xl:mt-2 tabletXs:text-heading-2 tabletXs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+          class="font-heading font-bold text-3xl text-blackPrimary leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
         >
 
           <span class="relative z-20">Travu</span>
 
           <span
-            class="relative w-full flex justify-center items-center -mt-4 z-0 phoneSm:-mt-5 lg:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
           >
 
             <img
-              class="w-28 phoneSm:w-32 tabletXs:w-40 lg:w-44 2xl:w-48"
+              class="w-28 phone-sm:w-32 tablet-xs:w-40 lg:w-44 2xl:w-48"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -46,7 +46,7 @@
       <div class="xl:flex xl:justify-between xl:items-start">
 
         <div
-          class="mt-large px-8 phoneSm:mt-14 tabletXs:mt-16 tabletXs:px-14 lg:px-20 xl:px-spacing-1"
+          class="mt-large px-8 phone-sm:mt-14 tablet-xs:mt-16 tablet-xs:px-14 lg:px-20 xl:px-spacing-1"
         >
 
           <!-- About -->
@@ -54,13 +54,13 @@
           <div>
 
             <h2
-              class="font-heading font-bold text-xl text-blackPrimary phoneSm:text-2xl tabletXs:text-display"
+              class="font-heading font-bold text-xl text-blackPrimary phone-sm:text-2xl tablet-xs:text-display"
             >
                About
             </h2>
 
             <p
-              class="text-grayDark mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:max-w-max-width-5 2xl:max-w-max-width-6"
+              class="text-grayDark mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:max-w-max-width-5 2xl:max-w-max-width-6"
             >
                Travu is a travel project focused on providing seamless travel planning
               and booking experience.
@@ -70,10 +70,10 @@
 
           <!-- Technologies (For Screens Lower Than 1280px) -->
 
-          <div class="mt-12 tabletXs:mt-14 xl:hidden">
+          <div class="mt-12 tablet-xs:mt-14 xl:hidden">
 
             <h2
-              class="font-heading font-bold text-xl text-blackPrimary mb-5 phoneSm:text-2xl tabletXs:mb-8 lg:mb-7 tabletXs:text-display"
+              class="font-heading font-bold text-xl text-blackPrimary mb-5 phone-sm:text-2xl tablet-xs:mb-8 lg:mb-7 tablet-xs:text-display"
             >
                Technologies
             </h2>
@@ -81,25 +81,25 @@
             <div class="flex flex-wrap">
 
               <span
-                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 phoneSm:text-lg tabletXs:text-xl lg:text-xl tabletXs:py-2 lg:px-8 lg:py-2"
+                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 phone-sm:text-lg tablet-xs:text-xl lg:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
               >
                 Vue.js
               </span>
 
               <span
-                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 ml-6 sm:ml-6 tabletXs:ml-10 phoneSm:text-lg tabletXs:text-xl lg:ml-10 lg:text-xl tabletXs:py-2 lg:px-8 lg:py-2"
+                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 ml-6 sm:ml-6 tablet-xs:ml-10 phone-sm:text-lg tablet-xs:text-xl lg:ml-10 lg:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
               >
                 Nuxt.js
               </span>
 
               <span
-                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 mt-6 mr-6 sm:mr-6 sm:mt-6 phoneSm:text-lg tabletXs:mt-0 tabletXs:ml-10 tabletXs:mr-10 tabletXs:text-xl tabletXs:py-2 lg:px-8 lg:py-2"
+                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 mt-6 mr-6 sm:mr-6 sm:mt-6 phone-sm:text-lg tablet-xs:mt-0 tablet-xs:ml-10 tablet-xs:mr-10 tablet-xs:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
               >
                 Tailwind CSS
               </span>
 
               <span
-                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 mt-6 sm:mt-6 phoneSm:text-lg tabletXs:mt-0 tabletXs:text-xl tabletXs:py-2 lg:px-8"
+                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 mt-6 sm:mt-6 phone-sm:text-lg tablet-xs:mt-0 tablet-xs:text-xl tablet-xs:py-2 lg:px-8"
               >
                 Figma
               </span>
@@ -110,17 +110,17 @@
 
           <!-- Link -->
 
-          <div class="mt-16 tabletXs:mt-20 xl:mt-36">
+          <div class="mt-16 tablet-xs:mt-20 xl:mt-36">
 
             <h2
-              class="font-heading font-bold text-xl text-blackPrimary phoneSm:text-2xl tabletXs:text-display"
+              class="font-heading font-bold text-xl text-blackPrimary phone-sm:text-2xl tablet-xs:text-display"
             >
                Link
             </h2>
 
             <a href="https://travu.netlify.app" target="_blank">
               <p
-                class="text-grayDark mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4"
+                class="text-grayDark mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4"
               >
 
                 <hover>https://travu.netlify.app</hover>
@@ -139,12 +139,12 @@
           <div>
 
             <h2
-              class="font-heading font-bold text-xl text-blackPrimary mb-5 phoneSm:text-2xl tabletXs:mb-8 lg:mb-7 tabletXs:text-display"
+              class="font-heading font-bold text-xl text-blackPrimary mb-5 phone-sm:text-2xl tablet-xs:mb-8 lg:mb-7 tablet-xs:text-display"
             >
                Technologies
             </h2>
 
-            <div class="flex mb-6 sm:mb-6 tabletXs:mb-10 lg:mb-10">
+            <div class="flex mb-6 sm:mb-6 tablet-xs:mb-10 lg:mb-10">
 
               <span
                 class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-8 py-2 text-xl"

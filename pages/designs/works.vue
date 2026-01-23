@@ -13,7 +13,7 @@
     <!-- Works -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phoneSm:pb-20 tabletXs:pb-24"
+      class="bg-whiteSoft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,17 +22,17 @@
       <div class="text-center">
 
         <h1
-          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phoneSm:text-heading-1 phoneSm:leading-tight xl:mt-2 tabletXs:text-heading-2 tabletXs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading-extraLoose 2xl:text-heading-6"
+          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading-extraLoose 2xl:text-heading-6"
         >
 
           <span class="relative z-10">Designs</span>
 
           <span
-            class="relative flex justify-center items-center -mt-4 z-0 phoneSm:-mt-5 lg:-mt-5"
+            class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
           >
 
             <img
-              class="w-32 phoneSm:w-36 tabletXs:w-44 lg:w-48 xl:w-56"
+              class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 xl:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -45,14 +45,14 @@
 
       <!-- Navigation -->
 
-      <div class="flex justify-center mt-large phoneSm:mt-14 tabletXs:mt-16">
+      <div class="flex justify-center mt-large phone-sm:mt-14 tablet-xs:mt-16">
 
         <ul
-          class="nav-links flex flex-row items-center phoneSm:text-lg lg:text-xl text-black"
+          class="nav-links flex flex-row items-center phone-sm:text-lg lg:text-xl text-black"
           id="nLinks"
         >
 
-          <li class="mx-3 sm:mx-5 phoneSm:mx-6">
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
             <nuxt-link to="/designs/works">
 
@@ -62,7 +62,7 @@
 
           </li>
 
-          <li class="mx-3 sm:mx-5 phoneSm:mx-6">
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
             <nuxt-link to="/designs/ui">
 
@@ -72,7 +72,7 @@
 
           </li>
 
-          <li class="mx-3 sm:mx-5 phoneSm:mx-6">
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
             <nuxt-link to="/designs/illustrations">
 
@@ -82,7 +82,7 @@
 
           </li>
 
-          <li class="mx-3 sm:mx-5 phoneSm:mx-6">
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
             <nuxt-link to="/designs/3d">
 
@@ -97,17 +97,17 @@
       </div>
 
       <div
-        class="grid grid-col-1 px-8 gap-14 mt-14 tabletXs:px-14 tabletXs:gap-14 lg:mt-20 lg:px-24 lg:grid-cols-2 lg:gap-24"
+        class="grid grid-col-1 px-8 gap-14 mt-14 tablet-xs:px-14 tablet-xs:gap-14 lg:mt-20 lg:px-24 lg:grid-cols-2 lg:gap-24"
       >
 
         <!-- TalkEase -->
 
         <div
-          class="relative bg-talkeasePrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phoneSm:row-span-8 tabletXs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-talkeasePrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
-            class="ml-4 w-width-11 sm:w-28 phoneSm:w-32 tabletXs:w-width-14 xl:w-width-17"
+            class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/talkease.svg"
             alt="TalkEase"
           />
@@ -122,21 +122,21 @@
             <div class="overlay-inner w-full h-full">
 
               <div
-                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tabletXs:p-10 lg:p-8 xl:p-10"
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
               >
 
                 <!-- Overlay Title & Subtitle -->
 
-                <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
+                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      TalkEase
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for real-time multilingual communication using
                     AI translation.
@@ -146,10 +146,10 @@
 
                 <!-- Technologies -->
 
-                <div class="flex flex-wrap gap-4 tabletXs:gap-6">
+                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -169,11 +169,11 @@
         <!-- TripVoyager -->
 
         <div
-          class="relative bg-tripvoyagerPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phoneSm:row-span-8 tabletXs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-tripvoyagerPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
-            class="ml-4 w-width-11 sm:w-28 phoneSm:w-32 tabletXs:w-width-14 xl:w-width-17"
+            class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/tripvoyager.svg"
             alt="TripVoyager"
           />
@@ -188,21 +188,21 @@
             <div class="overlay-inner w-full h-full">
 
               <div
-                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tabletXs:p-10 lg:p-8 xl:p-10"
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
               >
 
                 <!-- Overlay Title & Subtitle -->
 
-                <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
+                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      TripVoyager
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for planning vacations and trips.
                   </p>
@@ -211,10 +211,10 @@
 
                 <!-- Technologies -->
 
-                <div class="flex flex-wrap gap-4 tabletXs:gap-6">
+                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -234,11 +234,11 @@
         <!-- FindFont -->
 
         <div
-          class="relative bg-gradient-to-tr from-brandOrange to-brandOrangeLight rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phoneSm:row-span-8 tabletXs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-gradient-to-tr from-brandOrange to-brandOrangeLight rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
-            class="ml-4 w-width-11 sm:w-28 phoneSm:w-32 tabletXs:w-width-14 xl:w-width-17"
+            class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/findfont.svg"
             alt="FindFont"
           />
@@ -253,21 +253,21 @@
             <div class="overlay-inner w-full h-full">
 
               <div
-                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tabletXs:p-10 lg:p-8 xl:p-10"
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
               >
 
                 <!-- Overlay Title & Subtitle -->
 
-                <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
+                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      FindFont
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for finding typeface names on images.
                   </p>
@@ -276,10 +276,10 @@
 
                 <!-- Technologies -->
 
-                <div class="flex flex-wrap gap-4 tabletXs:gap-6">
+                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -299,11 +299,11 @@
         <!-- Ear1 -->
 
         <div
-          class="relative bg-ear1Primary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phoneSm:row-span-8 tabletXs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-ear1Primary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
-            class="w-24 sm:w-width-11 phoneSm:w-width-12 tabletXs:w-36 xl:w-44"
+            class="w-24 sm:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44"
             src="../../assets/works/ear1.svg"
             alt="Ear1"
           />
@@ -318,21 +318,21 @@
             <div class="overlay-inner w-full h-full">
 
               <div
-                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tabletXs:p-10 lg:p-8 xl:p-10"
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
               >
 
                 <!-- Overlay Title & Subtitle -->
 
-                <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
+                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      Ear1
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      A website design concept for Ear1.
                   </p>
@@ -341,10 +341,10 @@
 
                 <!-- Technologies -->
 
-                <div class="flex flex-wrap gap-4 tabletXs:gap-6">
+                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -364,11 +364,11 @@
         <!-- GetFood -->
 
         <div
-          class="relative bg-getfoodPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phoneSm:row-span-8 tabletXs:row-span-10 lg:row-span-5 xl:row-span-6"
+          class="relative bg-getfoodPrimary rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
           <img
-            class="w-24 sm:w-width-11 phoneSm:w-width-12 tabletXs:w-36 xl:w-44"
+            class="w-24 sm:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44"
             src="../../assets/works/getfood.svg"
             alt="GetFood"
           />
@@ -383,21 +383,21 @@
             <div class="overlay-inner w-full h-full">
 
               <div
-                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tabletXs:p-10 lg:p-8 xl:p-10"
+                class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
               >
 
                 <!-- Overlay Title & Subtitle -->
 
-                <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
+                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
                   <h1
-                    class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                    class="font-heading text-whiteSoft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
                   >
                      GetFood
                   </h1>
 
                   <p
-                    class="text-grayLight mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    class="text-grayLight mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
                   >
                      An app design for ordering meals.
                   </p>
@@ -406,10 +406,10 @@
 
                 <!-- Technologies -->
 
-                <div class="flex flex-wrap gap-4 tabletXs:gap-6">
+                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                   <span
-                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                    class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                   >
                      Figma
                   </span>
@@ -467,4 +467,3 @@ export default {
   }
 }
 </style>
-

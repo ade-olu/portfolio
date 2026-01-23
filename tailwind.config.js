@@ -8,20 +8,20 @@ module.exports = {
     screens: {
       xs: { min: "360px" }, // small
       sm: { min: "375px" }, // medium
-      smPlus: { min: "384px" }, // medium2
-      phoneSm: { min: "411px" }, // phone
-      phoneMd: { min: "412px" }, // mob
-      phoneLg: { min: "414px" }, // mobile
-      tabletXs: { min: "601px" }, // tab
-      tabletSm: { min: "768px" }, // tablet1
-      tabletMd: { min: "800px" }, // tablet2
-      tabletLg: { min: "962px" }, // tablet3
+      "sm-plus": { min: "384px" }, // medium2
+      "phone-sm": { min: "411px" }, // phone
+      "phone-md": { min: "412px" }, // mob
+      "phone-lg": { min: "414px" }, // mobile
+      "tablet-xs": { min: "601px" }, // tab
+      "tablet-sm": { min: "768px" }, // tablet1
+      "tablet-md": { min: "800px" }, // tablet2
+      "tablet-lg": { min: "962px" }, // tablet3
       lg: { min: "1024px" }, // large
-      laptopSm: { min: "1152px" }, // macbook
+      "laptop-sm": { min: "1152px" }, // macbook
       xl: { min: "1280px" }, // xlarge
       laptop: { min: "1366px" }, // lap
       desktop: { min: "1440px" }, // desktop
-      desktopLg: { min: "1500px" }, // surface
+      "desktop-lg": { min: "1500px" }, // surface
       "2xl": { min: "1536px" }, // 2xlarge
       "3xl": { min: "1920px" }, // 3xlarge
     },

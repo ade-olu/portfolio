@@ -15,7 +15,7 @@
       >
 
         <ul
-          class="nav-links phoneSm:text-lg flex flex-col items-center justify-center text-blackPrimary"
+          class="nav-links phone-sm:text-lg flex flex-col items-center justify-center text-blackPrimary"
           id="nLinks"
         >
 
@@ -66,7 +66,7 @@
     <nav class="bg-whiteSoft z-20" id="nav">
 
       <div
-        class="z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tabletXs:h-32 tabletXs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
+        class="z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tablet-xs:h-32 tablet-xs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
       >
 
         <!-- Logo -->
@@ -74,7 +74,7 @@
         <a href="/" class="z-40">
 
           <img
-            class="w-width-6 phoneSm:w-width-7 tabletXs:w-16 lg:w-16"
+            class="w-width-6 phone-sm:w-width-7 tablet-xs:w-16 lg:w-16"
             src="../assets/logo.svg"
             alt="Logo"
           />
@@ -159,18 +159,18 @@
     <transition name="fade" v-on:enter="enter">
 
       <div
-        class="bg-blackOpacity50 fixed inset-0 z-30 flex justify-center items-center px-6 tabletXs:px-0"
+        class="bg-blackOpacity50 fixed inset-0 z-30 flex justify-center items-center px-6 tablet-xs:px-0"
         v-if="isVisible"
       >
 
         <div
-          class="modal flex flex-col w-full rounded-md bg-backgroundLight p-8 max-w-max-width-2 tabletXs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
+          class="modal flex flex-col w-full rounded-md bg-backgroundLight p-8 max-w-max-width-2 tablet-xs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
         >
 
           <div class="flex justify-between items-start">
 
             <ul
-              class="nav-links lg:flex lg:flex-col phoneSm:text-lg lg:text-xl text-blackPrimary"
+              class="nav-links lg:flex lg:flex-col phone-sm:text-lg lg:text-xl text-blackPrimary"
               id="nLinks"
             >
 
@@ -222,7 +222,7 @@
 
               <img
                 src="../assets/close.svg"
-                class="h-6 phoneSm:h-7 lg:h-height-5"
+                class="h-6 phone-sm:h-7 lg:h-height-5"
               />
 
             </button>

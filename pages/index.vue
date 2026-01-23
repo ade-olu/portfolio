@@ -25,7 +25,7 @@
           <!-- Heading -->
 
           <h1
-            class="font-heading font-bold text-3xl text-blackPrimary mt-4 leading-10 phoneSm:text-heading-1 phoneSm:leading-tight tabletXs:text-heading-2 tabletXs:leading-normal tabletXs:mt-6 lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+            class="font-heading font-bold text-3xl text-blackPrimary mt-4 leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal tablet-xs:mt-6 lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
           >
              Hey, I'm
             <br />
@@ -37,11 +37,11 @@
               <span class="relative z-10">Adegbaju</span>
 
               <span
-                class="relative flex justify-center items-center -mt-4 z-0 phoneSm:-mt-5 lg:-mt-5"
+                class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
               >
 
                 <img
-                  class="w-48 phoneSm:w-width-16 tabletXs:w-52 lg:w-56 2xl:w-64"
+                  class="w-48 phone-sm:w-width-16 tablet-xs:w-52 lg:w-56 2xl:w-64"
                   src="../assets/accent-line.svg"
                   alt="Accent Line"
                 />
@@ -55,7 +55,7 @@
           <!-- Text -->
 
           <p
-            class="text-grayDark mt-5 phoneSm:mt-6 phoneSm:text-lg tabletXs:text-xl tabletXs:mt-8"
+            class="text-grayDark mt-5 phone-sm:mt-6 phone-sm:text-lg tablet-xs:text-xl tablet-xs:mt-8"
           >
              I'm a Web Developer and
             <br />
@@ -70,7 +70,7 @@
 
           <button
             v-scroll-to="{ el: '#contact', duration: 1000 }"
-            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-8 phoneSm:mt-10 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 tabletXs:text-xl tabletXs:h-height-7 tabletXs:px-20 tabletXs:mt-12 2xl:h-20 2xl:px-20"
+            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-8 phone-sm:mt-10 phone-sm:text-lg phone-sm:h-16 phone-sm:px-20 tablet-xs:text-xl tablet-xs:h-height-7 tablet-xs:px-20 tablet-xs:mt-12 2xl:h-20 2xl:px-20"
             style="cursor: none"
           >
              Get In Touch
@@ -93,7 +93,7 @@
     <!-- Contact -->
 
     <div
-      class="mt-2 pt-10 pb-14 bg-backgroundLight relative w-full h-auto phoneSm:mt-4 tabletXs:mt-10 tabletXs:pt-10 tabletXs:pb-14 lg:mt-6 lg:pt-14 lg:pb-20 xl:mt-14"
+      class="mt-2 pt-10 pb-14 bg-backgroundLight relative w-full h-auto phone-sm:mt-4 tablet-xs:mt-10 tablet-xs:pt-10 tablet-xs:pb-14 lg:mt-6 lg:pt-14 lg:pb-20 xl:mt-14"
       id="contact"
     >
 
@@ -104,17 +104,17 @@
           <!-- Heading -->
 
           <h1
-            class="font-heading font-bold text-3xl text-blackPrimary leading-10 phoneSm:text-heading-1 phoneSm:leading-tight tabletXs:text-heading-2 tabletXs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
+            class="font-heading font-bold text-3xl text-blackPrimary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
           >
 
             <span class="relative z-20">Contact</span>
 
             <span
-              class="relative flex justify-center items-center -mt-4 z-0 phoneSm:-mt-5 lg:-mt-5"
+              class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
             >
 
               <img
-                class="w-32 phoneSm:w-36 tabletXs:w-44 lg:w-48 2xl:w-56"
+                class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
                 src="../assets/accent-line.svg"
                 alt="Accent Line"
               />
@@ -128,7 +128,7 @@
         <!-- Form -->
 
         <form
-          class="flex flex-col items-center justify-center px-8 mt-11 w-full tabletXs:px-40 lg:mt-11 lg:px-padding-width-1 xl:px-padding-width-2 2xl:px-padding-width-3"
+          class="flex flex-col items-center justify-center px-8 mt-11 w-full tablet-xs:px-40 lg:mt-11 lg:px-padding-width-1 xl:px-padding-width-2 2xl:px-padding-width-3"
           action="https://formspree.io/f/mrgroypw"
           method="POST"
         >
@@ -138,7 +138,7 @@
           <div class="input-div relative w-full">
 
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phoneSm:text-lg tabletXs:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phone-sm:text-lg tablet-xs:text-xl"
               type="text"
               name="Name"
               id="name"
@@ -156,7 +156,7 @@
           <div class="input-div relative w-full mt-12 lg:mt-16">
 
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phoneSm:text-lg tabletXs:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phone-sm:text-lg tablet-xs:text-xl"
               type="email"
               name="Email"
               id="email"
@@ -174,7 +174,7 @@
           <div class="input-div relative w-full mt-12 lg:mt-16">
 
             <input
-              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phoneSm:text-lg tabletXs:text-xl"
+              class="input-effect focus:outline-none bg-transparent border-b-thin border-gray placeholder-gray text-blackPrimary py-2.5 w-full phone-sm:text-lg tablet-xs:text-xl"
               type="text"
               name="Message"
               id="message"
@@ -190,7 +190,7 @@
           <!-- Btn -->
 
           <button
-            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-16 w-width-18 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 phoneSm:w-width-19 tabletXs:text-xl tabletXs:h-height-7 tabletXs:w-width-20 tabletXs:px-20 lg:mt-24 2xl:h-20 2xl:px-20"
+            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-16 w-width-18 phone-sm:text-lg phone-sm:h-16 phone-sm:px-20 phone-sm:w-width-19 tablet-xs:text-xl tablet-xs:h-height-7 tablet-xs:w-width-20 tablet-xs:px-20 lg:mt-24 2xl:h-20 2xl:px-20"
             style="cursor: none"
           >
              Send
@@ -205,7 +205,7 @@
     <!-- Footer -->
 
     <div
-      class="bg-blackPrimary relative flex flex-col justify-center items-center w-full py-8 px-5 tabletXs:px-10 tabletXs:py-10 lg:flex-row-reverse lg:justify-between lg:h-36 lg:px-logo-padding xl:px-0"
+      class="bg-blackPrimary relative flex flex-col justify-center items-center w-full py-8 px-5 tablet-xs:px-10 tablet-xs:py-10 lg:flex-row-reverse lg:justify-between lg:h-36 lg:px-logo-padding xl:px-0"
       id="footer"
     >
 
@@ -215,12 +215,12 @@
 
         <a
           href="mailto:adegbajuoezekiel@gmail.com"
-          class="mx-4 phoneSm:mx-small tabletXs:mx-5 lg:mx-6 z-20"
+          class="mx-4 phone-sm:mx-small tablet-xs:mx-5 lg:mx-6 z-20"
         >
 
           <img
             src="../assets/media/mail.svg"
-            class="w-width-3 phoneSm:w-width-4 tabletXs:w-width-5"
+            class="w-width-3 phone-sm:w-width-4 tablet-xs:w-width-5"
             alt="Mail"
           />
 
@@ -247,12 +247,12 @@
         <a
           href="https://www.linkedin.com/in/tobiloba-adegbaju"
           target="_blank"
-          class="mx-4 phoneSm:mx-small tabletXs:mx-5 lg:mx-6 z-20"
+          class="mx-4 phone-sm:mx-small tablet-xs:mx-5 lg:mx-6 z-20"
         >
 
           <img
             src="../assets/media/linkedin.svg"
-            class="h-6 phoneSm:h-height-2 tabletXs:h-height-4"
+            class="h-6 phone-sm:h-height-2 tablet-xs:h-height-4"
             alt="LinkedIn"
           />
 
@@ -263,12 +263,12 @@
         <a
           href="https://www.github.com/ade-olu"
           target="_blank"
-          class="mx-4 phoneSm:mx-small tabletXs:mx-5 lg:mx-6 z-20"
+          class="mx-4 phone-sm:mx-small tablet-xs:mx-5 lg:mx-6 z-20"
         >
 
           <img
             src="../assets/media/github.svg"
-            class="h-6 phoneSm:h-height-2 tabletXs:h-height-4"
+            class="h-6 phone-sm:h-height-2 tablet-xs:h-height-4"
             alt="Github"
           />
 
@@ -279,12 +279,12 @@
         <a
           href="https://www.dribbble.com/ade-olu/"
           target="_blank"
-          class="mx-4 phoneSm:mx-small tabletXs:mx-5 lg:mx-6 z-20"
+          class="mx-4 phone-sm:mx-small tablet-xs:mx-5 lg:mx-6 z-20"
         >
 
           <img
             src="../assets/media/dribbble.svg"
-            class="h-6 phoneSm:h-height-2 tabletXs:h-height-4"
+            class="h-6 phone-sm:h-height-2 tablet-xs:h-height-4"
             alt="Dribbble"
           />
 
@@ -295,7 +295,7 @@
       <!-- Copyright -->
 
       <p
-        class="text-whiteSoft mt-6 phoneSm:text-lg tabletXs:mt-8 tabletXs:text-xl lg:mt-0 xl:ml-20"
+        class="text-whiteSoft mt-6 phone-sm:text-lg tablet-xs:mt-8 tablet-xs:text-xl lg:mt-0 xl:ml-20"
       >
          © {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju
       </p>
