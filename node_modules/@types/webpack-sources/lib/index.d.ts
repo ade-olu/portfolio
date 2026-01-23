@@ -1,27 +1,27 @@
-import { RawSourceMap } from 'source-map';
+import { RawSourceMap } from "source-map";
 
-export import CachedSource = require('./CachedSource');
-export import CompatSource = require('./CompatSource');
-export import ConcatSource = require('./ConcatSource');
-export import OriginalSource = require('./OriginalSource');
-export import PrefixSource = require('./PrefixSource');
-export import RawSource = require('./RawSource');
-export import ReplaceSource = require('./ReplaceSource');
-export import SizeOnlySource = require('./SizeOnlySource');
-export import Source = require('./Source');
-export import SourceMapSource = require('./SourceMapSource');
+export import CachedSource = require("./CachedSource");
+export import CompatSource = require("./CompatSource");
+export import ConcatSource = require("./ConcatSource");
+export import OriginalSource = require("./OriginalSource");
+export import PrefixSource = require("./PrefixSource");
+export import RawSource = require("./RawSource");
+export import ReplaceSource = require("./ReplaceSource");
+export import SizeOnlySource = require("./SizeOnlySource");
+export import Source = require("./Source");
+export import SourceMapSource = require("./SourceMapSource");
 
 export interface MapOptions {
     /**
      * If set to false the implementation may omit mappings for columns
      * @default true
      */
-    columns?: boolean;
+    columns?: boolean | undefined;
     /**
      * If set to false the implementation may omit inner mappings for modules.
      * @default true
      */
-    module?: boolean;
+    module?: boolean | undefined;
 }
 
 export interface SourceAndMapMixin {
@@ -50,11 +50,11 @@ export interface Replacement {
     readonly name: string;
 }
 
-export type SourceLike = Partial<Pick<Source, 'source' | 'buffer' | 'size' | 'map' | 'sourceAndMap' | 'updateHash'>>;
+export type SourceLike = Partial<Pick<Source, "source" | "buffer" | "size" | "map" | "sourceAndMap" | "updateHash">>;
 
 export interface CachedData {
-    buffer?: Buffer;
-    source?: string | boolean;
-    size?: number;
-    cachedData?: Map<any, any>;
+    buffer?: Buffer | undefined;
+    source?: string | boolean | undefined;
+    size?: number | undefined;
+    cachedData?: Map<any, any> | undefined;
 }
