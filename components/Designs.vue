@@ -92,24 +92,6 @@
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
-                   CSS
-                </span>
-
-                <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
-                >
-                   JavaScript
-                </span>
-
-                <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
-                >
-                   Node.js
-                </span>
-
-                <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
-                >
                    Figma
                 </span>
 
