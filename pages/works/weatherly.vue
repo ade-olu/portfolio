@@ -5,7 +5,7 @@
     id="container"
   >
     <!-- Nav -->
-    <navigation></navigation>
+    <Navigation />
 
     <!-- Weatherly -->
     <div
@@ -59,24 +59,29 @@
             <div class="flex flex-wrap">
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 phone-sm:text-lg tablet-xs:text-xl lg:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
-                >HTML</span
               >
+                HTML
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 ml-6 sm:ml-6 tablet-xs:ml-10 phone-sm:text-lg tablet-xs:text-xl lg:ml-10 lg:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
-                >CSS</span
               >
+                CSS
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 mt-6 mr-6 sm:mr-6 sm:mt-6 phone-sm:text-lg tablet-xs:mt-0 tablet-xs:ml-10 tablet-xs:mr-10 tablet-xs:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
-                >JavaScript</span
               >
+                JavaScript
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 mt-6 mr-6 sm:mr-6 sm:mt-6 phone-sm:text-lg tablet-xs:mt-0 tablet-xs:ml-10 tablet-xs:mr-10 tablet-xs:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
-                >Node.js</span
               >
+                Node.js
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 mt-6 sm:mt-6 phone-sm:text-lg tablet-xs:mt-0 tablet-xs:text-xl tablet-xs:py-2 lg:px-8"
-                >Figma</span
               >
+                Figma
+              </span>
             </div>
           </div>
 
@@ -87,13 +92,13 @@
             >
               Link
             </h2>
-            <a href="https://weatherly-website-app.vercel.app" target="_blank"
-              ><p
+            <a href="https://weatherly-website-app.vercel.app" target="_blank">
+              <p
                 class="text-gray-dark mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4"
               >
                 https://weatherly-website-app.vercel.app
-              </p></a
-            >
+              </p>
+            </a>
           </div>
         </div>
 
@@ -108,26 +113,31 @@
             <div class="flex mb-6 sm:mb-6 tablet-xs:mb-10 lg:mb-10">
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-8 py-2 text-xl"
-                >HTML</span
               >
+                HTML
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-8 py-2 ml-10 text-xl"
-                >SCSS</span
               >
+                SCSS
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-8 py-2 ml-10 text-xl"
-                >JavaScript</span
               >
+                JavaScript
+              </span>
             </div>
             <div class="flex">
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-8 py-2 text-xl"
-                >Node.js</span
               >
+                Node.js
+              </span>
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-8 py-2 ml-10 text-xl"
-                >Figma</span
               >
+                Figma
+              </span>
             </div>
           </div>
         </div>
@@ -136,30 +146,17 @@
   </div>
 </template>
 
-<script>
-import { gsap } from "gsap";
-import Navigation from "../../components/Navigation";
+<script setup>
+import { ref } from "vue";
 
-export default {
-  components: {
-    Navigation,
-  },
+// Set page meta
+useHead({
+  title: "Projects - Weatherly",
+});
 
-  head() {
-    return {
-      title: "Projects - Weatherly",
-    };
-  },
-
-  data() {
-    return {
-      active: false,
-      zIndex: false,
-    };
-  },
-
-  mounted() {},
-};
+// Reactive state
+const active = ref(false);
+const zIndex = ref(false);
 </script>
 
 <style scoped>
