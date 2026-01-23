@@ -211,13 +211,13 @@
           </div>
 
         </nuxt-link>
-         <<<<<<< HEAD
+
         <img
           class="absolute w-full h-full"
           src="../assets/noise.png"
           alt="noise"
         />
-         ======= >>>>>>> 5833252b (Refactoring tailwind classes)
+
       </div>
 
       <!-- Travu -->
