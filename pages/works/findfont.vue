@@ -1,7 +1,7 @@
 <template>
 
   <div
-    class="relative container font-body bg-white"
+    class="relative container font-body bg-whiteSoft"
     :class="{ stop: active }"
     id="container"
   >
@@ -13,7 +13,7 @@
     <!-- FindFont -->
 
     <div
-      class="bg-whiteSoft relative w-full h-auto pb-16 phone:pb-20 tab:pb-24"
+      class="bg-whiteSoft relative w-full h-auto pb-16 phoneSm:pb-20 tabletXs:pb-24"
       :class="{ change: zIndex }"
     >
 
@@ -22,17 +22,17 @@
       <div class="text-center">
 
         <h1
-          class="font-head font-bold text-3xl text-black leading-10 mt-4 phone:text-fsize phone:leading-pht xlarge:mt-2 tab:text-tfsize tab:leading-lht large:text-lfsize large:leading-lglht 2xlarge:text-2xlfsize 2xlarge:leading-xlglht"
+          class="font-heading font-bold text-3xl text-blackPrimary leading-10 mt-4 phoneSm:text-heading-1 phoneSm:leading-tight xl:mt-2 tabletXs:text-heading-2 tabletXs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extraLoose"
         >
 
           <span class="relative z-20">FindFont</span>
 
           <span
-            class="relative w-full flex justify-center items-center -mt-4 z-0 phone:-mt-5 large:-mt-5"
+            class="relative w-full flex justify-center items-center -mt-4 z-0 phoneSm:-mt-5 lg:-mt-5"
           >
 
             <img
-              class="w-40 phone:w-44 tab:w-52 large:w-56 2xlarge:w-64"
+              class="w-40 phoneSm:w-44 tabletXs:w-52 lg:w-56 2xl:w-64"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
             />
@@ -43,10 +43,10 @@
 
       </div>
 
-      <div class="xlarge:flex xlarge:justify-between xlarge:items-start">
+      <div class="xl:flex xl:justify-between xl:items-start">
 
         <div
-          class="mt-t px-8 phone:mt-14 tab:mt-16 tab:px-14 large:px-20 xlarge:px-spc"
+          class="mt-large px-8 phoneSm:mt-14 tabletXs:mt-16 tabletXs:px-14 lg:px-20 xl:px-spacing-1"
         >
 
           <!-- About -->
@@ -54,13 +54,13 @@
           <div>
 
             <h2
-              class="font-head font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+              class="font-heading font-bold text-xl text-blackPrimary phoneSm:text-2xl tabletXs:text-display"
             >
                About
             </h2>
 
             <p
-              class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4 xlarge:max-w-mw 2xlarge:max-w-mw2"
+              class="text-grayDark mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4 xl:max-w-max-width-5 2xl:max-w-max-width-6"
             >
                FindFont is an app design project that helps you find typeface names
               on images.
@@ -70,10 +70,10 @@
 
           <!-- Technologies (For Screens Lower Than 1280px) -->
 
-          <div class="mt-12 tab:mt-14 xlarge:hidden">
+          <div class="mt-12 tabletXs:mt-14 xl:hidden">
 
             <h2
-              class="font-head font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+              class="font-heading font-bold text-xl text-blackPrimary mb-5 phoneSm:text-2xl tabletXs:mb-8 lg:mb-7 tabletXs:text-display"
             >
                Technologies
             </h2>
@@ -81,7 +81,7 @@
             <div class="flex flex-wrap">
 
               <span
-                class="font-bold hidden bg-grey text-whiteSoft rounded-full w-auto px-6 py-1.5 small:block phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                class="font-bold hidden bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 sm:block phoneSm:text-lg tabletXs:text-xl tabletXs:py-2 lg:text-xl lg:px-8"
               >
                 Figma
               </span>
@@ -92,17 +92,17 @@
 
           <!-- Link -->
 
-          <div class="mt-16 tab:mt-20 xlarge:mt-36">
+          <div class="mt-16 tabletXs:mt-20 xl:mt-36">
 
             <h2
-              class="font-head font-bold text-xl text-black phone:text-2xl tab:text-fsz"
+              class="font-heading font-bold text-xl text-blackPrimary phoneSm:text-2xl tabletXs:text-display"
             >
                Link
             </h2>
 
             <a href="https://bit.ly/3o05BXK" target="_blank">
               <p
-                class="text-grey mt-2 phone:text-lg tab:mt-5 tab:text-xl large:text-xl large:mt-4"
+                class="text-grayDark mt-2 phoneSm:text-lg tabletXs:mt-5 tabletXs:text-xl lg:text-xl lg:mt-4"
               >
 
                 <hover>FindFont</hover>
@@ -116,22 +116,20 @@
 
         <!-- Technologies (For Screens Higher Than 1279px) -->
 
-        <div
-          class="hidden xlarge:mt-16 xlarge:pr-spc2 xlarge:block xlarge:mr-mr-sp"
-        >
+        <div class="hidden xl:mt-16 xl:pr-spacing-2 xl:block xl:mr-special">
 
           <div>
 
             <h2
-              class="font-head font-bold text-xl text-black mb-5 phone:text-2xl tab:mb-8 large:mb-7 tab:text-fsz"
+              class="font-heading font-bold text-xl text-blackPrimary mb-5 phoneSm:text-2xl tabletXs:mb-8 lg:mb-7 tabletXs:text-display"
             >
                Technologies
             </h2>
 
-            <div class="flex mb-6 small:mb-6 tab:mb-10 large:mb-10">
+            <div class="flex mb-6 sm:mb-6 tabletXs:mb-10 lg:mb-10">
 
               <span
-                class="font-bold bg-grey text-whiteSoft rounded-full w-auto px-6 py-1.5 phone:text-lg tab:text-xl tab:py-2 large:text-xl large:px-8"
+                class="font-bold bg-grayDark text-whiteSoft rounded-full w-auto px-6 py-1.5 phoneSm:text-lg tabletXs:text-xl tabletXs:py-2 lg:text-xl lg:px-8"
               >
                 Figma
               </span>
@@ -172,4 +170,3 @@ export default {
 <style scoped>
 @import "../../styles/nav.css";
 </style>
-
