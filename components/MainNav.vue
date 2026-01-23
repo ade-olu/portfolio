@@ -1,150 +1,252 @@
 <template>
+
   <div>
+
     <!-- For Screens Lower Than 769px -->
+
     <!-- Nav Menu -->
+
     <transition name="fade" v-on:enter="enter">
+
       <div
-        class="nav-menu-2 fixed w-full h-screen bg-light z-30 flex flex-col items-center justify-center large:hidden"
+        class="nav-menu-2 fixed w-full h-screen bg-backgroundLight z-30 flex flex-col items-center justify-center lg:hidden"
         v-if="isActive"
         id="nMenu"
       >
+
         <ul
-          class="nav-links phone:text-lg flex flex-col items-center justify-center text-black"
+          class="nav-links phoneSm:text-lg flex flex-col items-center justify-center text-blackPrimary"
           id="nLinks"
         >
+
           <li class="my-6">
+
             <a href="#projects" @click="close">
+
               <span class="n-active"><hover>Projects</hover></span>
+
             </a>
+
           </li>
+
           <li class="my-6">
+
             <span @click="visible" class="n-active">
+
               <hover>Designs</hover>
+
             </span>
+
           </li>
+
           <li class="my-6">
+
             <a href="https://tinyurl.com/mr396s3c" target="_blank">
+
               <span class="n-active"><hover>Resume</hover></span>
+
             </a>
+
           </li>
+
           <li class="my-6">
+
             <a href="#contact" @click="close">
+
               <span class="n-active"><hover>Contact</hover></span>
+
             </a>
+
           </li>
+
         </ul>
+
       </div>
+
     </transition>
 
     <!-- Navbar -->
+
     <nav class="bg-white z-20" id="nav">
+
       <div
-        class="xlarge:absolute z-20 w-full h-ht flex items-center py-5 px-5 justify-between tab:h-32 tab:px-10 large:px-logo large:h-36 xlarge:px-20"
+        class="xl:absolute z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tabletXs:h-32 tabletXs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
       >
+
         <!-- Logo -->
+
         <a href="/" class="z-40">
+
           <img
-            class="w-wt phone:w-sz tab:w-16 large:w-16"
+            class="w-width-6 phoneSm:w-width-7 tabletXs:w-16 lg:w-16"
             src="../assets/logo.svg"
             alt="Logo"
           />
+
         </a>
 
         <!-- For Screens Higher Than 768px -->
+
         <!-- Nav Menu -->
-        <div class="nav-menu hidden large:block" id="nMenu">
+
+        <div class="nav-menu hidden lg:block" id="nMenu">
+
           <ul
-            class="nav-links large:flex large:flex-row large:items-center large:text-xl text-black"
+            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-xl text-blackPrimary"
             id="nLinks"
           >
-            <li class="large:mx-6">
+
+            <li class="lg:mx-6">
+
               <a
                 href="#projects"
                 v-scroll-to="{ el: '#projects', duration: 1000 }"
               >
+
                 <span class="n-active"><hover>Projects</hover></span>
+
               </a>
+
             </li>
-            <li class="large:mx-6">
+
+            <li class="lg:mx-6">
+
               <span @click="visible" class="n-active">
+
                 <hover>Designs</hover>
+
               </span>
+
             </li>
-            <li class="large:mx-6">
+
+            <li class="lg:mx-6">
+
               <a href="https://tinyurl.com/mr396s3c" target="_blank">
+
                 <span class="n-active"><hover>Resume</hover></span>
+
               </a>
+
             </li>
-            <li class="large:mx-6">
+
+            <li class="lg:mx-6">
+
               <a
                 href="#contact"
                 v-scroll-to="{ el: '#contact', duration: 1000 }"
               >
+
                 <span class="n-active"><hover>Contact</hover></span>
+
               </a>
+
             </li>
+
           </ul>
+
         </div>
 
         <!-- For Screens Lower Than 769px -->
+
         <!-- Hamburger Menu -->
-        <div class="flex item-center relative w-10 z-40 mr-0.5 large:hidden">
+
+        <div class="flex item-center relative w-10 z-40 mr-0.5 lg:hidden">
+
           <div
             class="hamburger-menu"
             @click="menu"
             :class="{ animate: isActive }"
           ></div>
+
         </div>
+
       </div>
+
     </nav>
 
     <!-- Design Modal -->
+
     <transition name="fade" v-on:enter="enter">
+
       <div
-        class="bg-bl fixed inset-0 z-30 flex justify-center items-center px-6 tab:px-0"
+        class="bg-blackOpacity50 fixed inset-0 z-30 flex justify-center items-center px-6 tabletXs:px-0"
         v-if="isVisible"
       >
+
         <div
-          class="modal flex flex-col w-full rounded-md bg-light p-8 max-w-mx tab:max-w-mx2 large:max-w-mx3 large:p-10 xlarge:max-w-mx4"
+          class="modal flex flex-col w-full rounded-md bg-backgroundLight p-8 max-w-max-width-2 tabletXs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
         >
+
           <div class="flex justify-between items-start">
+
             <ul
-              class="nav-links large:flex large:flex-col phone:text-lg large:text-xl text-black"
+              class="nav-links lg:flex lg:flex-col phoneSm:text-lg lg:text-xl text-blackPrimary"
               id="nLinks"
             >
-              <li class="mb-8 large:mb-5">
+
+              <li class="mb-8 lg:mb-5">
+
                 <a href="#designs" @click="notVisible">
+
                   <span class="n-active"><hover>Designs</hover></span>
+
                 </a>
+
               </li>
-              <li class="my-8 large:my-5">
+
+              <li class="my-8 lg:my-5">
+
                 <nuxt-link to="/designs/ui">
+
                   <span class="n-active"><hover>UI</hover></span>
+
                 </nuxt-link>
+
               </li>
-              <li class="my-8 large:my-5">
+
+              <li class="my-8 lg:my-5">
+
                 <nuxt-link to="/designs/illustrations">
+
                   <span class="n-active"><hover>Illustrations</hover></span>
+
                 </nuxt-link>
+
               </li>
-              <li class="mt-8 large:mt-5">
+
+              <li class="mt-8 lg:my-5">
+
                 <nuxt-link to="/designs/3d">
+
                   <span class="n-active"><hover>3D</hover></span>
+
                 </nuxt-link>
+
               </li>
+
             </ul>
+
             <!-- Close -->
+
             <button class="focus:outline-none" @click="visible">
+
               <img
                 src="../assets/close.svg"
-                class="h-6 phone:h-7 large:h-media3"
+                class="h-6 phoneSm:h-7 lg:h-height-5"
               />
+
             </button>
+
           </div>
+
         </div>
+
       </div>
+
     </transition>
+
   </div>
+
 </template>
 
 <script>
@@ -186,5 +288,4 @@ export default {
 <style scoped>
 @import "../styles/nav.css";
 </style>
-
 
