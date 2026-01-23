@@ -305,6 +305,13 @@ export default {
     Designs,
   },
 
+  data() {
+    return {
+      active: false,
+      zIndex: false,
+    };
+  },
+
   mounted() {},
 };
 </script>

@@ -165,6 +165,13 @@ export default {
     };
   },
 
+  data() {
+    return {
+      active: false,
+      zIndex: false,
+    };
+  },
+
   mounted() {},
 };
 </script>
