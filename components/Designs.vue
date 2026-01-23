@@ -14,13 +14,14 @@
         <!-- Heading -->
 
         <h1
-          class="quote font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading- 2xl:text-heading-6"
+          class="quote font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 2xl:text-heading-6"
         >
 
           <span class="relative z-10">Designs</span>
 
           <span
             class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
+            data-cursor-hover
           >
 
             <img
@@ -41,7 +42,7 @@
       class="grid grid-col-1 px-8 gap-14 mt-11 phone-sm:mt-12 tablet-xs:px-14 tablet-xs:gap-14 lg:mt-16 lg:px-24 lg:grid-cols-2 lg:gap-24"
     >
 
-      <!-- Talkease -->
+      <!-- TalkEase -->
 
       <div
         class="relative bg-talkease rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
@@ -53,10 +54,9 @@
           alt="TalkEase"
         />
 
-        <!-- Overlay -->
-
         <nuxt-link
           to="/works/talkease"
+          data-cursor-hover
           class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -65,8 +65,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -85,8 +83,6 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
@@ -98,8 +94,6 @@
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -119,10 +113,9 @@
           alt="TripVoyager"
         />
 
-        <!-- Overlay -->
-
         <nuxt-link
           to="/works/tripvoyager"
+          data-cursor-hover
           class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -131,8 +124,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -150,8 +141,6 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
@@ -163,8 +152,6 @@
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -184,10 +171,9 @@
           alt="FindFont"
         />
 
-        <!-- Overlay -->
-
         <nuxt-link
           to="/works/findfont"
+          data-cursor-hover
           class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -196,8 +182,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -215,8 +199,6 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
@@ -228,8 +210,6 @@
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -249,10 +229,9 @@
           alt="Ear1"
         />
 
-        <!-- Overlay -->
-
         <nuxt-link
           to="/works/ear1"
+          data-cursor-hover
           class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -261,8 +240,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -280,8 +257,6 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
@@ -293,8 +268,6 @@
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -314,10 +287,9 @@
           alt="GetFood"
         />
 
-        <!-- Overlay -->
-
         <nuxt-link
           to="/works/getfood"
+          data-cursor-hover
           class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -326,8 +298,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -345,8 +315,6 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
@@ -358,8 +326,6 @@
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 

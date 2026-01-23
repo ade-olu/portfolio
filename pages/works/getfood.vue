@@ -105,9 +105,7 @@
               <p
                 class="text-gray-dark mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4"
               >
-
-                <hover>GetFood</hover>
-
+                 GetFood
               </p>
 
             </a>

@@ -2,26 +2,22 @@
 
   <div>
 
-    <!-- For Screens Lower Than 769px -->
-
-    <!-- Nav Menu -->
+    <!-- Mobile Nav Menu (Screens < 769px) -->
 
     <transition name="fade" v-on:enter="enter">
 
       <div
         class="nav-menu-2 fixed w-full h-screen bg-background-light z-30 flex flex-col items-center justify-center lg:hidden"
         v-if="isActive"
-        id="nMenu"
       >
 
         <ul
           class="nav-links phone-sm:text-lg flex flex-col items-center justify-center text-black-primary"
-          id="nLinks"
         >
 
           <li class="my-6">
 
-            <a href="#projects" @click="close">
+            <a href="#projects" @click="close" data-cursor-hover>
 
               <span class="n-active"><hover>Projects</hover></span>
 
@@ -31,7 +27,7 @@
 
           <li class="my-6">
 
-            <span @click="visible" class="n-active">
+            <span @click="visible" class="n-active" data-cursor-hover>
 
               <hover>Designs</hover>
 
@@ -41,7 +37,11 @@
 
           <li class="my-6">
 
-            <a href="https://tinyurl.com/mr396s3c" target="_blank">
+            <a
+              href="https://tinyurl.com/mr396s3c"
+              target="_blank"
+              data-cursor-hover
+            >
 
               <span class="n-active"><hover>Resume</hover></span>
 
@@ -51,7 +51,7 @@
 
           <li class="my-6">
 
-            <a href="#contact" @click="close">
+            <a href="#contact" @click="close" data-cursor-hover>
 
               <span class="n-active"><hover>Contact</hover></span>
 
@@ -75,7 +75,7 @@
 
         <!-- Logo -->
 
-        <a href="/" class="z-40">
+        <a href="/" data-cursor-hover>
 
           <img
             class="w-width-6 phone-sm:w-width-7 tablet-xs:w-16 lg:w-16"
@@ -85,15 +85,12 @@
 
         </a>
 
-        <!-- For Screens Higher Than 768px -->
+        <!-- Desktop Nav Menu (Screens ≥ 769px) -->
 
-        <!-- Nav Menu -->
-
-        <div class="nav-menu hidden lg:block" id="nMenu">
+        <div class="nav-menu hidden lg:block">
 
           <ul
             class="nav-links lg:flex lg:flex-row lg:items-center lg:text-xl text-black-primary"
-            id="nLinks"
           >
 
             <li class="lg:mx-6">
@@ -101,6 +98,7 @@
               <a
                 href="#projects"
                 v-scroll-to="{ el: '#projects', duration: 1000 }"
+                data-cursor-hover
               >
 
                 <span class="n-active"><hover>Projects</hover></span>
@@ -111,7 +109,7 @@
 
             <li class="lg:mx-6">
 
-              <span @click="visible" class="n-active">
+              <span @click="visible" class="n-active" data-cursor-hover>
 
                 <hover>Designs</hover>
 
@@ -121,7 +119,11 @@
 
             <li class="lg:mx-6">
 
-              <a href="https://tinyurl.com/mr396s3c" target="_blank">
+              <a
+                href="https://tinyurl.com/mr396s3c"
+                target="_blank"
+                data-cursor-hover
+              >
 
                 <span class="n-active"><hover>Resume</hover></span>
 
@@ -134,6 +136,7 @@
               <a
                 href="#contact"
                 v-scroll-to="{ el: '#contact', duration: 1000 }"
+                data-cursor-hover
               >
 
                 <span class="n-active"><hover>Contact</hover></span>
@@ -146,16 +149,15 @@
 
         </div>
 
-        <!-- For Screens Lower Than 769px -->
+        <!-- Mobile Hamburger -->
 
-        <!-- Hamburger Menu -->
-
-        <div class="flex item-center relative w-10 z-40 mr-0.5 lg:hidden">
+        <div class="flex items-center relative w-10 z-40 mr-0.5 lg:hidden">
 
           <div
             class="hamburger-menu"
             @click="menu"
             :class="{ animate: isActive }"
+            data-cursor-hover
           ></div>
 
         </div>
@@ -181,12 +183,11 @@
 
             <ul
               class="nav-links lg:flex lg:flex-col phone-sm:text-lg lg:text-xl text-black-primary"
-              id="nLinks"
             >
 
               <li class="mb-8 lg:mb-5">
 
-                <a href="#designs" @click="notVisible">
+                <a href="#designs" @click="notVisible" data-cursor-hover>
 
                   <span class="n-active"><hover>Designs</hover></span>
 
@@ -196,7 +197,7 @@
 
               <li class="my-8 lg:my-5">
 
-                <nuxt-link to="/designs/ui">
+                <nuxt-link to="/designs/ui" data-cursor-hover>
 
                   <span class="n-active"><hover>UI</hover></span>
 
@@ -206,7 +207,7 @@
 
               <li class="my-8 lg:my-5">
 
-                <nuxt-link to="/designs/illustrations">
+                <nuxt-link to="/designs/illustrations" data-cursor-hover>
 
                   <span class="n-active"><hover>Illustrations</hover></span>
 
@@ -216,7 +217,7 @@
 
               <li class="mt-8 lg:my-5">
 
-                <nuxt-link to="/designs/3d">
+                <nuxt-link to="/designs/3d" data-cursor-hover>
 
                   <span class="n-active"><hover>3D</hover></span>
 
@@ -226,9 +227,13 @@
 
             </ul>
 
-            <!-- Close -->
+            <!-- Close Modal -->
 
-            <button class="focus:outline-none" @click="visible">
+            <button
+              class="focus:outline-none"
+              @click="visible"
+              data-cursor-hover
+            >
 
               <img
                 src="../assets/close.svg"

@@ -54,19 +54,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/works">
+            <nuxt-link to="/designs/works" data-cursor-hover>
 
-              <span><hover class="n-active">Works</hover></span>
-
-            </nuxt-link>
-
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-
-            <nuxt-link to="/designs/ui">
-
-              <span class="n-active"><hover>UI</hover></span>
+              <span class="n-active">Works</span>
 
             </nuxt-link>
 
@@ -74,9 +64,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/illustrations">
+            <nuxt-link to="/designs/ui" data-cursor-hover>
 
-              <span class="n-active"><hover>Illustrations</hover></span>
+              <span class="n-active">UI</span>
 
             </nuxt-link>
 
@@ -84,9 +74,19 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/3d">
+            <nuxt-link to="/designs/illustrations" data-cursor-hover>
 
-              <span class="active"><hover>3D</hover></span>
+              <span class="n-active">Illustrations</span>
+
+            </nuxt-link>
+
+          </li>
+
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+
+            <nuxt-link to="/designs/3d" data-cursor-hover>
+
+              <span class="active">3D</span>
 
             </nuxt-link>
 
@@ -110,9 +110,8 @@
             class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/living-room.png"
             alt="Living Room"
+            data-cursor-hover
           />
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -126,9 +125,8 @@
             class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/room.png"
             alt="Room"
+            data-cursor-hover
           />
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -142,9 +140,8 @@
             class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/kitchen.png"
             alt="Kitchen"
+            data-cursor-hover
           />
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -158,9 +155,8 @@
             class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/house.png"
             alt="House"
+            data-cursor-hover
           />
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -174,9 +170,8 @@
             class="w-full h-full rounded-md object-cover"
             src="../../assets/designs/3d/living-room-2.png"
             alt="Living Room 2"
+            data-cursor-hover
           />
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 

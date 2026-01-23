@@ -38,6 +38,7 @@
 
               <span
                 class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
+                data-cursor-hover
               >
 
                 <img
@@ -111,6 +112,7 @@
 
             <span
               class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
+              data-cursor-hover
             >
 
               <img
@@ -207,6 +209,7 @@
     <div
       class="bg-black-primary relative flex flex-col justify-center items-center w-full py-8 px-5 tablet-xs:px-10 tablet-xs:py-10 lg:flex-row-reverse lg:justify-between lg:h-36 lg:px-logo-padding xl:px-0"
       id="footer"
+      data-cursor-hover
     >
 
       <div class="flex flex-row xl:px-20">
@@ -283,8 +286,6 @@
       >
          © {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju
       </p>
-
-      <hover class="absolute w-full h-full"></hover>
 
     </div>
 

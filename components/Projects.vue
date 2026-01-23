@@ -21,6 +21,7 @@
 
           <span
             class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
+            data-cursor-hover
           >
 
             <img
@@ -57,6 +58,7 @@
 
         <nuxt-link
           to="/works/vect"
+          data-cursor-hover
           class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -116,8 +118,6 @@
 
             </div>
 
-            <hover class="absolute w-full h-full"></hover>
-
           </div>
 
         </nuxt-link>
@@ -140,6 +140,7 @@
 
         <nuxt-link
           to="/works/weatherly"
+          data-cursor-hover
           class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -148,8 +149,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -168,45 +167,41 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   HTML
+                  HTML
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   CSS
+                  CSS
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   JavaScript
+                  JavaScript
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Node.js
+                  Node.js
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Figma
+                  Figma
                 </span>
 
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -230,6 +225,7 @@
 
         <nuxt-link
           to="/works/travu"
+          data-cursor-hover
           class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -238,8 +234,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -257,39 +251,35 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Vue.js
+                  Vue.js
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Nuxt.js
+                  Nuxt.js
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Tailwind CSS
+                  Tailwind CSS
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Figma
+                  Figma
                 </span>
 
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 
@@ -313,6 +303,7 @@
 
         <nuxt-link
           to="/works/portfolio"
+          data-cursor-hover
           class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
         >
 
@@ -321,8 +312,6 @@
             <div
               class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 xs:p-6 tablet-xs:p-10"
             >
-
-              <!-- Overlay Title & Subtitle -->
 
               <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
 
@@ -340,39 +329,35 @@
 
               </div>
 
-              <!-- Technologies -->
-
               <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Vue.js
+                  Vue.js
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Nuxt.js
+                  Nuxt.js
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Tailwind CSS
+                  Tailwind CSS
                 </span>
 
                 <span
                   class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
                 >
-                   Figma
+                  Figma
                 </span>
 
               </div>
 
             </div>
-
-            <hover class="absolute w-full h-full"></hover>
 
           </div>
 

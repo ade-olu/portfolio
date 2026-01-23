@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'CustomCursor',
+  name: "CustomCursor",
   props: {
     targets: Array,
     circleColor: String,
@@ -35,48 +35,85 @@ export default {
       dotPosY: null,
       circleStyle: null,
       dotStyle: null,
-    }
+    };
   },
   methods: {
     customCursor(e) {
       // Cursor Pos
-      this.x = e.clientX
-      this.y = e.clientY
+      this.x = e.clientX;
+      this.y = e.clientY;
 
       // Cursor Circle
-      const circle = this.$refs.customCursorCircle
-      this.circlePosX = this.x - circle.clientWidth / 2
-      this.circlePosY = this.y - circle.clientWidth / 2
+      const circle = this.$refs.customCursorCircle;
+      this.circlePosX = this.x - circle.clientWidth / 2;
+      this.circlePosY = this.y - circle.clientWidth / 2;
 
-      // Cursor Circle
-      const dot = this.$refs.customCursorDot
-      this.dotPosX = this.x - dot.clientWidth / 2
-      this.dotPosY = this.y - dot.clientHeight / 2
+      // Cursor Dot
+      const dot = this.$refs.customCursorDot;
+      this.dotPosX = this.x - dot.clientWidth / 2;
+      this.dotPosY = this.y - dot.clientHeight / 2;
+
+      // Check if hovering over target
+      let isHovering = false;
+      const target = e.target;
+
+      if (this.targets.length > 0) {
+        for (let selector of this.targets) {
+          if (selector.startsWith("[") && selector.endsWith("]")) {
+            // Handle attribute selectors like '[data-cursor-hover]'
+            const attr = selector.slice(1, -1);
+            if (target.hasAttribute(attr)) {
+              isHovering = true;
+              break;
+            }
+            // Check parent elements
+            const parent = target.closest(selector);
+            if (parent) {
+              isHovering = true;
+              break;
+            }
+          } else {
+            // Handle tag names - check if target matches exactly
+            if (
+              target.tagName &&
+              target.tagName.toLowerCase() === selector.toLowerCase()
+            ) {
+              isHovering = true;
+              break;
+            }
+            // Also check if any parent element matches using closest
+            const matchedParent = target.closest(selector);
+            if (matchedParent) {
+              isHovering = true;
+              break;
+            }
+          }
+        }
+      }
 
       // Change Style When Hovering On Selected Targets
-      if (
-        (this.targets.length > 0 &&
-          this.targets.includes(e.target.tagName.toLowerCase())) ||
-        this.targets.includes(e.target.className.toLowerCase())
-      ) {
-        this.scale = this.hoverSize
-        this.circleStyle = { borderColor: this.circleColorHover }
-        this.dotStyle = { backgroundColor: this.dotColorHover }
+      if (isHovering) {
+        this.scale = this.hoverSize;
+        this.circleStyle = { borderColor: this.circleColorHover };
+        this.dotStyle = { backgroundColor: this.dotColorHover };
       } else {
-        this.scale = 1
-        this.circleStyle = { borderColor: this.circleColor }
-        this.dotStyle = { backgroundColor: this.dotColor }
+        this.scale = 1;
+        this.circleStyle = { borderColor: this.circleColor };
+        this.dotStyle = { backgroundColor: this.dotColor };
       }
 
       // Move Custom Cursor
-      circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`
-      dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`
+      circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`;
+      dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`;
     },
   },
   mounted() {
-    window.addEventListener('mousemove', this.customCursor)
+    window.addEventListener("mousemove", this.customCursor);
   },
-}
+  beforeDestroy() {
+    window.removeEventListener("mousemove", this.customCursor);
+  },
+};
 </script>
 
 <style scoped>

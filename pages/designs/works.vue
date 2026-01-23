@@ -35,6 +35,7 @@
               class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 xl:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
+              data-cursor-hover
             />
 
           </span>
@@ -54,19 +55,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/works">
+            <nuxt-link to="/designs/works" data-cursor-hover>
 
-              <span><hover class="active">Works</hover></span>
-
-            </nuxt-link>
-
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-
-            <nuxt-link to="/designs/ui">
-
-              <span class="n-active"><hover>UI</hover></span>
+              <span class="active">Works</span>
 
             </nuxt-link>
 
@@ -74,9 +65,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/illustrations">
+            <nuxt-link to="/designs/ui" data-cursor-hover>
 
-              <span class="n-active"><hover>Illustrations</hover></span>
+              <span class="n-active">UI</span>
 
             </nuxt-link>
 
@@ -84,9 +75,19 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/3d">
+            <nuxt-link to="/designs/illustrations" data-cursor-hover>
 
-              <span class="n-active"><hover>3D</hover></span>
+              <span class="n-active">Illustrations</span>
+
+            </nuxt-link>
+
+          </li>
+
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+
+            <nuxt-link to="/designs/3d" data-cursor-hover>
+
+              <span class="n-active">3D</span>
 
             </nuxt-link>
 
@@ -104,12 +105,14 @@
 
         <div
           class="relative bg-talkease rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
           <img
             class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/talkease.svg"
             alt="TalkEase"
+            data-cursor-hover
           />
 
           <!-- Overlay -->
@@ -117,26 +120,31 @@
           <nuxt-link
             to="/works/talkease"
             class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            data-cursor-hover
           >
 
-            <div class="overlay-inner w-full h-full">
+            <div class="overlay-inner w-full h-full" data-cursor-hover>
 
               <div
                 class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
+                data-cursor-hover
               >
 
-                <!-- Overlay Title & Subtitle -->
-
-                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+                <div
+                  class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9"
+                  data-cursor-hover
+                >
 
                   <h1
                     class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    data-cursor-hover
                   >
                      TalkEase
                   </h1>
 
                   <p
                     class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    data-cursor-hover
                   >
                      An app design for real-time multilingual communication using
                     AI translation.
@@ -144,12 +152,14 @@
 
                 </div>
 
-                <!-- Technologies -->
-
-                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
+                <div
+                  class="flex flex-wrap gap-4 tablet-xs:gap-6"
+                  data-cursor-hover
+                >
 
                   <span
                     class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    data-cursor-hover
                   >
                      Figma
                   </span>
@@ -157,8 +167,6 @@
                 </div>
 
               </div>
-
-              <hover class="absolute w-full h-full"></hover>
 
             </div>
 
@@ -170,12 +178,14 @@
 
         <div
           class="relative bg-tripvoyager rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
           <img
             class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/tripvoyager.svg"
             alt="TripVoyager"
+            data-cursor-hover
           />
 
           <!-- Overlay -->
@@ -183,38 +193,45 @@
           <nuxt-link
             to="/works/tripvoyager"
             class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            data-cursor-hover
           >
 
-            <div class="overlay-inner w-full h-full">
+            <div class="overlay-inner w-full h-full" data-cursor-hover>
 
               <div
                 class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
+                data-cursor-hover
               >
 
-                <!-- Overlay Title & Subtitle -->
-
-                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+                <div
+                  class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9"
+                  data-cursor-hover
+                >
 
                   <h1
                     class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    data-cursor-hover
                   >
                      TripVoyager
                   </h1>
 
                   <p
                     class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    data-cursor-hover
                   >
                      An app design for planning vacations and trips.
                   </p>
 
                 </div>
 
-                <!-- Technologies -->
-
-                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
+                <div
+                  class="flex flex-wrap gap-4 tablet-xs:gap-6"
+                  data-cursor-hover
+                >
 
                   <span
                     class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    data-cursor-hover
                   >
                      Figma
                   </span>
@@ -222,8 +239,6 @@
                 </div>
 
               </div>
-
-              <hover class="absolute w-full h-full"></hover>
 
             </div>
 
@@ -235,12 +250,14 @@
 
         <div
           class="relative bg-gradient-to-tr from-brand-orange to-brand-orange-light rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
           <img
             class="ml-4 w-width-11 sm:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
             src="../../assets/works/findfont.svg"
             alt="FindFont"
+            data-cursor-hover
           />
 
           <!-- Overlay -->
@@ -248,38 +265,45 @@
           <nuxt-link
             to="/works/findfont"
             class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            data-cursor-hover
           >
 
-            <div class="overlay-inner w-full h-full">
+            <div class="overlay-inner w-full h-full" data-cursor-hover>
 
               <div
                 class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
+                data-cursor-hover
               >
 
-                <!-- Overlay Title & Subtitle -->
-
-                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+                <div
+                  class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9"
+                  data-cursor-hover
+                >
 
                   <h1
                     class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    data-cursor-hover
                   >
                      FindFont
                   </h1>
 
                   <p
                     class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    data-cursor-hover
                   >
                      An app design for finding typeface names on images.
                   </p>
 
                 </div>
 
-                <!-- Technologies -->
-
-                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
+                <div
+                  class="flex flex-wrap gap-4 tablet-xs:gap-6"
+                  data-cursor-hover
+                >
 
                   <span
                     class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    data-cursor-hover
                   >
                      Figma
                   </span>
@@ -287,8 +311,6 @@
                 </div>
 
               </div>
-
-              <hover class="absolute w-full h-full"></hover>
 
             </div>
 
@@ -300,12 +322,14 @@
 
         <div
           class="relative bg-ear1 rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
           <img
             class="w-24 sm:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44"
             src="../../assets/works/ear1.svg"
             alt="Ear1"
+            data-cursor-hover
           />
 
           <!-- Overlay -->
@@ -313,38 +337,45 @@
           <nuxt-link
             to="/works/ear1"
             class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            data-cursor-hover
           >
 
-            <div class="overlay-inner w-full h-full">
+            <div class="overlay-inner w-full h-full" data-cursor-hover>
 
               <div
                 class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
+                data-cursor-hover
               >
 
-                <!-- Overlay Title & Subtitle -->
-
-                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+                <div
+                  class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9"
+                  data-cursor-hover
+                >
 
                   <h1
                     class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    data-cursor-hover
                   >
                      Ear1
                   </h1>
 
                   <p
                     class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    data-cursor-hover
                   >
                      A website design concept for Ear1.
                   </p>
 
                 </div>
 
-                <!-- Technologies -->
-
-                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
+                <div
+                  class="flex flex-wrap gap-4 tablet-xs:gap-6"
+                  data-cursor-hover
+                >
 
                   <span
                     class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    data-cursor-hover
                   >
                      Figma
                   </span>
@@ -352,8 +383,6 @@
                 </div>
 
               </div>
-
-              <hover class="absolute w-full h-full"></hover>
 
             </div>
 
@@ -365,12 +394,14 @@
 
         <div
           class="relative bg-getfood rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
           <img
             class="w-24 sm:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44"
             src="../../assets/works/getfood.svg"
             alt="GetFood"
+            data-cursor-hover
           />
 
           <!-- Overlay -->
@@ -378,38 +409,45 @@
           <nuxt-link
             to="/works/getfood"
             class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            data-cursor-hover
           >
 
-            <div class="overlay-inner w-full h-full">
+            <div class="overlay-inner w-full h-full" data-cursor-hover>
 
               <div
                 class="absolute flex flex-col justify-end rounded-md top-0 left-0 w-full h-full p-6 sm:p-6 tablet-xs:p-10 lg:p-8 xl:p-10"
+                data-cursor-hover
               >
 
-                <!-- Overlay Title & Subtitle -->
-
-                <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+                <div
+                  class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9"
+                  data-cursor-hover
+                >
 
                   <h1
                     class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
+                    data-cursor-hover
                   >
                      GetFood
                   </h1>
 
                   <p
                     class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+                    data-cursor-hover
                   >
                      An app design for ordering meals.
                   </p>
 
                 </div>
 
-                <!-- Technologies -->
-
-                <div class="flex flex-wrap gap-4 tablet-xs:gap-6">
+                <div
+                  class="flex flex-wrap gap-4 tablet-xs:gap-6"
+                  data-cursor-hover
+                >
 
                   <span
                     class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+                    data-cursor-hover
                   >
                      Figma
                   </span>
@@ -417,8 +455,6 @@
                 </div>
 
               </div>
-
-              <hover class="absolute w-full h-full"></hover>
 
             </div>
 
@@ -474,3 +510,4 @@ export default {
   }
 }
 </style>
+

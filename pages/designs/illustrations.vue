@@ -35,6 +35,7 @@
               class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
+              data-cursor-hover
             />
 
           </span>
@@ -54,19 +55,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/works">
+            <nuxt-link to="/designs/works" data-cursor-hover>
 
-              <span><hover class="n-active">Works</hover></span>
-
-            </nuxt-link>
-
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-
-            <nuxt-link to="/designs/ui">
-
-              <span class="n-active"><hover>UI</hover></span>
+              <span class="n-active">Works</span>
 
             </nuxt-link>
 
@@ -74,9 +65,9 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/illustrations">
+            <nuxt-link to="/designs/ui" data-cursor-hover>
 
-              <span class="active"><hover>Illustrations</hover></span>
+              <span class="n-active">UI</span>
 
             </nuxt-link>
 
@@ -84,9 +75,19 @@
 
           <li class="mx-3 sm:mx-5 phone-sm:mx-6">
 
-            <nuxt-link to="/designs/3d">
+            <nuxt-link to="/designs/illustrations" data-cursor-hover>
 
-              <span class="n-active"><hover>3D</hover></span>
+              <span class="active">Illustrations</span>
+
+            </nuxt-link>
+
+          </li>
+
+          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+
+            <nuxt-link to="/designs/3d" data-cursor-hover>
+
+              <span class="n-active">3D</span>
 
             </nuxt-link>
 
@@ -106,17 +107,16 @@
           class="relative overflow-hidden rounded-md grid justify-end items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md object-cover"
               src="../../assets/designs/illustrations/astronaut.svg"
               alt="Astronaut"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -125,19 +125,19 @@
         <div
           class="relative overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
           style="background: #546dee"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/desktop.svg"
               alt="Desktop"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -145,19 +145,19 @@
 
         <div
           class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/standing.svg"
               alt="Standing"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -165,19 +165,19 @@
 
         <div
           class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/coding.svg"
               alt="Coding"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -185,19 +185,19 @@
 
         <div
           class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/coding-2.svg"
               alt="Coding 2"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -205,19 +205,19 @@
 
         <div
           class="relative bg-sky-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md object-cover"
               src="../../assets/designs/illustrations/deadpool.svg"
               alt="Deadpool"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -225,19 +225,19 @@
 
         <div
           class="relative bg-macos-dark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/macos-icons.svg"
               alt="macOS Icons"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -245,19 +245,19 @@
 
         <div
           class="relative bg-oneui-dark overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md"
               src="../../assets/designs/illustrations/one-ui-icons.svg"
               alt="One UI Icons"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -265,19 +265,19 @@
 
         <div
           class="relative bg-sky-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md object-cover"
               src="../../assets/designs/illustrations/naruto.svg"
               alt="Naruto"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -285,19 +285,19 @@
 
         <div
           class="relative bg-purple-light overflow-hidden rounded-md grid justify-center items-center row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6"
+          data-cursor-hover
         >
 
-          <div class="absolute w-full h-full">
+          <div class="absolute w-full h-full" data-cursor-hover>
 
             <img
               class="w-full h-full rounded-md object-cover"
               src="../../assets/designs/illustrations/madara.svg"
               alt="Madara"
+              data-cursor-hover
             />
 
           </div>
-
-          <hover class="absolute w-full h-full"></hover>
 
         </div>
 
@@ -338,3 +338,4 @@ export default {
 <style scoped>
 @import "../../styles/nav.css";
 </style>
+
