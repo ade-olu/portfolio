@@ -69,7 +69,11 @@ export default defineNuxtConfig({
   },
 
   // CSS is now in app.config or here
-  css: ["~/assets/styles/transition.css"],
+  css: [
+    "~/assets/styles/transition.css",
+    "~/assets/styles/nav.css",
+    "~/assets/styles/tailwind.css",
+  ],
 
   // Modules
   modules: ["@nuxtjs/tailwindcss"],

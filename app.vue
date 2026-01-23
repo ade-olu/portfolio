@@ -7,6 +7,8 @@
 </template>
 
 <style>
+@import "~/assets/styles/tailwind.css";
+
 /* Fonts */
 @font-face {
   font-family: "Grifter";
