@@ -3,91 +3,84 @@
     "name": "designs-3d",
     "path": "/designs/3d",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\designs\\\\3d.vue",
-    "chunkName": "pages/designs/3d",
-    "_name": "_6d0f2157"
+    "chunkName": "pages/designs/3d"
   },
   {
     "name": "designs-illustrations",
     "path": "/designs/illustrations",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\designs\\\\illustrations.vue",
-    "chunkName": "pages/designs/illustrations",
-    "_name": "_ed6a0666"
+    "chunkName": "pages/designs/illustrations"
   },
   {
     "name": "designs-ui",
     "path": "/designs/ui",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\designs\\\\ui.vue",
-    "chunkName": "pages/designs/ui",
-    "_name": "_4415204c"
+    "chunkName": "pages/designs/ui"
   },
   {
     "name": "designs-works",
     "path": "/designs/works",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\designs\\\\works.vue",
-    "chunkName": "pages/designs/works",
-    "_name": "_26c23dac"
+    "chunkName": "pages/designs/works"
   },
   {
     "name": "works-ear1",
     "path": "/works/ear1",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\ear1.vue",
-    "chunkName": "pages/works/ear1",
-    "_name": "_c1320e24"
+    "chunkName": "pages/works/ear1"
   },
   {
     "name": "works-findfont",
     "path": "/works/findfont",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\findfont.vue",
-    "chunkName": "pages/works/findfont",
-    "_name": "_58f2824a"
+    "chunkName": "pages/works/findfont"
   },
   {
     "name": "works-getfood",
     "path": "/works/getfood",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\getfood.vue",
-    "chunkName": "pages/works/getfood",
-    "_name": "_52d6399e"
+    "chunkName": "pages/works/getfood"
   },
   {
     "name": "works-portfolio",
     "path": "/works/portfolio",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\portfolio.vue",
-    "chunkName": "pages/works/portfolio",
-    "_name": "_3ba49885"
+    "chunkName": "pages/works/portfolio"
   },
   {
     "name": "works-talkease",
     "path": "/works/talkease",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\talkease.vue",
-    "chunkName": "pages/works/talkease",
-    "_name": "_78a0caed"
+    "chunkName": "pages/works/talkease"
   },
   {
     "name": "works-travu",
     "path": "/works/travu",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\travu.vue",
-    "chunkName": "pages/works/travu",
-    "_name": "_4caa3742"
+    "chunkName": "pages/works/travu"
   },
   {
     "name": "works-tripvoyager",
     "path": "/works/tripvoyager",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\tripvoyager.vue",
-    "chunkName": "pages/works/tripvoyager",
-    "_name": "_84dcf92a"
+    "chunkName": "pages/works/tripvoyager"
   },
   {
     "name": "works-vect",
     "path": "/works/vect",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\vect.vue",
-    "chunkName": "pages/works/vect",
-    "_name": "_430b5633"
+    "chunkName": "pages/works/vect"
+  },
+  {
+    "name": "works-weatherly",
+    "path": "/works/weatherly",
+    "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\works\\\\weatherly.vue",
+    "chunkName": "pages/works/weatherly"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\adegb\\\\Tech\\\\Old Projects\\\\portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_36a61ce3"
+    "chunkName": "pages/index"
   }
 ]

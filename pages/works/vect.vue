@@ -89,7 +89,7 @@
               <span
                 class="font-bold bg-gray-dark text-white-soft rounded-full w-auto px-6 py-1.5 ml-6 sm:ml-6 tablet-xs:ml-10 phone-sm:text-lg tablet-xs:text-xl lg:ml-10 lg:text-xl tablet-xs:py-2 lg:px-8 lg:py-2"
               >
-                CSS
+                SCSS
               </span>
 
               <span
