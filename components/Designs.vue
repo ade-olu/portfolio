@@ -3,7 +3,7 @@
   <!-- Designs -->
 
   <div
-    class="mt-2 pt-10 pb-14 bg-white relative w-full h-auto phoneSm:mt-4 tabletXs:mt-10 tabletXs:pt-10 tabletXs:pb-14 lg:mt-8 lg:pt-14 lg:pb-24 xl:mt-14"
+    class="mt-2 pt-10 pb-14 bg-whiteSoft relative w-full h-auto phoneSm:mt-4 tabletXs:mt-10 tabletXs:pt-10 tabletXs:pb-14 lg:mt-8 lg:pt-14 lg:pb-24 xl:mt-14"
     id="designs"
   >
 
@@ -71,7 +71,7 @@
               <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-white text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    TalkEase
                 </h1>
@@ -90,7 +90,7 @@
               <div class="flex flex-wrap gap-4 tabletXs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -104,12 +104,6 @@
           </div>
 
         </nuxt-link>
-
-        <img
-          class="absolute w-full h-full"
-          src="../assets/noise.png"
-          alt="noise"
-        />
 
       </div>
 
@@ -143,7 +137,7 @@
               <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-white text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    TripVoyager
                 </h1>
@@ -161,7 +155,7 @@
               <div class="flex flex-wrap gap-4 tabletXs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -208,7 +202,7 @@
               <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-white text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    FindFont
                 </h1>
@@ -226,7 +220,7 @@
               <div class="flex flex-wrap gap-4 tabletXs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -273,7 +267,7 @@
               <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-white text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    Ear1
                 </h1>
@@ -291,7 +285,7 @@
               <div class="flex flex-wrap gap-4 tabletXs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>
@@ -338,7 +332,7 @@
               <div class="mb-5 tabletXs:mb-9 lg:mb-7 xl:mb-9">
 
                 <h1
-                  class="font-heading text-white text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
+                  class="font-heading text-whiteSoft text-2xl phoneSm:text-display tabletXs:text-4xl lg:text-4xl xl:text-heading-3"
                 >
                    GetFood
                 </h1>
@@ -356,7 +350,7 @@
               <div class="flex flex-wrap gap-4 tabletXs:gap-6">
 
                 <span
-                  class="inline-flex items-center justify-center font-bold bg-gray text-white rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
+                  class="inline-flex items-center justify-center font-bold bg-gray text-whiteSoft rounded-full text-xs phoneSm:text-sm tabletXs:text-base px-4 py-1.5 tabletXs:px-6 tabletXs:py-2 whitespace-nowrap"
                 >
                    Figma
                 </span>

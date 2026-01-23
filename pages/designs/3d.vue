@@ -13,7 +13,7 @@
     <!-- 3D -->
 
     <div
-      class="bg-white relative w-full h-auto pb-16 phoneSm:pb-20 tabletXs:pb-24"
+      class="bg-whiteSoft relative w-full h-auto pb-16 phoneSm:pb-20 tabletXs:pb-24"
       :class="{ change: zIndex }"
     >
 

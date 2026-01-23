@@ -13,7 +13,7 @@
     <!-- Home -->
 
     <div
-      class="bg-white relative w-full h-auto"
+      class="bg-whiteSoft relative w-full h-auto"
       id="home"
       :class="{ change: zIndex }"
     >
@@ -70,7 +70,7 @@
 
           <button
             v-scroll-to="{ el: '#contact', duration: 1000 }"
-            class="focus:outline-none bg-blackPrimary font-bold text-white h-16 px-14 py-2.5 rounded-full mt-8 phoneSm:mt-10 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 tabletXs:text-xl tabletXs:h-height-7 tabletXs:px-20 tabletXs:mt-12 2xl:h-20 2xl:px-20"
+            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-8 phoneSm:mt-10 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 tabletXs:text-xl tabletXs:h-height-7 tabletXs:px-20 tabletXs:mt-12 2xl:h-20 2xl:px-20"
             style="cursor: none"
           >
              Get In Touch
@@ -190,7 +190,7 @@
           <!-- Btn -->
 
           <button
-            class="focus:outline-none bg-blackPrimary font-bold text-white h-16 px-14 py-2.5 rounded-full mt-16 w-width-18 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 phoneSm:w-width-19 tabletXs:text-xl tabletXs:h-height-7 tabletXs:w-width-20 tabletXs:px-20 lg:mt-24 2xl:h-20 2xl:px-20"
+            class="focus:outline-none bg-blackPrimary font-bold text-whiteSoft h-16 px-14 py-2.5 rounded-full mt-16 w-width-18 phoneSm:text-lg phoneSm:h-16 phoneSm:px-20 phoneSm:w-width-19 tabletXs:text-xl tabletXs:h-height-7 tabletXs:w-width-20 tabletXs:px-20 lg:mt-24 2xl:h-20 2xl:px-20"
             style="cursor: none"
           >
              Send
@@ -295,7 +295,7 @@
       <!-- Copyright -->
 
       <p
-        class="text-white mt-6 phoneSm:text-lg tabletXs:mt-8 tabletXs:text-xl lg:mt-0 xl:ml-20"
+        class="text-whiteSoft mt-6 phoneSm:text-lg tabletXs:mt-8 tabletXs:text-xl lg:mt-0 xl:ml-20"
       >
          © {{ new Date().getFullYear() }} Oluwatobiloba Adegbaju
       </p>

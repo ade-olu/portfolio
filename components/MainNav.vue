@@ -67,7 +67,7 @@
 
     <!-- Navbar -->
 
-    <nav class="bg-white z-20" id="nav">
+    <nav class="bg-whiteSoft z-20" id="nav">
 
       <div
         class="xl:absolute z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tabletXs:h-32 tabletXs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
