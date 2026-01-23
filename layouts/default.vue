@@ -31,7 +31,9 @@ export default {
 @font-face {
   font-family: "Grifter";
   src: url("../assets/fonts/Grifter-Bold.eot");
-  src: local("Grifter Bold"), local("Grifter-Bold"),
+  src:
+    local("Grifter Bold"),
+    local("Grifter-Bold"),
     url("../assets/fonts/Grifter-Bold.eot?#iefix") format("embedded-opentype"),
     url("../assets/fonts/Grifter-Bold.woff2") format("woff2"),
     url("../assets/fonts/Grifter-Bold.woff") format("woff"),
@@ -43,7 +45,9 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-Bold.eot");
-  src: local("Plus Jakarta Sans Bold"), local("PlusJakartaSans-Bold"),
+  src:
+    local("Plus Jakarta Sans Bold"),
+    local("PlusJakartaSans-Bold"),
     url("../assets/fonts/PlusJakartaSans-Bold.eot?#iefix")
       format("embedded-opentype"),
     url("../assets/fonts/PlusJakartaSans-Bold.woff2") format("woff2"),
@@ -56,7 +60,9 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-Light.eot");
-  src: local("Plus Jakarta Sans Light"), local("PlusJakartaSans-Light"),
+  src:
+    local("Plus Jakarta Sans Light"),
+    local("PlusJakartaSans-Light"),
     url("../assets/fonts/PlusJakartaSans-Light.eot?#iefix")
       format("embedded-opentype"),
     url("../assets/fonts/PlusJakartaSans-Light.woff2") format("woff2"),
@@ -69,7 +75,9 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-ExtraBold.eot");
-  src: local("Plus Jakarta Sans ExtraBold"), local("PlusJakartaSans-ExtraBold"),
+  src:
+    local("Plus Jakarta Sans ExtraBold"),
+    local("PlusJakartaSans-ExtraBold"),
     url("../assets/fonts/PlusJakartaSans-ExtraBold.eot?#iefix")
       format("embedded-opentype"),
     url("../assets/fonts/PlusJakartaSans-ExtraBold.woff2") format("woff2"),
@@ -82,7 +90,8 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-ExtraLight.eot");
-  src: local("Plus Jakarta Sans ExtraLight"),
+  src:
+    local("Plus Jakarta Sans ExtraLight"),
     local("PlusJakartaSans-ExtraLight"),
     url("../assets/fonts/PlusJakartaSans-ExtraLight.eot?#iefix")
       format("embedded-opentype"),
@@ -96,7 +105,9 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-Regular.eot");
-  src: local("Plus Jakarta Sans Regular"), local("PlusJakartaSans-Regular"),
+  src:
+    local("Plus Jakarta Sans Regular"),
+    local("PlusJakartaSans-Regular"),
     url("../assets/fonts/PlusJakartaSans-Regular.eot?#iefix")
       format("embedded-opentype"),
     url("../assets/fonts/PlusJakartaSans-Regular.woff2") format("woff2"),
@@ -109,7 +120,9 @@ export default {
 @font-face {
   font-family: "Plus Jakarta Sans";
   src: url("../assets/fonts/PlusJakartaSans-Medium.eot");
-  src: local("Plus Jakarta Sans Medium"), local("PlusJakartaSans-Medium"),
+  src:
+    local("Plus Jakarta Sans Medium"),
+    local("PlusJakartaSans-Medium"),
     url("../assets/fonts/PlusJakartaSans-Medium.eot?#iefix")
       format("embedded-opentype"),
     url("../assets/fonts/PlusJakartaSans-Medium.woff2") format("woff2"),
