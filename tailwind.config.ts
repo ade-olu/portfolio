@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from "tailwindcss";
+
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -8,6 +9,7 @@ export default {
     "./app.vue",
     "./error.vue",
   ],
+  safelist: ["bg-gradient-to-tr", "from-brand-orange", "to-brand-orange-light"],
   theme: {
     screens: {
       xs: { min: "360px" },
@@ -162,4 +164,4 @@ export default {
     },
   },
   plugins: [],
-};
+} satisfies Config;

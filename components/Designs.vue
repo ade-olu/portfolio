@@ -125,7 +125,7 @@
         <NuxtLink
           to="/works/findfont"
           data-cursor-hover
-          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-50"
         >
           <div class="overlay-inner w-full h-full">
             <div
