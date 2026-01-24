@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Oluwatobiloba Adegbaju - Frontend Developer & UI/UX Designer",
+      title: "Oluwatobiloba Adegbaju - Web Developer & UI/UX Designer",
       htmlAttrs: {
         lang: "en",
       },
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "I'm a Frontend Developer and UI/UX Designer who loves building significant experiences for people.",
+            "I'm a Web Developer and UI/UX Designer who loves building significant experiences for people.",
         },
         { name: "theme-color", content: "#FD5531" },
         {
@@ -31,20 +31,23 @@ export default defineNuxtConfig({
 
         // Open Graph
         { property: "og:type", content: "website" },
-        { property: "og:url", content: "https://adeolu.dev" },
+        { property: "og:url", content: "https://adeolu.netlify.app" },
         {
           property: "og:title",
-          content: "Frontend Developer & UI/UX Designer",
+          content: "Web Developer & UI/UX Designer",
         },
         { property: "og:site_name", content: "Oluwatobiloba Adegbaju" },
-        { property: "og:image", content: "https://adeolu.dev/twitter.png" },
+        {
+          property: "og:image",
+          content: "https://adeolu.netlify.app/twitter.png",
+        },
         {
           property: "og:image:secure_url",
-          content: "https://adeolu.dev/twitter.png",
+          content: "https://adeolu.netlify.app/twitter.png",
         },
         {
           property: "og:image:alt",
-          content: "Frontend Developer & UI/UX Designer",
+          content: "Web Developer & UI/UX Designer",
         },
 
         // Twitter
@@ -53,17 +56,20 @@ export default defineNuxtConfig({
         { name: "twitter:title", content: "Oluwatobiloba Adegbaju" },
         {
           name: "twitter:description",
-          content: "Frontend Developer & UI/UX Designer",
+          content: "Web Developer & UI/UX Designer",
         },
-        { name: "twitter:image", content: "https://adeolu.dev/twitter.png" },
+        {
+          name: "twitter:image",
+          content: "https://adeolu.netlify.app/twitter.png",
+        },
         {
           name: "twitter:image:alt",
-          content: "Frontend Developer & UI/UX Designer",
+          content: "Web Developer & UI/UX Designer",
         },
       ],
       link: [
         { rel: "icon", type: "image/svg+xml", href: "/logo.svg" },
-        { rel: "canonical", href: "https://adeolu.dev" },
+        { rel: "canonical", href: "https://adeolu.netlify.app" },
       ],
     },
   },
