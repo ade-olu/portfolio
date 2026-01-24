@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt dev",
+    "prebuild": "mkdir -p .netlify/functions-internal/server",
     "build": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
