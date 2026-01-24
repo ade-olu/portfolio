@@ -9,6 +9,11 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2024-01-23",
 
+  // @ts-expect-error - nitro config is valid but not in types
+  nitro: {
+    preset: "static" as const,
+  },
+
   app: {
     head: {
       title: "Oluwatobiloba Adegbaju - Web Developer & UI/UX Designer",
@@ -97,4 +102,4 @@ export default defineNuxtConfig({
     strict: false,
     shim: false,
   },
-});
+}) as any; // Add type assertion here
