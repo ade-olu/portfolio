@@ -15,7 +15,7 @@
       <!-- Heading -->
       <div class="text-center">
         <h1
-          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading- 2xl:text-heading-6"
+          class="font-heading font-bold text-3xl text-black leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-"
         >
           <span class="relative z-10">Designs</span>
 
@@ -23,7 +23,7 @@
             class="relative flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
           >
             <img
-              class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 xl:w-56"
+              class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
               src="../../assets/accent-line.svg"
               alt="Accent Line"
               data-cursor-hover
@@ -82,7 +82,7 @@
           <!-- Overlay -->
           <NuxtLink
             to="/works/talkease"
-            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 rounded-md absolute w-full h-full"
             data-cursor-hover
           >
             <div class="overlay-inner w-full h-full" data-cursor-hover>
@@ -141,7 +141,7 @@
           <!-- Overlay -->
           <NuxtLink
             to="/works/tripvoyager"
-            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 rounded-md absolute w-full h-full"
             data-cursor-hover
           >
             <div class="overlay-inner w-full h-full" data-cursor-hover>
@@ -200,7 +200,7 @@
           <!-- Overlay -->
           <NuxtLink
             to="/works/findfont"
-            class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-20 rounded-md absolute w-full h-full"
             data-cursor-hover
           >
             <div class="overlay-inner w-full h-full" data-cursor-hover>
@@ -258,7 +258,7 @@
           <!-- Overlay -->
           <NuxtLink
             to="/works/ear1"
-            class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-10 rounded-md absolute w-full h-full"
             data-cursor-hover
           >
             <div class="overlay-inner w-full h-full" data-cursor-hover>
@@ -316,7 +316,7 @@
           <!-- Overlay -->
           <NuxtLink
             to="/works/getfood"
-            class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+            class="overlay z-10 rounded-md absolute w-full h-full"
             data-cursor-hover
           >
             <div class="overlay-inner w-full h-full" data-cursor-hover>
@@ -379,13 +379,33 @@ const zIndex = ref(false);
 <style scoped>
 @import "../../assets/styles/nav.css";
 
+.overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
+@media screen and (max-width: 1279px) {
+  .overlay {
+    opacity: 1 !important;
+  }
+}
+
 @media screen and (min-width: 1280px) {
-  .overlay-inner > * {
-    transform: translateY(1.25rem);
-    transition: all 200ms;
+  .overlay {
+    opacity: 0 !important;
+    will-change: opacity;
   }
 
-  .overlay-inner:hover > * {
+  .overlay:hover {
+    opacity: 1 !important;
+    transition: opacity 200ms;
+  }
+
+  .overlay-inner > * {
+    transform: translateY(1.25rem);
+    transition: transform 200ms;
+  }
+
+  .overlay:hover .overlay-inner > * {
     transform: translateY(0);
   }
 }

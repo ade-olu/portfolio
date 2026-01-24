@@ -40,7 +40,7 @@
         <NuxtLink
           to="/works/talkease"
           data-cursor-hover
-          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-20 rounded-md absolute w-full h-full"
         >
           <div class="overlay-inner w-full h-full">
             <div
@@ -83,7 +83,7 @@
         <NuxtLink
           to="/works/tripvoyager"
           data-cursor-hover
-          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-20 rounded-md absolute w-full h-full"
         >
           <div class="overlay-inner w-full h-full">
             <div
@@ -126,7 +126,7 @@
         <NuxtLink
           to="/works/findfont"
           data-cursor-hover
-          class="overlay z-20 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-50"
+          class="overlay z-20 rounded-md absolute w-full h-full"
         >
           <div class="overlay-inner w-full h-full">
             <div
@@ -168,7 +168,7 @@
         <NuxtLink
           to="/works/ear1"
           data-cursor-hover
-          class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-10 rounded-md absolute w-full h-full"
         >
           <div class="overlay-inner w-full h-full">
             <div
@@ -210,7 +210,7 @@
         <NuxtLink
           to="/works/getfood"
           data-cursor-hover
-          class="overlay z-10 bg-gradient-to-t from-black-opacity-50 to-black-opacity-10 rounded-md absolute w-full h-full xl:opacity-0 xl:transition-all xl:duration-200 hover:opacity-100"
+          class="overlay z-10 rounded-md absolute w-full h-full"
         >
           <div class="overlay-inner w-full h-full">
             <div
@@ -249,13 +249,30 @@
 </script>
 
 <style scoped>
+@media screen and (max-width: 1279px) {
+  .overlay {
+    opacity: 1 !important;
+  }
+}
+
 @media screen and (min-width: 1280px) {
-  .overlay-inner > * {
-    transform: translateY(1.25rem);
-    transition: all 200ms;
+  .overlay {
+    opacity: 0 !important;
+    will-change: opacity;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
   }
 
-  .overlay-inner:hover > * {
+  .overlay:hover {
+    opacity: 1 !important;
+    transition: opacity 200ms;
+  }
+
+  .overlay-inner > * {
+    transform: translateY(1.25rem);
+    transition: transform 200ms;
+  }
+
+  .overlay:hover .overlay-inner > * {
     transform: translateY(0);
   }
 }
