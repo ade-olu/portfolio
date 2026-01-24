@@ -249,6 +249,10 @@
 </script>
 
 <style scoped>
+.overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
 @media screen and (max-width: 1279px) {
   .overlay {
     opacity: 1 !important;
@@ -259,7 +263,6 @@
   .overlay {
     opacity: 0 !important;
     will-change: opacity;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
   }
 
   .overlay:hover {
