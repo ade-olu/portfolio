@@ -115,7 +115,8 @@
 
       <!-- FindFont -->
       <div
-        class="relative bg-gradient-to-tr from-brand-orange to-brand-orange-light rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8"
+        class="relative bg-[#FD5531] rounded-md grid justify-center items-center row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8"
+        style="background: linear-gradient(to top right, #fd5531, #fe673b)"
       >
         <img
           class="ml-4 w-width-11 xs:w-28 phone-sm:w-32 tablet-xs:w-width-14 xl:w-width-17"
