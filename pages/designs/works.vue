@@ -5,7 +5,7 @@
     id="container"
   >
     <!-- Nav -->
-    <DesignsNav />
+    <Nav variant="designs" />
 
     <!-- Works -->
     <div
@@ -33,36 +33,7 @@
       </div>
 
       <!-- Navigation -->
-      <div class="flex justify-center mt-large phone-sm:mt-14 tablet-xs:mt-16">
-        <ul
-          class="nav-links flex flex-row items-center phone-sm:text-lg lg:text-xl text-black"
-          id="nLinks"
-        >
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-            <NuxtLink to="/designs/works" data-cursor-hover>
-              <span class="active">Works</span>
-            </NuxtLink>
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-            <NuxtLink to="/designs/ui" data-cursor-hover>
-              <span class="n-active">UI</span>
-            </NuxtLink>
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-            <NuxtLink to="/designs/illustrations" data-cursor-hover>
-              <span class="n-active">Illustrations</span>
-            </NuxtLink>
-          </li>
-
-          <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-            <NuxtLink to="/designs/3d" data-cursor-hover>
-              <span class="n-active">3D</span>
-            </NuxtLink>
-          </li>
-        </ul>
-      </div>
+      <DesignsNav variant="3d" />
 
       <div
         class="grid grid-col-1 px-8 gap-14 mt-14 tablet-xs:px-14 tablet-xs:gap-14 lg:mt-20 lg:px-24 lg:grid-cols-2 lg:gap-24"
@@ -365,6 +336,8 @@
 
 <script setup>
 import { ref } from "vue";
+import Nav from "@/components/navigation/Nav.vue";
+import DesignsNav from "@/components/navigation/DesignsNav.vue";
 
 // SEO Meta tags
 useHead({
@@ -378,35 +351,5 @@ const zIndex = ref(false);
 
 <style scoped>
 @import "../../assets/styles/nav.css";
-
-.overlay {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
-}
-
-@media screen and (max-width: 1279px) {
-  .overlay {
-    opacity: 1 !important;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .overlay {
-    opacity: 0 !important;
-    will-change: opacity;
-  }
-
-  .overlay:hover {
-    opacity: 1 !important;
-    transition: opacity 200ms;
-  }
-
-  .overlay-inner > * {
-    transform: translateY(1.25rem);
-    transition: transform 200ms;
-  }
-
-  .overlay:hover .overlay-inner > * {
-    transform: translateY(0);
-  }
-}
+@import "../../assets/styles/overlay.css";
 </style>

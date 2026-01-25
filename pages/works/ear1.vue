@@ -5,7 +5,7 @@
     id="container"
   >
     <!-- Nav -->
-    <Navigation />
+    <Nav variant="other" />
 
     <!-- Ear1 -->
     <div
@@ -106,6 +106,7 @@
 
 <script setup>
 import { ref } from "vue";
+import Nav from "@/components/navigation/Nav.vue";
 
 // Set page meta
 useHead({

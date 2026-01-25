@@ -5,10 +5,10 @@
     id="container"
   >
     <!-- Nav -->
-    <MainNav />
+    <Nav variant="main" />
 
     <!-- Home Section -->
-    <HomeSection @scroll-to-contact="scrollToContact" />
+    <Home @scroll-to-contact="scrollToContact" />
 
     <!-- Projects -->
     <Projects />
@@ -17,15 +17,17 @@
     <Designs />
 
     <!-- Contact Section -->
-    <ContactSection />
+    <Contact />
 
     <!-- Footer -->
-    <FooterSection />
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
+import Nav from "@/components/navigation/Nav.vue";
+import Home from "@/components/home/Home.vue";
 
 // Reactive state
 const active = ref(false);

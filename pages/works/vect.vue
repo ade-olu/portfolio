@@ -5,7 +5,7 @@
     id="container"
   >
     <!-- Nav -->
-    <Navigation />
+    <Nav variant="other" />
 
     <!-- Vect -->
     <div
@@ -138,6 +138,7 @@
 
 <script setup>
 import { ref } from "vue";
+import Nav from "@/components/navigation/Nav.vue";
 
 // Set page meta
 useHead({

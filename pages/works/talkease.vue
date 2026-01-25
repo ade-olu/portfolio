@@ -5,7 +5,7 @@
     id="container"
   >
     <!-- Nav -->
-    <Navigation />
+    <Nav variant="other" />
 
     <!-- TalkEase -->
     <div
@@ -109,7 +109,7 @@
 
 <script setup>
 import { ref } from "vue";
-import Navigation from "../../components/Navigation.vue";
+import Nav from "@/components/navigation/Nav.vue";
 
 // Set page meta
 useHead({
