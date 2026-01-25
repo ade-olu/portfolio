@@ -165,8 +165,7 @@ const active = ref(false);
 const isVisible = ref(false);
 const zIndex = ref(false);
 
-// Use the useScrollTo composable (if available in your Nuxt setup)
-// If not available, you can use native scrollIntoView or install a scroll library
+// useScrollTo composable for smooth scrolling
 const scrollToProjects = (event) => {
   event.preventDefault();
   const element = document.querySelector("#projects");

@@ -231,9 +231,6 @@
 <script setup>
 import { ref, computed } from "vue";
 
-// Components are auto-imported in Nuxt 3
-// No need to explicitly import MainNav, Projects, Designs
-
 // Reactive state
 const active = ref(false);
 const zIndex = ref(false);
@@ -251,14 +248,6 @@ const scrollToContact = () => {
     });
   }
 };
-
-// If you want to use a scroll library, install and use it like this:
-// npm install vue-scrollto
-// Then use:
-// const { scrollTo } = useScrollTo()
-// const scrollToContact = () => {
-//   scrollTo('#contact', { duration: 1000, offset: 0 })
-// }
 </script>
 
 <style scoped>
