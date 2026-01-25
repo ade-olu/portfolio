@@ -11,13 +11,13 @@
         >
           <li class="my-6">
             <NuxtLink to="/#projects" data-cursor-hover>
-              <span class="n-active"><hover>Projects</hover></span>
+              <span class="n-active">Projects</span>
             </NuxtLink>
           </li>
 
           <li class="my-6">
             <span @click="visible" class="active" data-cursor-hover>
-              <hover>Designs</hover>
+              Designs
             </span>
           </li>
 
@@ -27,13 +27,13 @@
               target="_blank"
               data-cursor-hover
             >
-              <span class="n-active"><hover>Resume</hover></span>
+              <span class="n-active">Resume</span>
             </a>
           </li>
 
           <li class="my-6">
             <NuxtLink to="/#contact" data-cursor-hover>
-              <span class="n-active"><hover>Contact</hover></span>
+              <span class="n-active">Contact</span>
             </NuxtLink>
           </li>
         </ul>
@@ -61,13 +61,13 @@
           >
             <li class="lg:mx-6">
               <NuxtLink to="/#projects" data-cursor-hover>
-                <span class="n-active"><hover>Projects</hover></span>
+                <span class="n-active">Projects</span>
               </NuxtLink>
             </li>
 
             <li class="lg:mx-6">
               <span @click="visible" class="active" data-cursor-hover>
-                <hover>Designs</hover>
+                Designs
               </span>
             </li>
 
@@ -77,13 +77,13 @@
                 target="_blank"
                 data-cursor-hover
               >
-                <span class="n-active"><hover>Resume</hover></span>
+                <span class="n-active">Resume</span>
               </a>
             </li>
 
             <li class="lg:mx-6">
               <NuxtLink to="/#contact" data-cursor-hover>
-                <span class="n-active"><hover>Contact</hover></span>
+                <span class="n-active">Contact</span>
               </NuxtLink>
             </li>
           </ul>
@@ -116,25 +116,25 @@
             >
               <li class="mb-8 lg:mb-5">
                 <NuxtLink to="/#designs" @click="notVisible" data-cursor-hover>
-                  <span class="n-active"><hover>Designs</hover></span>
+                  <span class="n-active">Designs</span>
                 </NuxtLink>
               </li>
 
               <li class="my-8 lg:my-5">
                 <NuxtLink to="/designs/ui" data-cursor-hover>
-                  <span class="n-active"><hover>UI</hover></span>
+                  <span class="n-active">UI</span>
                 </NuxtLink>
               </li>
 
               <li class="my-8 lg:my-5">
                 <NuxtLink to="/designs/illustrations" data-cursor-hover>
-                  <span class="n-active"><hover>Illustrations</hover></span>
+                  <span class="n-active">Illustrations</span>
                 </NuxtLink>
               </li>
 
               <li class="mt-8 lg:mt-5">
                 <NuxtLink to="/designs/3d" data-cursor-hover>
-                  <span class="n-active"><hover>3D</hover></span>
+                  <span class="n-active">3D</span>
                 </NuxtLink>
               </li>
             </ul>
