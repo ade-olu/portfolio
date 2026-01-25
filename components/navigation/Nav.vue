@@ -215,36 +215,78 @@ const isVisible = ref(false);
 const zIndex = ref(false);
 
 // Computed properties for different page types
-const isMainPage = computed(() => props.variant === "main");
-const isDesignsPage = computed(() => props.variant === "designs");
-const isOtherPage = computed(() => props.variant === "other");
+const isMainPage = computed(() => {
+  return props.variant === "main";
+});
 
-const navLinkComponent = computed(() => (isMainPage.value ? "a" : "NuxtLink"));
+const isDesignsPage = computed(() => {
+  return props.variant === "designs";
+});
 
-const projectsLink = computed(() =>
-  isMainPage.value ? "#projects" : "/#projects",
-);
-const contactLink = computed(() =>
-  isMainPage.value ? "#contact" : "/#contact",
-);
-const designsLink = computed(() =>
-  isMainPage.value ? "#designs" : "/#designs",
-);
+const isOtherPage = computed(() => {
+  return props.variant === "other";
+});
 
-const designsActiveClass = computed(() =>
-  isDesignsPage.value ? "active" : "n-active",
-);
+const navLinkComponent = computed(() => {
+  if (isMainPage.value) {
+    return "a";
+  }
+  return "NuxtLink";
+});
 
-const navContainerClass = computed(
-  () => (isMainPage.value ? "xl:absolute" : ""), // Keep nav on top for main page
-  isOtherPage.value ? "relative" : "", // Make nav relative for other pages to avoid overlap issues
-);
+const projectsLink = computed(() => {
+  if (isMainPage.value) {
+    return "#projects";
+  }
+  return "/#projects";
+});
 
-const logoClass = computed(() => (isDesignsPage.value ? "z-40" : ""));
+const contactLink = computed(() => {
+  if (isMainPage.value) {
+    return "#contact";
+  }
+  return "/#contact";
+});
 
-const modalLastItemClass = computed(() =>
-  isDesignsPage.value ? "mt-8 lg:mt-5" : "mt-8 lg:my-5",
-);
+const designsLink = computed(() => {
+  if (isMainPage.value) {
+    return "#designs";
+  }
+  return "/#designs";
+});
+
+const designsActiveClass = computed(() => {
+  if (isDesignsPage.value) {
+    return "active";
+  }
+  return "n-active";
+});
+
+const navContainerClass = computed(() => {
+  if (isMainPage.value) {
+    return "xl:absolute";
+  }
+
+  if (isOtherPage.value) {
+    return "relative";
+  }
+
+  return "";
+});
+
+const logoClass = computed(() => {
+  if (isDesignsPage.value) {
+    return "z-40";
+  }
+  return "";
+});
+
+const modalLastItemClass = computed(() => {
+  if (isDesignsPage.value) {
+    return "mt-8 lg:mt-5";
+  }
+  return "mt-8 lg:my-5";
+});
 
 // Navigation handlers
 const handleNavClick = (section) => {
@@ -280,6 +322,7 @@ const notVisible = () => {
   } else {
     isActive.value = !isActive.value;
   }
+
   isVisible.value = !isVisible.value;
   active.value = false;
   zIndex.value = !zIndex.value;
