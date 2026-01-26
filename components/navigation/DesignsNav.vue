@@ -6,12 +6,6 @@
       id="nLinks"
     >
       <li class="mx-3 sm:mx-5 phone-sm:mx-6">
-        <NuxtLink to="/designs/works" data-cursor-hover>
-          <span :class="activeClass('works')">Works</span>
-        </NuxtLink>
-      </li>
-
-      <li class="mx-3 sm:mx-5 phone-sm:mx-6">
         <NuxtLink to="/designs/ui" data-cursor-hover>
           <span :class="activeClass('ui')">UI</span>
         </NuxtLink>

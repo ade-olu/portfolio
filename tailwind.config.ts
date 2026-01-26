@@ -76,7 +76,7 @@ export default {
       lineHeight: {
         tight: "2.75rem",
         normal: "3.25rem",
-        loose: "3.75rem",
+        loose: "3.5rem",
         "extra-loose": "4.25rem",
       },
       width: {

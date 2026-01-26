@@ -32,8 +32,11 @@
 </template>
 
 <script setup>
+// Import components
 import ProjectCard from "./ProjectCard.vue";
 import AccentLine from "../AccentLine.vue";
+
+// Import project images
 import vectImg from "~/assets/works/vect.svg";
 import weatherlyImg from "~/assets/works/weatherly.svg";
 import travuImg from "~/assets/works/travu.svg";
@@ -44,6 +47,7 @@ import findfontImg from "~/assets/works/findfont.svg";
 import ear1Img from "~/assets/works/ear1.svg";
 import getfoodImg from "~/assets/works/getfood.svg";
 
+// Define projects data
 const projects = [
   // Vect Project
   {

@@ -10,7 +10,7 @@
     <!-- Home Section -->
     <Home @scroll-to-contact="scrollToContact" />
 
-    <!-- Projects & Designs -->
+    <!-- Projects -->
     <Projects />
 
     <!-- Contact Section -->
@@ -23,6 +23,8 @@
 
 <script setup>
 import { ref } from "vue";
+
+// Import components
 import Nav from "@/components/navigation/Nav.vue";
 import Home from "@/components/Home.vue";
 import Projects from "@/components/projects/Projects.vue";

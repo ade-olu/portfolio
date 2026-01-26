@@ -145,33 +145,21 @@
         >
           <div class="flex justify-between items-start">
             <ul
-              class="nav-links lg:flex lg:flex-col phone-sm:text-lg lg:text-xl text-black-primary"
+              class="nav-links flex flex-col phone-sm:text-lg lg:text-xl text-black-primary gap-8 lg:gap-10"
             >
-              <li class="mb-8 lg:mb-5">
-                <component
-                  :is="navLinkComponent"
-                  :to="designsLink"
-                  :href="isMainPage ? '#designs' : undefined"
-                  @click="notVisible"
-                  data-cursor-hover
-                >
-                  <span class="n-active">Designs</span>
-                </component>
-              </li>
-
-              <li class="my-8 lg:my-5">
+              <li>
                 <NuxtLink to="/designs/ui" data-cursor-hover>
                   <span class="n-active">UI</span>
                 </NuxtLink>
               </li>
 
-              <li class="my-8 lg:my-5">
+              <li>
                 <NuxtLink to="/designs/illustrations" data-cursor-hover>
                   <span class="n-active">Illustrations</span>
                 </NuxtLink>
               </li>
 
-              <li :class="modalLastItemClass">
+              <li>
                 <NuxtLink to="/designs/3d" data-cursor-hover>
                   <span class="n-active">3D</span>
                 </NuxtLink>
@@ -246,13 +234,6 @@ const contactLink = computed(() => {
     return "#contact";
   }
   return "/#contact";
-});
-
-const designsLink = computed(() => {
-  if (isMainPage.value) {
-    return "#designs";
-  }
-  return "/#designs";
 });
 
 const designsActiveClass = computed(() => {
