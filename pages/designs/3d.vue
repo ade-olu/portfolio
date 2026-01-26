@@ -41,7 +41,9 @@ useHead({
 const active = ref(false);
 const zIndex = ref(false);
 
+// Define gallery items
 const galleryItems = [
+  // Living Room 3D Design
   {
     id: "living-room",
     type: "full-image",
@@ -49,6 +51,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Living Room",
   },
+  // Room 3D Design
   {
     id: "room",
     type: "full-image",
@@ -56,6 +59,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Room",
   },
+  // Kitchen 3D Design
   {
     id: "kitchen",
     type: "full-image",
@@ -63,6 +67,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Kitchen",
   },
+  // House 3D Design
   {
     id: "house",
     type: "full-image",
@@ -70,6 +75,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "House",
   },
+  // Living Room 2 3D Design
   {
     id: "living-room-2",
     type: "full-image",

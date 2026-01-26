@@ -2,22 +2,22 @@
   <!-- Navigation -->
   <div class="flex justify-center mt-large phone-sm:mt-14 tablet-xs:mt-16">
     <ul
-      class="nav-links flex flex-row items-center phone-sm:text-lg lg:text-xl text-black"
+      class="nav-links flex flex-row items-center text-black gap-6 sm:gap-10 phone-sm:gap-12 tablet-xs:text-lg desktop:text-xl"
       id="nLinks"
     >
-      <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+      <li>
         <NuxtLink to="/designs/ui" data-cursor-hover>
           <span :class="activeClass('ui')">UI</span>
         </NuxtLink>
       </li>
 
-      <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+      <li>
         <NuxtLink to="/designs/illustrations" data-cursor-hover>
           <span :class="activeClass('illustrations')">Illustrations</span>
         </NuxtLink>
       </li>
 
-      <li class="mx-3 sm:mx-5 phone-sm:mx-6">
+      <li>
         <NuxtLink to="/designs/3d" data-cursor-hover>
           <span :class="activeClass('3d')">3D</span>
         </NuxtLink>

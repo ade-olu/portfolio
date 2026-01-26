@@ -11,10 +11,10 @@
     <Home @scroll-to-contact="scrollToContact" />
 
     <!-- Projects -->
-    <Projects />
+    <Projects id="projects" />
 
     <!-- Contact Section -->
-    <Contact />
+    <Contact id="contact" />
 
     <!-- Footer -->
     <Footer />

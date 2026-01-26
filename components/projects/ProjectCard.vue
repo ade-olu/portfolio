@@ -31,7 +31,7 @@
               {{ project.name }}
             </h2>
             <p
-              class="text-gray-light mt-2 phone-sm:text-lg tablet-xs:mt-5 tablet-xs:text-xl lg:text-xl lg:mt-4 xl:mt-5"
+              class="text-gray-light mt-2 tablet-xs:mt-5 tablet-xs:text-lg lg:mt-4 xl:mt-5 desktop:text-xl"
             >
               {{ project.description }}
             </p>
@@ -42,7 +42,7 @@
             <span
               v-for="tech in project.technologies"
               :key="tech"
-              class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs phone-sm:text-sm tablet-xs:text-base px-4 py-1.5 tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap"
+              class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs px-4 py-1.5 phone-sm:text-sm tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap desktop:text-base"
             >
               {{ tech }}
             </span>

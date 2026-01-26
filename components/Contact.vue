@@ -65,7 +65,7 @@
         <!-- Submit Button -->
         <button
           type="submit"
-          class="focus:outline-none bg-black-primary font-bold text-white-soft h-16 px-14 py-2.5 rounded-full mt-16 w-width-18 phone-sm:text-lg phone-sm:h-16 phone-sm:px-20 phone-sm:w-width-19 tablet-xs:text-xl tablet-xs:h-height-7 tablet-xs:w-width-20 tablet-xs:px-20 lg:mt-24 2xl:h-20 2xl:px-20 transition-all duration-300 hover:bg-opacity-90"
+          class="focus:outline-none bg-black-primary font-bold text-white-soft px-14 py-5 rounded-full mt-8 phone-sm:mt-10 phone-sm:px-20 tablet-xs:text-lg tablet-xs:mt-12 2xl:py-7 desktop:text-xl 2xl:px-20 transition-all duration-300 hover:bg-opacity-90"
           style="cursor: none"
         >
           Send
@@ -90,6 +90,7 @@ import AccentLine from "./AccentLine.vue";
   border-bottom: 1.5px solid theme("colors.gray");
   width: 100%;
   padding: 0.625rem 0;
+  font-size: 16px;
   color: theme("colors.black-primary");
   transition: all 300ms;
 }
@@ -100,18 +101,6 @@ import AccentLine from "./AccentLine.vue";
 
 .form-input:focus {
   outline: none;
-}
-
-@media (min-width: 411px) {
-  .form-input {
-    font-size: 1.125rem;
-  }
-}
-
-@media (min-width: 601px) {
-  .form-input {
-    font-size: 1.25rem;
-  }
 }
 
 .focus-border {
@@ -126,5 +115,17 @@ import AccentLine from "./AccentLine.vue";
 .form-input:focus ~ .focus-border {
   width: 100%;
   left: 0;
+}
+
+@media (min-width: 601px) {
+  .form-input {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .form-input {
+    font-size: 20px;
+  }
 }
 </style>

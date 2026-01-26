@@ -7,14 +7,14 @@
         v-if="isActive"
       >
         <ul
-          class="nav-links phone-sm:text-lg flex flex-col items-center justify-center text-black-primary"
+          class="nav-links tablet-xs:text-lg flex flex-col items-center justify-center text-black-primary"
         >
           <li class="my-6">
             <component
               :is="navLinkComponent"
               :to="projectsLink"
               :href="isMainPage ? '#projects' : undefined"
-              @click="handleNavClick('projects')"
+              @click="handleNavClick($event, 'projects')"
               data-cursor-hover
             >
               <span class="n-active">Projects</span>
@@ -46,7 +46,7 @@
               :is="navLinkComponent"
               :to="contactLink"
               :href="isMainPage ? '#contact' : undefined"
-              @click="handleNavClick('contact')"
+              @click="handleNavClick($event, 'contact')"
               data-cursor-hover
             >
               <span class="n-active">Contact</span>
@@ -74,14 +74,14 @@
         <!-- Desktop Nav Menu (Screens ≥ 769px) -->
         <div class="nav-menu hidden lg:block">
           <ul
-            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-xl text-black-primary"
+            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-lg desktop:text-xl text-black-primary"
           >
             <li class="lg:mx-6">
               <component
                 :is="navLinkComponent"
                 :to="projectsLink"
                 :href="isMainPage ? '#projects' : undefined"
-                @click="handleNavClick('projects')"
+                @click="handleNavClick($event, 'projects')"
                 data-cursor-hover
               >
                 <span class="n-active">Projects</span>
@@ -113,7 +113,7 @@
                 :is="navLinkComponent"
                 :to="contactLink"
                 :href="isMainPage ? '#contact' : undefined"
-                @click="handleNavClick('contact')"
+                @click="handleNavClick($event, 'contact')"
                 data-cursor-hover
               >
                 <span class="n-active">Contact</span>
@@ -145,7 +145,7 @@
         >
           <div class="flex justify-between items-start">
             <ul
-              class="nav-links flex flex-col phone-sm:text-lg lg:text-xl text-black-primary gap-8 lg:gap-10"
+              class="nav-links flex flex-col text-black-primary gap-8 tablet-xs:text-lg lg:gap-10 desktop:text-xl"
             >
               <li>
                 <NuxtLink to="/designs/ui" data-cursor-hover>
@@ -262,20 +262,15 @@ const logoClass = computed(() => {
   return "";
 });
 
-const modalLastItemClass = computed(() => {
-  if (isDesignsPage.value) {
-    return "mt-8 lg:mt-5";
-  }
-  return "mt-8 lg:my-5";
-});
-
 // Navigation handlers
-const handleNavClick = (section) => {
-  close();
-
+const handleNavClick = (event, section) => {
+  // Prevent default anchor behavior on main page
   if (isMainPage.value) {
+    event.preventDefault();
     scrollToSection(section);
   }
+
+  close();
 };
 
 const scrollToSection = (sectionId) => {

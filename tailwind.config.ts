@@ -77,7 +77,7 @@ export default {
         tight: "2.75rem",
         normal: "3.25rem",
         loose: "3.5rem",
-        "extra-loose": "4.25rem",
+        "extra-loose": "4rem",
       },
       width: {
         "width-1": "1.0625rem",

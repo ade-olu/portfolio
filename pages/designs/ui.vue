@@ -45,7 +45,9 @@ useHead({
 const active = ref(false);
 const zIndex = ref(false);
 
+// Define gallery items
 const galleryItems = [
+  // Travu Web Design
   {
     id: "travu",
     type: "web-design",
@@ -55,6 +57,7 @@ const galleryItems = [
     containerClass: "absolute px-6 tablet-xs:px-10",
     imageClass: "w-full rounded-md",
   },
+  // Portfolio Web Design
   {
     id: "portfolio",
     type: "web-design",
@@ -64,6 +67,7 @@ const galleryItems = [
     containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10", // Added top-0
     imageClass: "w-full rounded-md",
   },
+  // Wallet App Design
   {
     id: "wallet-app",
     type: "mobile-design",
@@ -74,6 +78,7 @@ const galleryItems = [
     imageClass:
       "w-auto h-height-10 sm:h-72 phone-sm:h-height-16 tablet-xs:h-height-18 lg:h-height-15 xl:h-height-17 rounded-md",
   },
+  // VenZone Web Design
   {
     id: "venzone",
     type: "web-design-textured",
@@ -84,6 +89,7 @@ const galleryItems = [
     imageClass: "w-full rounded-md",
     hasNoise: true,
   },
+  // VenZone App Design
   {
     id: "venzone-app",
     type: "mobile-dual",
@@ -104,6 +110,7 @@ const galleryItems = [
     containerClass: "py-6 z-10 mx-auto flex tablet-xs:py-10",
     hasNoise: true,
   },
+  // Ear1 Web Design
   {
     id: "ear1",
     type: "web-design",

@@ -46,7 +46,9 @@ useHead({
 const active = ref(false);
 const zIndex = ref(false);
 
+// Define gallery items
 const galleryItems = [
+  // Astronaut Illustration
   {
     id: "astronaut",
     type: "full-image",
@@ -54,6 +56,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Astronaut",
   },
+  // Desktop Setup Illustration
   {
     id: "desktop",
     type: "full-image",
@@ -61,6 +64,7 @@ const galleryItems = [
     image: desktopImage,
     alt: "Desktop",
   },
+  // Standing Character Illustration
   {
     id: "standing",
     type: "full-image",
@@ -68,6 +72,7 @@ const galleryItems = [
     image: standingImage,
     alt: "Standing",
   },
+  // Coding Illustration
   {
     id: "coding",
     type: "full-image",
@@ -75,6 +80,7 @@ const galleryItems = [
     image: codingImage,
     alt: "Coding",
   },
+  // Coding 2 Illustration
   {
     id: "coding-2",
     type: "full-image",
@@ -82,6 +88,7 @@ const galleryItems = [
     image: coding2Image,
     alt: "Coding 2",
   },
+  // Deadpool Illustration
   {
     id: "deadpool",
     type: "full-image",
@@ -90,6 +97,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Deadpool",
   },
+  // macOS Icons Illustration
   {
     id: "macos-icons",
     type: "full-image",
@@ -97,6 +105,7 @@ const galleryItems = [
     image: macosIconsImage,
     alt: "macOS Icons",
   },
+  // One UI Icons Illustration
   {
     id: "oneui-icons",
     type: "full-image",
@@ -104,6 +113,7 @@ const galleryItems = [
     image: oneuiIconsImage,
     alt: "One UI Icons",
   },
+  // Naruto Illustration
   {
     id: "naruto",
     type: "full-image",
@@ -112,6 +122,7 @@ const galleryItems = [
     imageClass: "object-cover",
     alt: "Naruto",
   },
+  // Madara Illustration
   {
     id: "madara",
     type: "full-image",

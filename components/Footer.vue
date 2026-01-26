@@ -20,7 +20,7 @@
 
     <!-- Copyright -->
     <p
-      class="text-white-soft mt-6 phone-sm:text-lg tablet-xs:mt-8 tablet-xs:text-xl lg:mt-0 xl:ml-20"
+      class="text-white-soft mt-6 tablet-xs:mt-8 tablet-xs:text-lg lg:mt-0 xl:ml-20 desktop:text-xl"
     >
       © {{ currentYear }} Oluwatobiloba Adegbaju
     </p>
@@ -36,6 +36,8 @@ import dribbbleIcon from "~/assets/media/dribbble.svg";
 
 const currentYear = computed(() => new Date().getFullYear());
 
+// Social Links Data
+// Fix the imgClass heights for linkedin, github, dribbble to match the copyright text height
 const socialLinks = [
   {
     name: "Mail",
