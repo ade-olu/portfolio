@@ -4,11 +4,7 @@
     :class="className"
     data-cursor-hover
   >
-    <img
-      :class="imgClass"
-      src="../../assets/accent-line.svg"
-      alt="Accent Line"
-    />
+    <img :class="imgClass" src="../assets/accent-line.svg" alt="Accent Line" />
   </span>
 </template>
 

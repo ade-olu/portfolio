@@ -10,11 +10,8 @@
     <!-- Home Section -->
     <Home @scroll-to-contact="scrollToContact" />
 
-    <!-- Projects -->
+    <!-- Projects & Designs -->
     <Projects />
-
-    <!-- Designs -->
-    <Designs />
 
     <!-- Contact Section -->
     <Contact />
@@ -27,7 +24,8 @@
 <script setup>
 import { ref } from "vue";
 import Nav from "@/components/navigation/Nav.vue";
-import Home from "@/components/home/Home.vue";
+import Home from "@/components/Home.vue";
+import Projects from "@/components/projects/Projects.vue";
 
 // Reactive state
 const active = ref(false);

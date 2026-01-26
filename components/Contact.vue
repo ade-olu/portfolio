@@ -1,6 +1,6 @@
 <template>
   <section
-    class="mt-2 pt-10 pb-14 bg-background-light relative w-full phone-sm:mt-4 tablet-xs:mt-10 tablet-xs:pt-10 tablet-xs:pb-14 lg:mt-6 lg:pt-14 lg:pb-20 xl:mt-14"
+    class="mt-2 pt-10 pb-14 bg-white-soft relative w-full phone-sm:mt-4 tablet-xs:mt-10 tablet-xs:pt-10 tablet-xs:pb-14 lg:mt-6 lg:pt-14 lg:pb-20 xl:mt-14"
     id="contact"
   >
     <div class="flex flex-col items-center justify-center">
@@ -76,7 +76,7 @@
 </template>
 
 <script setup>
-import AccentLine from "./home/AccentLine.vue";
+import AccentLine from "./AccentLine.vue";
 </script>
 
 <style scoped>
