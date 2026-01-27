@@ -21,9 +21,9 @@
           <p class="text-gray-dark phone-sm:text-lg desktop:text-xl">
             I'm a Web Developer and
             <br />
-            UI/UX Designer based in Maryland,
+            UI/UX Designer based in Maryland, USA
             <br />
-            USA who loves building significant
+            who loves building intuitive digital
             <br />
             experiences for people.
           </p>

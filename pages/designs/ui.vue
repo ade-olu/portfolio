@@ -10,7 +10,11 @@
       class="bg-white-soft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
       :class="{ change: zIndex }"
     >
-      <DesignsHeader title="Designs" />
+      <Heading
+        heading-class="mt-4 xl:mt-2"
+        accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
+        >Designs</Heading
+      >
       <DesignsNav variant="ui" />
 
       <DesignGallery :items="galleryItems" />
@@ -24,7 +28,6 @@ import { ref } from "vue";
 // Import components
 import Nav from "@/components/navigation/Nav.vue";
 import DesignsNav from "@/components/navigation/DesignsNav.vue";
-import DesignsHeader from "@/components/designs/DesignsHeader.vue";
 import DesignGallery from "@/components/designs/DesignGallery.vue";
 
 // Import images

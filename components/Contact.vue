@@ -5,17 +5,10 @@
   >
     <div class="flex flex-col items-center justify-center">
       <!-- Heading -->
-      <div class="text-center">
-        <h2
-          class="font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6"
-        >
-          <span class="relative z-20">Contact</span>
-          <AccentLine
-            class="-mt-4 phone-sm:-mt-5 lg:-mt-5"
-            img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
-          />
-        </h2>
-      </div>
+      <Heading
+        accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
+        >Contact</Heading
+      >
 
       <!-- Contact Form -->
       <form
@@ -75,9 +68,7 @@
   </section>
 </template>
 
-<script setup>
-import AccentLine from "./AccentLine.vue";
-</script>
+<script setup></script>
 
 <style scoped>
 .input-wrapper {

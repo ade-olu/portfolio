@@ -13,22 +13,9 @@
       :class="{ change: zIndex }"
     >
       <!-- Heading -->
-      <div class="text-center">
-        <h1
-          class="font-heading font-bold text-3xl text-black-primary leading-10 mt-4 phone-sm:text-heading-1 phone-sm:leading-tight xl:mt-2 tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose xl:text-heading-5 xl:leading- 2xl:text-heading-6"
-        >
-          <span class="relative z-20">Weatherly</span>
-          <span
-            class="relative w-full flex justify-center items-center -mt-4 z-0 phone-sm:-mt-5 lg:-mt-5"
-          >
-            <img
-              class="w-44 phone-sm:w-48 tablet-xs:w-56 lg:w-64 xl:w-72"
-              src="../../assets/accent-line.svg"
-              alt="Accent Line"
-            />
-          </span>
-        </h1>
-      </div>
+      <Heading accent-img-class="w-44 phone-sm:w-48 tablet-xs:w-56 lg:w-64"
+        >Weatherly</Heading
+      >
 
       <div class="xl:flex xl:justify-between xl:items-start">
         <div

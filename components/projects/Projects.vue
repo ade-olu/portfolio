@@ -5,16 +5,11 @@
   >
     <!-- Section Header -->
     <div class="flex items-center justify-center">
-      <div class="text-center overflow-hidden">
-        <h1
-          class="quote font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6"
+      <div class="overflow-hidden">
+        <Heading
+          accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-60"
+          >Projects</Heading
         >
-          <span class="relative z-10">Projects</span>
-          <AccentLine
-            class="-mt-4 phone-sm:-mt-5 lg:-mt-5"
-            img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-60"
-          />
-        </h1>
       </div>
     </div>
 
@@ -34,7 +29,6 @@
 <script setup>
 // Import components
 import ProjectCard from "./ProjectCard.vue";
-import AccentLine from "../AccentLine.vue";
 
 // Import project images
 import vectImg from "~/assets/works/vect.svg";
