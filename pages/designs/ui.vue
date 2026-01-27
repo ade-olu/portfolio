@@ -31,6 +31,10 @@ import DesignsNav from "@/components/navigation/DesignsNav.vue";
 import DesignGallery from "@/components/designs/DesignGallery.vue";
 
 // Import images
+import vectImage from "../../assets/designs/ui/vect.svg";
+import snkrsImage from "../../assets/designs/ui/snkrs.svg";
+import justVibeImage from "../../assets/designs/ui/justvibe.svg";
+import justVibeMainImage from "../../assets/designs/ui/justvibe-main.svg";
 import travuImage from "../../assets/designs/ui/travu.svg";
 import portfolioImage from "../../assets/designs/ui/portfolio.svg";
 import walletAppImage from "../../assets/designs/ui/wallet-app.svg";
@@ -50,6 +54,46 @@ const zIndex = ref(false);
 
 // Define gallery items
 const galleryItems = [
+  // Vect Web Design
+  {
+    id: "vect",
+    type: "web-design",
+    bgColor: "bg-[#7458ED]",
+    image: vectImage,
+    alt: "Vect",
+    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    imageClass: "w-full rounded-sm",
+  },
+  // Snkrs Web Design
+  {
+    id: "snkrs",
+    type: "web-design",
+    bgColor: "bg-black",
+    image: snkrsImage,
+    alt: "Snkrs",
+    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    imageClass: "w-full rounded-sm",
+  },
+  // JustVibe Web Design
+  {
+    id: "justvibe",
+    type: "web-design",
+    bgColor: "bg-black",
+    image: justVibeImage,
+    alt: "JustVibe",
+    containerClass: "absolute px-6 tablet-xs:px-10",
+    imageClass: "w-full rounded-sm",
+  },
+  // JustVibe Web Design (Main Page)
+  {
+    id: "justvibe",
+    type: "web-design",
+    bgColor: "bg-black",
+    image: justVibeMainImage,
+    alt: "JustVibe",
+    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    imageClass: "w-full rounded-sm",
+  },
   // Travu Web Design
   {
     id: "travu",
@@ -58,17 +102,17 @@ const galleryItems = [
     image: travuImage,
     alt: "Travu",
     containerClass: "absolute px-6 tablet-xs:px-10",
-    imageClass: "w-full rounded-md",
+    imageClass: "w-full rounded-sm",
   },
   // Portfolio Web Design
   {
     id: "portfolio",
     type: "web-design",
-    bgColor: "bg-black",
+    bgColor: "bg-black-primary",
     image: portfolioImage,
     alt: "Portfolio",
     containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10", // Added top-0
-    imageClass: "w-full rounded-md",
+    imageClass: "w-full rounded-sm",
   },
   // Wallet App Design
   {
@@ -89,7 +133,7 @@ const galleryItems = [
     image: venzoneImage,
     alt: "VenZone",
     containerClass: "absolute top-0 p-6 pb-0 z-10 tablet-xs:p-10",
-    imageClass: "w-full rounded-md",
+    imageClass: "w-full rounded-sm",
     hasNoise: true,
   },
   // VenZone App Design
@@ -121,7 +165,7 @@ const galleryItems = [
     image: ear1Image,
     alt: "Ear1",
     containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
-    imageClass: "w-full rounded-md",
+    imageClass: "w-full rounded-sm",
   },
   {
     id: "ear1-app",

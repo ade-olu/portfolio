@@ -10,15 +10,13 @@
           class="nav-links tablet-xs:text-lg flex flex-col items-center justify-center text-black-primary"
         >
           <li class="my-6">
-            <component
-              :is="navLinkComponent"
-              :to="projectsLink"
-              :href="isMainPage ? '#projects' : undefined"
+            <a
+              :href="projectsLink"
               @click="handleNavClick($event, 'projects')"
               data-cursor-hover
             >
               <span class="n-active">Projects</span>
-            </component>
+            </a>
           </li>
 
           <li class="my-6">
@@ -42,15 +40,13 @@
           </li>
 
           <li class="my-6">
-            <component
-              :is="navLinkComponent"
-              :to="contactLink"
-              :href="isMainPage ? '#contact' : undefined"
+            <a
+              :href="contactLink"
               @click="handleNavClick($event, 'contact')"
               data-cursor-hover
             >
               <span class="n-active">Contact</span>
-            </component>
+            </a>
           </li>
         </ul>
       </div>
@@ -77,15 +73,13 @@
             class="nav-links lg:flex lg:flex-row lg:items-center lg:text-lg desktop:text-xl text-black-primary"
           >
             <li class="lg:mx-6">
-              <component
-                :is="navLinkComponent"
-                :to="projectsLink"
-                :href="isMainPage ? '#projects' : undefined"
+              <a
+                :href="projectsLink"
                 @click="handleNavClick($event, 'projects')"
                 data-cursor-hover
               >
                 <span class="n-active">Projects</span>
-              </component>
+              </a>
             </li>
 
             <li class="lg:mx-6">
@@ -109,15 +103,13 @@
             </li>
 
             <li class="lg:mx-6">
-              <component
-                :is="navLinkComponent"
-                :to="contactLink"
-                :href="isMainPage ? '#contact' : undefined"
+              <a
+                :href="contactLink"
                 @click="handleNavClick($event, 'contact')"
                 data-cursor-hover
               >
                 <span class="n-active">Contact</span>
-              </component>
+              </a>
             </li>
           </ul>
         </div>
@@ -216,10 +208,8 @@ const isOtherPage = computed(() => {
 });
 
 const navLinkComponent = computed(() => {
-  if (isMainPage.value) {
-    return "a";
-  }
-  return "NuxtLink";
+  // Always use 'a' tag for simpler hash navigation
+  return "a";
 });
 
 const projectsLink = computed(() => {
@@ -264,11 +254,12 @@ const logoClass = computed(() => {
 
 // Navigation handlers
 const handleNavClick = (event, section) => {
-  // Prevent default anchor behavior on main page
+  // Only prevent default and smooth scroll on main page
   if (isMainPage.value) {
     event.preventDefault();
     scrollToSection(section);
   }
+  // For other pages, let NuxtLink handle navigation normally
 
   close();
 };
