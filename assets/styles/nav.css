@@ -49,7 +49,7 @@
 }
 
 .hamburger-menu {
-  width: calc(2.125rem / 2);
+  width: 2.125rem;
   height: 0.125rem;
 }
 
@@ -67,7 +67,8 @@
 .hamburger-menu::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 0.875rem;
   background: #0f1221;
   transition:
@@ -78,7 +79,8 @@
 .hamburger-menu::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   top: 0.875rem;
   background: #0f1221;
   transition:
@@ -89,7 +91,7 @@
 .hamburger-menu.animate::before {
   width: 2.25rem;
   bottom: 0;
-  transform: rotate(-45deg);
+  transform: translateX(-50%) rotate(-45deg);
   transition:
     bottom 300ms cubic-bezier(0.23, 1, 0.32, 1),
     transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
@@ -98,21 +100,26 @@
 .hamburger-menu.animate::after {
   width: 2.25rem;
   top: 0;
-  transform: rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
   transition:
     top 300ms cubic-bezier(0.23, 1, 0.32, 1),
     transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-/* Nav Menu (Screens Lower Than 769px) Animation */
+/* Nav Menu & Modal Fade Transition - REMOVED !important */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 300ms !important;
+  transition: opacity 0.3s ease;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-  opacity: 0 !important;
+  opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+  opacity: 1;
 }
 
 .stop {
@@ -127,7 +134,7 @@
 /* Media Queries (411px) */
 @media screen and (min-width: 411px) {
   .hamburger-menu {
-    width: calc(2.25rem / 2);
+    width: 2.25rem;
   }
 
   .hamburger-menu::before {
@@ -157,7 +164,7 @@
   }
 
   .hamburger-menu {
-    width: calc(2.5rem / 2);
+    width: 2.5rem;
     height: 0.156rem;
   }
 

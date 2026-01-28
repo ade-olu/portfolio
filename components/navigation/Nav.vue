@@ -1,78 +1,16 @@
 <template>
   <div>
-    <!-- Mobile Nav Menu (Screens < 769px) -->
-    <transition name="fade" @enter="enter">
-      <div
-        class="nav-menu-2 fixed w-full h-screen bg-background-light z-30 flex flex-col items-center justify-center lg:hidden"
-        v-if="isActive"
-      >
-        <ul
-          class="nav-links tablet-xs:text-lg flex flex-col items-center justify-center text-black-primary"
+    <div>
+      <!-- Mobile Nav Menu (Screens < lg) -->
+      <transition name="fade">
+        <div
+          class="fixed inset-0 z-30 flex flex-col items-center justify-center bg-background-light lg:hidden"
+          v-if="isActive"
         >
-          <li class="my-6">
-            <a
-              :href="projectsLink"
-              @click="handleNavClick($event, 'projects')"
-              data-cursor-hover
-            >
-              <span class="n-active">Projects</span>
-            </a>
-          </li>
-
-          <li class="my-6">
-            <span
-              @click="visible"
-              :class="designsActiveClass"
-              data-cursor-hover
-            >
-              Designs
-            </span>
-          </li>
-
-          <li class="my-6">
-            <a
-              href="https://tinyurl.com/mr396s3c"
-              target="_blank"
-              data-cursor-hover
-            >
-              <span class="n-active">Resume</span>
-            </a>
-          </li>
-
-          <li class="my-6">
-            <a
-              :href="contactLink"
-              @click="handleNavClick($event, 'contact')"
-              data-cursor-hover
-            >
-              <span class="n-active">Contact</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </transition>
-
-    <!-- Navbar -->
-    <nav class="bg-white-soft z-20" id="nav">
-      <div
-        :class="navContainerClass"
-        class="relative z-20 w-full h-height-9 flex items-center py-5 px-5 justify-between tablet-xs:h-32 tablet-xs:px-10 lg:px-logo-padding lg:h-36 xl:px-20"
-      >
-        <!-- Logo -->
-        <a href="/" :class="logoClass" data-cursor-hover>
-          <img
-            class="w-width-6 phone-sm:w-width-7 tablet-xs:w-16 lg:w-16"
-            src="../../assets/logo.svg"
-            alt="Logo"
-          />
-        </a>
-
-        <!-- Desktop Nav Menu (Screens ≥ 769px) -->
-        <div class="nav-menu hidden lg:block">
           <ul
-            class="nav-links lg:flex lg:flex-row lg:items-center lg:text-lg desktop:text-xl text-black-primary"
+            class="nav-links flex flex-col items-center justify-center gap-12 text-lg text-black-primary tablet-xs:text-xl"
           >
-            <li class="lg:mx-6">
+            <li>
               <a
                 :href="projectsLink"
                 @click="handleNavClick($event, 'projects')"
@@ -82,17 +20,18 @@
               </a>
             </li>
 
-            <li class="lg:mx-6">
+            <li>
               <span
                 @click="visible"
                 :class="designsActiveClass"
+                class="cursor-pointer"
                 data-cursor-hover
               >
                 Designs
               </span>
             </li>
 
-            <li class="lg:mx-6">
+            <li>
               <a
                 href="https://tinyurl.com/mr396s3c"
                 target="_blank"
@@ -102,7 +41,7 @@
               </a>
             </li>
 
-            <li class="lg:mx-6">
+            <li>
               <a
                 :href="contactLink"
                 @click="handleNavClick($event, 'contact')"
@@ -113,46 +52,129 @@
             </li>
           </ul>
         </div>
+      </transition>
 
-        <!-- Mobile Hamburger -->
-        <div class="flex items-center relative w-10 z-40 mr-0.5 lg:hidden">
+      <!-- Design Modal Overlay (Behind everything when open) -->
+      <transition name="fade">
+        <div
+          v-if="isVisible"
+          class="fixed inset-0 z-40 bg-black-opacity-50"
+          @click="visible"
+        ></div>
+      </transition>
+
+      <!-- Navbar -->
+      <nav
+        class="relative z-[35] transition-colors duration-300"
+        :class="isActive ? 'bg-background-light' : 'bg-white-soft'"
+        id="nav"
+      >
+        <div :class="navContainerClass" class="w-full">
           <div
-            class="hamburger-menu"
-            @click="menu"
-            :class="{ animate: isActive }"
-            data-cursor-hover
-          ></div>
-        </div>
-      </div>
-    </nav>
+            class="flex h-20 items-center justify-between px-5 tablet-xs:h-24 tablet-xs:px-10 lg:h-28 lg:px-16 xl:h-32 xl:px-20"
+          >
+            <!-- Logo -->
+            <a href="/" class="relative flex-shrink-0" data-cursor-hover>
+              <img
+                class="h-10 w-auto tablet-xs:h-12 lg:h-14"
+                src="../../assets/logo.svg"
+                alt="Logo"
+              />
+            </a>
 
-    <!-- Design Modal -->
-    <transition name="fade" @enter="enter">
+            <!-- Desktop Nav Menu (Screens ≥ lg) -->
+            <div class="nav-menu hidden lg:block">
+              <ul
+                class="nav-links flex flex-row items-center gap-8 text-lg text-black-primary desktop:gap-10 desktop:text-xl"
+              >
+                <li>
+                  <a
+                    :href="projectsLink"
+                    @click="handleNavClick($event, 'projects')"
+                    data-cursor-hover
+                  >
+                    <span class="n-active">Projects</span>
+                  </a>
+                </li>
+
+                <li>
+                  <span
+                    @click="visible"
+                    :class="designsActiveClass"
+                    class="cursor-pointer"
+                    data-cursor-hover
+                  >
+                    Designs
+                  </span>
+                </li>
+
+                <li>
+                  <a
+                    href="https://tinyurl.com/mr396s3c"
+                    target="_blank"
+                    data-cursor-hover
+                  >
+                    <span class="n-active">Resume</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    :href="contactLink"
+                    @click="handleNavClick($event, 'contact')"
+                    data-cursor-hover
+                  >
+                    <span class="n-active">Contact</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Mobile Hamburger -->
+            <div class="relative flex flex-shrink-0 items-center lg:hidden">
+              <div
+                class="hamburger-menu"
+                @click="menu"
+                :class="{ animate: isActive }"
+                data-cursor-hover
+              ></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Design Modal Content -->
+    <transition name="fade">
       <div
-        class="bg-black-opacity-50 fixed inset-0 z-30 flex justify-center items-center px-6 tablet-xs:px-0"
+        class="fixed inset-0 z-40 flex items-center justify-center px-6 tablet-xs:px-8 pointer-events-none"
         v-if="isVisible"
       >
         <div
-          class="modal flex flex-col w-full rounded-md bg-background-light p-8 max-w-max-width-2 tablet-xs:max-w-max-width-1 lg:max-w-max-width-3 lg:p-10 xl:max-w-max-width-4"
+          class="modal pointer-events-auto flex w-full max-w-md flex-col rounded-lg bg-background-light p-8 lg:p-12"
         >
-          <div class="flex justify-between items-start">
+          <div class="flex items-start justify-between">
             <ul
-              class="nav-links flex flex-col text-black-primary gap-8 tablet-xs:text-lg lg:gap-10 desktop:text-xl"
+              class="nav-links flex flex-col gap-8 text-lg text-black-primary tablet-xs:text-xl lg:gap-10 desktop:text-2xl"
             >
               <li>
-                <NuxtLink to="/designs/ui" data-cursor-hover>
+                <NuxtLink to="/designs/ui" @click="visible" data-cursor-hover>
                   <span class="n-active">UI</span>
                 </NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/designs/illustrations" data-cursor-hover>
+                <NuxtLink
+                  to="/designs/illustrations"
+                  @click="visible"
+                  data-cursor-hover
+                >
                   <span class="n-active">Illustrations</span>
                 </NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/designs/3d" data-cursor-hover>
+                <NuxtLink to="/designs/3d" @click="visible" data-cursor-hover>
                   <span class="n-active">3D</span>
                 </NuxtLink>
               </li>
@@ -160,13 +182,14 @@
 
             <!-- Close Modal -->
             <button
-              class="focus:outline-none"
+              class="transition-transform hover:scale-110 focus:outline-none"
               @click="visible"
               data-cursor-hover
+              aria-label="Close modal"
             >
               <img
                 src="../../assets/close.svg"
-                class="h-6 phone-sm:h-7 lg:h-height-5"
+                class="h-6 w-6 tablet-xs:h-7 tablet-xs:w-7 lg:h-8 lg:w-8"
                 alt="Close"
               />
             </button>
@@ -178,10 +201,9 @@
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
+import { ref, computed, onBeforeUnmount } from "vue";
 
 const props = defineProps({
-  // 'main' for index.vue, 'designs' for design pages, 'other' for other pages
   variant: {
     type: String,
     default: "main",
@@ -194,7 +216,6 @@ const active = ref(false);
 const isVisible = ref(false);
 const zIndex = ref(false);
 
-// Computed properties for different page types
 const isMainPage = computed(() => {
   return props.variant === "main";
 });
@@ -205,11 +226,6 @@ const isDesignsPage = computed(() => {
 
 const isOtherPage = computed(() => {
   return props.variant === "other";
-});
-
-const navLinkComponent = computed(() => {
-  // Always use 'a' tag for simpler hash navigation
-  return "a";
 });
 
 const projectsLink = computed(() => {
@@ -235,31 +251,17 @@ const designsActiveClass = computed(() => {
 
 const navContainerClass = computed(() => {
   if (isMainPage.value) {
-    return "xl:absolute";
+    return "xl:absolute xl:top-0 xl:left-0 xl:right-0";
   }
 
-  if (isOtherPage.value) {
-    return "relative";
-  }
-
-  return "";
+  return "relative";
 });
 
-const logoClass = computed(() => {
-  if (isDesignsPage.value) {
-    return "z-40";
-  }
-  return "";
-});
-
-// Navigation handlers
 const handleNavClick = (event, section) => {
-  // Only prevent default and smooth scroll on main page
   if (isMainPage.value) {
     event.preventDefault();
     scrollToSection(section);
   }
-  // For other pages, let NuxtLink handle navigation normally
 
   close();
 };
@@ -276,11 +278,25 @@ const scrollToSection = (sectionId) => {
 const menu = () => {
   isActive.value = !isActive.value;
   active.value = !active.value;
+
+  if (isActive.value) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
 };
 
 const visible = () => {
   isVisible.value = !isVisible.value;
   zIndex.value = !zIndex.value;
+
+  if (isVisible.value) {
+    document.body.style.overflow = "hidden";
+  } else {
+    if (!isActive.value) {
+      document.body.style.overflow = "";
+    }
+  }
 };
 
 const notVisible = () => {
@@ -293,16 +309,22 @@ const notVisible = () => {
   isVisible.value = !isVisible.value;
   active.value = false;
   zIndex.value = !zIndex.value;
+  document.body.style.overflow = "";
 };
 
 const enter = (el, done) => {
-  // Transition enter hook
+  done();
 };
 
 const close = () => {
   isActive.value = false;
   active.value = false;
+  document.body.style.overflow = "";
 };
+
+onBeforeUnmount(() => {
+  document.body.style.overflow = "";
+});
 </script>
 
 <style scoped>

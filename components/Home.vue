@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-white-soft relative w-full" id="home">
-    <div class="flex items-center justify-center min-h-screen xl:h-screen">
+  <section class="bg-white-soft relative w-full h-auto" id="home">
+    <div class="flex items-center justify-center xl:h-screen">
       <div class="text-center px-4 py-8 xl:mt-8">
         <div class="flex flex-col gap-5 phone-sm:gap-6 2xl:gap-8">
           <!-- Heading -->

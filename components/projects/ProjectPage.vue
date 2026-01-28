@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative container font-body bg-white-soft"
+    class="relative font-body bg-white-soft"
     :class="{ stop: active }"
     id="container"
   >

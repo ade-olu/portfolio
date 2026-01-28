@@ -148,7 +148,7 @@ onBeforeUnmount(() => {
   cursor: none;
   pointer-events: none;
   display: none;
-  z-index: 50 !important;
+  z-index: 60 !important;
 }
 
 .custom-cursor__circle {
@@ -162,7 +162,7 @@ onBeforeUnmount(() => {
   border-radius: 50%;
   transform: translate(-100%, -100%);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-  z-index: 50 !important;
+  z-index: 60 !important;
 }
 
 .custom-cursor__dot {
@@ -176,7 +176,7 @@ onBeforeUnmount(() => {
   background-color: #0f1221;
   transform: translate(-100%, -100%);
   transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
-  z-index: 50 !important;
+  z-index: 60 !important;
 }
 
 @media screen and (min-width: 1025px) {
