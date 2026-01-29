@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="mt-14 pt-10 pb-14 bg-background-light w-full phone-sm:mt-16 tablet-xs:mt-24 tablet-xs:pt-10 tablet-xs:pb-14 lg:pt-14 lg:pb-24 xl:mt-0"
+    class="mt-10 py-8 bg-background-light w-full tablet-xs:mt-20 tablet-xs:py-16 xl:mt-0"
   >
     <!-- Section Header -->
     <div class="flex items-center justify-center">
@@ -15,7 +15,7 @@
 
     <!-- Projects Grid -->
     <div
-      class="grid grid-cols-1 px-8 gap-14 mt-11 phone-sm:mt-12 tablet-xs:px-14 tablet-xs:gap-14 lg:mt-16 lg:px-24 lg:grid-cols-2 lg:gap-24"
+      class="grid grid-cols-1 auto-rows-min-1 px-8 gap-8 mt-8 tablet-xs:auto-rows-fr tablet-xs:px-16 tablet-xs:gap-16 tablet-xs:mt-16 lg:grid-cols-2 lg:auto-rows-min-2"
     >
       <ProjectCard
         v-for="project in projects"

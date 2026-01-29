@@ -1,12 +1,11 @@
 <template>
   <div
     :class="[
-      'relative overflow-hidden rounded-md grid justify-center',
+      'relative overflow-hidden rounded-md flex',
       item.bgColor,
-      'row-span-6 sm:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6',
       item.type === 'mobile-design' || item.type === 'mobile-dual'
-        ? ''
-        : 'items-center',
+        ? 'justify-center'
+        : 'justify-center items-center',
     ]"
     :style="item.customStyle"
     data-cursor-hover
@@ -62,7 +61,7 @@
     <!-- Noise Texture Overlay -->
     <img
       v-if="item.hasNoise"
-      class="absolute w-full h-full"
+      class="absolute w-full h-full object-cover"
       src="../../assets/noise.png"
       alt="Noise"
       data-cursor-hover

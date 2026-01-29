@@ -1,6 +1,6 @@
 <template>
   <section
-    class="mt-2 pt-10 pb-14 bg-white-soft relative w-full phone-sm:mt-4 tablet-xs:mt-10 tablet-xs:pt-10 tablet-xs:pb-14 lg:mt-6 lg:pt-14 lg:pb-20 xl:mt-14"
+    class="py-10 bg-white-soft relative w-full tablet-xs:py-16"
     id="contact"
   >
     <div class="flex flex-col items-center justify-center">
@@ -12,7 +12,7 @@
 
       <!-- Contact Form -->
       <form
-        class="flex flex-col items-center justify-center px-8 mt-11 w-full tablet-xs:px-40 lg:mt-11 lg:px-padding-width-1 xl:px-padding-width-2 2xl:px-padding-width-3"
+        class="flex flex-col items-center justify-center px-8 mt-8 gap-8 w-full tablet-xs:px-40 tablet-xs:mt-10 tablet-xs:gap-16 lg:px-padding-width-1 xl:px-padding-width-2 2xl:px-padding-width-3"
         action="https://formspree.io/f/mrgroypw"
         method="POST"
       >
@@ -30,7 +30,7 @@
         </div>
 
         <!-- Email Input -->
-        <div class="input-wrapper mt-12 lg:mt-16">
+        <div class="input-wrapper">
           <input
             class="form-input"
             type="email"
@@ -43,7 +43,7 @@
         </div>
 
         <!-- Message Input -->
-        <div class="input-wrapper mt-12 lg:mt-16">
+        <div class="input-wrapper">
           <input
             class="form-input"
             type="text"
@@ -58,7 +58,7 @@
         <!-- Submit Button -->
         <button
           type="submit"
-          class="focus:outline-none bg-black-primary font-bold text-white-soft px-14 py-5 rounded-full mt-8 phone-sm:mt-10 phone-sm:px-20 tablet-xs:text-lg tablet-xs:mt-12 2xl:py-7 desktop:text-xl 2xl:px-20 transition-all duration-300 hover:bg-opacity-90 active:scale-95"
+          class="focus:outline-none bg-black-primary font-bold text-white-soft px-14 py-5 rounded-full phone-sm:px-20 tablet-xs:text-lg 2xl:py-7 desktop:text-xl 2xl:px-20 transition-all duration-300 hover:bg-opacity-90 active:scale-95"
           style="cursor: none"
         >
           Send

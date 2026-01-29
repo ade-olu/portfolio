@@ -9,7 +9,7 @@
 
     <!-- Project Content -->
     <div
-      class="bg-white-soft relative w-full pb-16 phone-sm:pb-20 tablet-xs:pb-24"
+      class="bg-white-soft relative w-full pb-8 tablet-xs:pb-16"
       :class="{ change: zIndex }"
     >
       <!-- Heading -->

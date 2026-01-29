@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid grid-cols-1 px-8 gap-14 mt-14 tablet-xs:px-14 tablet-xs:gap-14 lg:mt-20 lg:px-24 lg:grid-cols-2 lg:gap-24"
+    class="grid grid-cols-1 auto-rows-min-lg px-8 gap-8 mt-8 tablet-xs:auto-rows-min-xl tablet-xs:px-16 tablet-xs:gap-16 tablet-xs:mt-16 lg:grid-cols-2 lg:auto-rows-min-2xl xl:auto-rows-min-2xl"
   >
     <DesignGalleryItem v-for="item in items" :key="item.id" :item="item" />
   </div>

@@ -7,11 +7,10 @@
     <Nav variant="designs" />
 
     <div
-      class="bg-white-soft relative w-full h-auto pb-16 phone-sm:pb-20 tablet-xs:pb-24"
+      class="bg-white-soft relative w-full h-auto pb-8 tablet-xs:pb-16"
       :class="{ change: zIndex }"
     >
       <Heading
-        heading-class="mt-4 xl:mt-2"
         accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
         >Designs</Heading
       >
@@ -61,7 +60,8 @@ const galleryItems = [
     bgColor: "bg-[#7458ED]",
     image: vectImage,
     alt: "Vect",
-    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    containerClass:
+      "absolute p-8 tablet-xs:top-0 tablet-xs:p-10 tablet-xs:pb-0 lg:top-auto lg:p-10",
     imageClass: "w-full rounded-sm",
   },
   // Snkrs Web Design
@@ -71,7 +71,7 @@ const galleryItems = [
     bgColor: "bg-black",
     image: snkrsImage,
     alt: "Snkrs",
-    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    containerClass: "absolute top-0 p-8 pb-0 tablet-xs:p-10 tablet-xs:pb-0",
     imageClass: "w-full rounded-sm",
   },
   // JustVibe Web Design
@@ -81,7 +81,7 @@ const galleryItems = [
     bgColor: "bg-black",
     image: justVibeImage,
     alt: "JustVibe",
-    containerClass: "absolute px-6 tablet-xs:px-10",
+    containerClass: "absolute p-8 tablet-xs:p-10",
     imageClass: "w-full rounded-sm",
   },
   // JustVibe Web Design (Main Page)
@@ -91,7 +91,7 @@ const galleryItems = [
     bgColor: "bg-black",
     image: justVibeMainImage,
     alt: "JustVibe",
-    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    containerClass: "absolute top-0 p-8 pb-0 tablet-xs:p-10 tablet-xs:pb-0",
     imageClass: "w-full rounded-sm",
   },
   // Travu Web Design
@@ -101,7 +101,7 @@ const galleryItems = [
     bgColor: "bg-travu-dark-2",
     image: travuImage,
     alt: "Travu",
-    containerClass: "absolute px-6 tablet-xs:px-10",
+    containerClass: "absolute p-8 tablet-xs:p-10",
     imageClass: "w-full rounded-sm",
   },
   // Portfolio Web Design
@@ -111,7 +111,7 @@ const galleryItems = [
     bgColor: "bg-black-primary",
     image: portfolioImage,
     alt: "Portfolio",
-    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10", // Added top-0
+    containerClass: "absolute top-0 p-8 pb-0 tablet-xs:p-10 tablet-xs:pb-0", // Added top-0
     imageClass: "w-full rounded-sm",
   },
   // Wallet App Design
@@ -121,9 +121,8 @@ const galleryItems = [
     customStyle: "background: #ebf1ff",
     image: walletAppImage,
     alt: "Wallet App",
-    containerClass: "py-6 mx-auto tablet-xs:py-10",
-    imageClass:
-      "w-auto h-height-10 sm:h-72 phone-sm:h-height-16 tablet-xs:h-height-18 lg:h-height-15 xl:h-height-17 rounded-md",
+    containerClass: "flex justify-center items-center p-8 tablet-xs:p-10",
+    imageClass: "max-w-[65%] h-auto rounded-md",
   },
   // VenZone Web Design
   {
@@ -132,7 +131,7 @@ const galleryItems = [
     customStyle: "background: #f2ebe6",
     image: venzoneImage,
     alt: "VenZone",
-    containerClass: "absolute top-0 p-6 pb-0 z-10 tablet-xs:p-10",
+    containerClass: "absolute top-0 p-8 pb-0 tablet-xs:p-10 tablet-xs:pb-0",
     imageClass: "w-full rounded-sm",
     hasNoise: true,
   },
@@ -144,17 +143,16 @@ const galleryItems = [
     images: [
       {
         src: venzoneApp1Image,
-        class:
-          "w-auto mr-6 h-48 sm:h-height-11 phone-sm:h-height-13 phone-lg:h-height-14 tablet-xs:mr-10 tablet-xs:h-height-18 lg:h-height-14 xl:h-height-17 rounded-md",
+        class: "max-w-[65%] h-auto rounded-md",
       },
       {
         src: venzoneApp2Image,
-        class:
-          "w-auto h-48 mt-12 sm:h-height-11 phone-sm:h-height-13 phone-lg:h-height-14 tablet-xs:h-height-18 tablet-xs:mt-0 lg:h-height-14 lg:mt-20 xl:mt-0 xl:h-height-17 rounded-md",
+        class: "max-w-[65%] h-auto rounded-md",
       },
     ],
     alt: "VenZone App",
-    containerClass: "py-6 z-10 mx-auto flex tablet-xs:py-10",
+    containerClass:
+      "flex justify-center items-center p-8 gap-8 max-w-[75%] tablet-xs:p-10 tablet-xs:gap-10 tablet-xs:max-w-[75%]",
     hasNoise: true,
   },
   // Ear1 Web Design
@@ -164,7 +162,7 @@ const galleryItems = [
     customStyle: "background: #00bf69",
     image: ear1Image,
     alt: "Ear1",
-    containerClass: "absolute top-0 p-6 pb-0 tablet-xs:p-10",
+    containerClass: "absolute top-0 p-8 pb-0 tablet-xs:p-10 tablet-xs:pb-0",
     imageClass: "w-full rounded-sm",
   },
   {
@@ -174,17 +172,16 @@ const galleryItems = [
     images: [
       {
         src: ear1App1Image,
-        class:
-          "w-auto mr-6 h-48 sm:h-height-11 phone-sm:h-height-13 phone-lg:h-height-14 tablet-xs:mr-10 tablet-xs:h-height-18 lg:h-height-14 xl:h-height-17 rounded-md",
+        class: "max-w-[65%] h-auto rounded-md",
       },
       {
         src: ear1App2Image,
-        class:
-          "w-auto h-48 mt-12 sm:h-height-11 phone-sm:h-height-13 phone-lg:h-height-14 tablet-xs:h-height-18 tablet-xs:mt-0 lg:h-height-14 lg:mt-20 xl:mt-0 xl:h-height-17 rounded-md",
+        class: "max-w-[65%] h-auto rounded-md",
       },
     ],
     alt: "Ear1 App",
-    containerClass: "py-6 mx-auto flex tablet-xs:py-10",
+    containerClass:
+      "flex justify-center items-center p-8 gap-8 max-w-[75%] tablet-xs:p-10 tablet-xs:gap-10 tablet-xs:max-w-[75%]",
   },
 ];
 </script>

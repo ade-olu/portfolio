@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <!-- Mobile Nav Menu (Screens < lg) -->
+      <!-- Mobile Nav Menu (Screens < lg: 1024px) -->
       <transition name="fade">
         <div
           class="fixed inset-0 z-30 flex flex-col items-center justify-center bg-background-light lg:hidden"
@@ -24,7 +24,6 @@
               <span
                 @click="visible"
                 :class="designsActiveClass"
-                class="cursor-pointer"
                 data-cursor-hover
               >
                 Designs
@@ -71,7 +70,7 @@
       >
         <div :class="navContainerClass" class="w-full">
           <div
-            class="flex h-20 items-center justify-between px-5 tablet-xs:h-24 tablet-xs:px-10 lg:h-28 lg:px-16 xl:h-32 xl:px-20"
+            class="flex h-auto items-center justify-between p-8 tablet-xs:py-10 tablet-xs:px-16"
           >
             <!-- Logo -->
             <a href="/" class="relative flex-shrink-0" data-cursor-hover>
@@ -82,7 +81,7 @@
               />
             </a>
 
-            <!-- Desktop Nav Menu (Screens ≥ lg) -->
+            <!-- Desktop Nav Menu (Screens ≥ lg: 1024px) -->
             <div class="nav-menu hidden lg:block">
               <ul
                 class="nav-links flex flex-row items-center gap-8 text-lg text-black-primary desktop:gap-10 desktop:text-xl"
@@ -101,7 +100,6 @@
                   <span
                     @click="visible"
                     :class="designsActiveClass"
-                    class="cursor-pointer"
                     data-cursor-hover
                   >
                     Designs

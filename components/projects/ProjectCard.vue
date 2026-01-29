@@ -21,18 +21,16 @@
     >
       <div class="overlay-inner w-full h-full">
         <div
-          class="absolute flex flex-col justify-end rounded-md inset-0 p-6 tablet-xs:p-10"
+          class="absolute flex flex-col justify-end rounded-md inset-0 p-8 gap-8 tablet-xs:p-10"
         >
           <!-- Project Info -->
-          <div class="mb-5 tablet-xs:mb-9 lg:mb-7 xl:mb-9">
+          <div class="flex flex-col gap-8">
             <h2
               class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
             >
               {{ project.name }}
             </h2>
-            <p
-              class="text-gray-light mt-2 tablet-xs:mt-5 tablet-xs:text-lg lg:mt-4 xl:mt-5 desktop:text-xl"
-            >
+            <p class="text-gray-light tablet-xs:text-lg desktop:text-xl">
               {{ project.description }}
             </p>
           </div>

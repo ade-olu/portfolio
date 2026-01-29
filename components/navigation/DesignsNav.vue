@@ -1,6 +1,6 @@
 <template>
   <!-- Navigation -->
-  <div class="flex justify-center mt-large phone-sm:mt-14 tablet-xs:mt-16">
+  <div class="flex justify-center mt-8 tablet-xs:mt-16">
     <ul
       class="nav-links flex flex-row items-center text-black gap-6 sm:gap-10 phone-sm:gap-12 tablet-xs:text-lg desktop:text-xl"
       id="nLinks"
