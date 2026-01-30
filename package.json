@@ -3,26 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
+    "prebuild": "mkdir -p .netlify/functions-internal/server",
     "build": "nuxt generate",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@luxdamore/vue-cursor-fx": "^1.6.2",
-    "core-js": "^3.8.3",
-    "gsap": "^3.6.0",
-    "jquery": "^3.6.0",
-    "nuxt": "^2.14.12",
-    "vue-scrollto": "^2.20.0"
+    "gsap": "^3.14.2",
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.4.19"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
