@@ -5,7 +5,7 @@
         <div class="flex flex-col gap-5 phone-sm:gap-6 2xl:gap-8">
           <!-- Heading -->
           <h1
-            class="font-heading font-bold text-3xl text-black-primary leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extra-loose"
+            class="font-heading font-bold text-heading-1 text-black-primary leading-10 phone-sm:text-4xl phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-3 lg:leading-loose 2xl:text-heading-4 2xl:leading-extra-loose"
           >
             Hey, I'm
             <br />

@@ -65,19 +65,17 @@ export default {
         body: ["Plus Jakarta Sans"],
       },
       fontSize: {
-        "heading-1": "2.125rem",
-        "heading-2": "2.5rem",
-        "heading-3": "2.625rem",
-        "heading-4": "2.8rem",
-        "heading-5": "3.25rem",
-        "heading-6": "3.375rem",
-        display: "1.75rem",
+        "heading-1": "2rem", // 2rem = 32px
+        "heading-2": "2.5rem", // 2.5rem = 40px
+        "heading-3": "2.75rem", // 2.75rem = 44px
+        "heading-4": "3.5rem", // 3.5rem = 56px
+        display: "1.75rem", // 1.75rem = 28px
       },
       lineHeight: {
         tight: "2.75rem",
         normal: "3.25rem",
         loose: "3.5rem",
-        "extra-loose": "4rem",
+        "extra-loose": "4.25rem",
       },
       width: {
         "width-1": "1.0625rem",

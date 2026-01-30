@@ -1,7 +1,7 @@
 <template>
   <h1
     :class="[
-      'text-center font-heading font-bold text-black-primary text-3xl leading-10 phone-sm:text-heading-1 phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-4 lg:leading-loose 2xl:text-heading-6 2xl:leading-extra-loose',
+      'text-center font-heading font-bold text-black-primary text-heading-1 leading-10 phone-sm:text-4xl phone-sm:leading-tight tablet-xs:text-heading-2 tablet-xs:leading-normal lg:text-heading-3 lg:leading-loose 2xl:text-heading-4 2xl:leading-extra-loose',
       headingClass,
     ]"
   >
