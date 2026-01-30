@@ -32,7 +32,7 @@
 
             <li>
               <a
-                href="https://tinyurl.com/mr396s3c"
+                href="https://tinyurl.com/2457s3t2"
                 target="_blank"
                 data-cursor-hover
               >
@@ -108,7 +108,7 @@
 
                 <li>
                   <a
-                    href="https://tinyurl.com/mr396s3c"
+                    href="https://tinyurl.com/2457s3t2"
                     target="_blank"
                     data-cursor-hover
                   >
