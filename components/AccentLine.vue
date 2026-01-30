@@ -16,7 +16,7 @@ defineProps({
   },
   imgClass: {
     type: String,
-    default: "w-48 phone-sm:w-width-16 tablet-xs:w-52 lg:w-56 2xl:w-64",
+    default: "w-40 phone-sm:w-44 tablet-xs:w-52 lg:w-56 2xl:w-72",
   },
 });
 </script>

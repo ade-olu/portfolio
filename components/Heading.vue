@@ -10,7 +10,7 @@
     </span>
 
     <AccentLine
-      :class="['-mt-4 phone-sm:-mt-5 lg:-mt-5', accentWrapperClass]"
+      :class="['-mt-4 tablet-xs:-mt-5 2xl:-mt-6', accentWrapperClass]"
       :img-class="accentImgClass"
     />
   </h1>

@@ -5,7 +5,7 @@
               planning and booking experience."
     :technologies="['Vue.js', 'Nuxt.js', 'Tailwind CSS', 'Figma']"
     live-url="https://travu.netlify.app"
-    accent-img-class="w-28 phone-sm:w-32 tablet-xs:w-40 lg:w-44 2xl:w-48"
+    accent-img-class="w-28 tablet-xs:w-36 lg:w-40 2xl:w-44"
   />
 </template>
 

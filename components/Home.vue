@@ -13,7 +13,7 @@
             <br />
             <span class="text-brand-orange">
               <span class="relative z-10">Adegbaju</span>
-              <AccentLine class="-mt-4 phone-sm:-mt-5 lg:-mt-5" />
+              <AccentLine class="-mt-4 target:-mt-5 2xl:-mt-6" />
             </span>
           </h1>
 

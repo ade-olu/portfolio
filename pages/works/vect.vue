@@ -4,7 +4,7 @@
     description="Vect is a simple drawing tool that lets you create sketches, drawings, and visual ideas."
     :technologies="['HTML', 'SCSS', 'JavaScript', 'Figma']"
     live-url="https://vectstudio.vercel.app"
-    accent-img-class="w-28 phone-sm:w-32 tablet-xs:w-36"
+    accent-img-class="w-24 tablet-xs:w-32 2xl:w-40"
   />
 </template>
 

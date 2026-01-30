@@ -5,7 +5,7 @@
     :technologies="['Figma']"
     live-url="https://tinyurl.com/5czz6d9z"
     button-link="View Prototype"
-    accent-img-class="w-36 phone-sm:w-40 tablet-xs:w-48 lg:w-52 2xl:w-60"
+    accent-img-class="w-36 phone-sm:w-40 tablet-xs:w-48 lg:w-52 2xl:w-64"
   />
 </template>
 

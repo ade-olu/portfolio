@@ -11,7 +11,7 @@
       :class="{ change: zIndex }"
     >
       <Heading
-        accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-56"
+        accent-img-class="w-[8.5rem] phone-sm:w-[9.5rem] tablet-xs:w-44 lg:w-[11.5rem] 2xl:w-60"
         >Designs</Heading
       >
       <DesignsNav variant="ui" />

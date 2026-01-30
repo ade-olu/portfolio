@@ -7,7 +7,7 @@
     <div class="flex items-center justify-center">
       <div class="overflow-hidden">
         <Heading
-          accent-img-class="w-32 phone-sm:w-36 tablet-xs:w-44 lg:w-48 2xl:w-60"
+          accent-img-class="w-36 phone-sm:w-40 tablet-xs:w-44 lg:w-48 2xl:w-64"
           >Projects</Heading
         >
       </div>

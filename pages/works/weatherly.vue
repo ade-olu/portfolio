@@ -4,7 +4,7 @@
     description="Weatherly is a weather app that provides real-time weather conditions, forecasts, and metrics for cities around the world."
     :technologies="['HTML', 'CSS', 'JavaScript', 'Node.js', 'Figma']"
     live-url="https://weatherly-website-app.vercel.app"
-    accent-img-class="w-44 phone-sm:w-48 tablet-xs:w-56 lg:w-64"
+    accent-img-class="w-44 phone-sm:w-48 tablet-xs:w-56 lg:w-60"
   />
 </template>
 

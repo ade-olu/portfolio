@@ -5,7 +5,7 @@
     :technologies="['Figma']"
     live-url="https://tinyurl.com/2s6abypx"
     button-link="View Case Study"
-    accent-img-class="w-40 phone-sm:w-44 tablet-xs:w-52 lg:w-56"
+    accent-img-class="w-36 phone-sm:w-40 tablet-xs:w-48 lg:w-52 2xl:w-64"
   />
 </template>
 
