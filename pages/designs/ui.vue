@@ -18,6 +18,9 @@
 
       <DesignGallery :items="galleryItems" />
     </div>
+
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 

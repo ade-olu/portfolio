@@ -71,7 +71,7 @@
             <span
               v-for="tech in technologies"
               :key="tech"
-              class="inline-flex items-center justify-center font-bold bg-gray-dark text-white-soft rounded-full text-xs px-4 py-1.5 phone-sm:text-sm tablet-xs:px-6 tablet-xs:py-2 desktop:text-base whitespace-nowrap transition-transform hover:scale-105"
+              class="inline-flex items-center justify-center font-bold bg-gray-dark text-white-soft rounded-full text-xs px-4 py-1.5 tablet-xs:text-sm tablet-xs:px-6 tablet-xs:py-2 desktop:text-base whitespace-nowrap transition-transform hover:scale-105"
             >
               {{ tech }}
             </span>

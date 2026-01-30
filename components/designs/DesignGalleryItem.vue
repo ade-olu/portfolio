@@ -1,7 +1,7 @@
 <template>
   <div
     :class="[
-      'relative overflow-hidden rounded-md flex',
+      'relative overflow-hidden rounded-sm flex',
       item.bgColor,
       item.type === 'mobile-design' || item.type === 'mobile-dual'
         ? 'justify-center'
@@ -51,7 +51,7 @@
       data-cursor-hover
     >
       <img
-        :class="['w-full h-full rounded-md', item.imageClass || '']"
+        :class="['w-full h-full rounded-sm', item.imageClass || '']"
         :src="item.image"
         :alt="item.alt"
         data-cursor-hover

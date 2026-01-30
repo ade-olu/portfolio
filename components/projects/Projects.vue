@@ -15,7 +15,7 @@
 
     <!-- Projects Grid -->
     <div
-      class="grid grid-cols-1 auto-rows-min-1 px-8 gap-8 mt-8 tablet-xs:auto-rows-fr tablet-xs:px-16 tablet-xs:gap-16 tablet-xs:mt-16 lg:grid-cols-2 lg:auto-rows-min-2"
+      class="grid grid-cols-1 auto-rows-min-1.25 px-8 gap-8 mt-8 tablet-xs:auto-rows-fr tablet-xs:px-16 tablet-xs:gap-16 tablet-xs:mt-16 lg:grid-cols-2 lg:auto-rows-min-2"
     >
       <ProjectCard
         v-for="project in projects"

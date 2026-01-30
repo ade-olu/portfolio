@@ -1,14 +1,17 @@
 <template>
   <div
     :class="[
-      'relative rounded-md grid justify-center items-center',
+      'relative rounded-sm grid justify-center items-center group hover:rounded-xl transition-all duration-500',
       project.bgColor,
       project.rowSpan,
     ]"
     :style="project.customStyle"
   >
     <img
-      :class="['z-10', project.imgSize]"
+      :class="[
+        'z-10 group-hover:scale-90 transition-all duration-500',
+        project.imgSize,
+      ]"
       :src="project.img"
       :alt="project.name"
     />
@@ -17,14 +20,14 @@
     <NuxtLink
       :to="project.route"
       data-cursor-hover
-      class="project-overlay z-10 rounded-md absolute inset-0"
+      class="project-overlay z-10 rounded-sm absolute inset-0 group-hover:rounded-xl transition-all duration-500"
     >
       <div class="overlay-inner w-full h-full">
         <div
-          class="absolute flex flex-col justify-end rounded-md inset-0 p-8 gap-8 tablet-xs:p-10"
+          class="absolute flex flex-col justify-end rounded-md inset-0 p-8 gap-6 tablet-xs:gap-8 tablet-xs:p-10"
         >
           <!-- Project Info -->
-          <div class="flex flex-col gap-8">
+          <div class="flex flex-col gap-4 tablet-xs:gap-8">
             <h2
               class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
             >
@@ -40,7 +43,7 @@
             <span
               v-for="tech in project.technologies"
               :key="tech"
-              class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs px-4 py-1.5 phone-sm:text-sm tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap desktop:text-base"
+              class="inline-flex items-center justify-center font-bold bg-gray text-white-soft rounded-full text-xs px-4 py-1.5 tablet-xs:text-sm tablet-xs:px-6 tablet-xs:py-2 whitespace-nowrap desktop:text-base"
             >
               {{ tech }}
             </span>
@@ -75,7 +78,7 @@ defineProps({
   .project-overlay {
     opacity: 0;
     will-change: opacity;
-    transition: opacity 200ms;
+    transition: opacity 300ms;
   }
 
   .project-overlay:hover {
@@ -84,7 +87,7 @@ defineProps({
 
   .overlay-inner > * {
     transform: translateY(1.25rem);
-    transition: transform 200ms;
+    transition: transform 300ms;
   }
 
   .project-overlay:hover .overlay-inner > * {
