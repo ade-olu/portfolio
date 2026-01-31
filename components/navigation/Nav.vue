@@ -8,7 +8,7 @@
           v-if="isActive"
         >
           <ul
-            class="nav-links flex flex-col items-center justify-center gap-12 text-lg text-black-primary tablet-xs:text-xl"
+            class="nav-links flex flex-col items-center justify-center gap-12 tablet-xs:text-lg text-black-primary desktop:text-xl"
           >
             <li>
               <a
@@ -84,7 +84,7 @@
             <!-- Desktop Nav Menu (Screens ≥ lg: 1024px) -->
             <div class="nav-menu hidden lg:block">
               <ul
-                class="nav-links flex flex-row items-center gap-8 text-lg text-black-primary desktop:gap-10 desktop:text-xl"
+                class="nav-links flex flex-row items-center gap-8 tablet-xs:text-lg text-black-primary desktop:gap-10 desktop:text-xl"
               >
                 <li>
                   <a
@@ -153,7 +153,7 @@
         >
           <div class="flex items-start justify-between">
             <ul
-              class="nav-links flex flex-col gap-8 text-lg text-black-primary tablet-xs:text-xl lg:gap-10 desktop:text-2xl"
+              class="nav-links flex flex-col gap-8 text-black-primary tablet-xs:text-lg lg:gap-10 desktop:text-xl"
             >
               <li>
                 <NuxtLink to="/designs/ui" @click="visible" data-cursor-hover>
