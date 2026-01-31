@@ -27,7 +27,7 @@
           class="absolute flex flex-col justify-end rounded-md inset-0 p-8 gap-6 tablet-xs:gap-8 tablet-xs:p-10"
         >
           <!-- Project Info -->
-          <div class="flex flex-col gap-4 tablet-xs:gap-8">
+          <div class="flex flex-col gap-[12px] tablet-xs:gap-6">
             <h2
               class="font-heading text-white-soft text-2xl phone-sm:text-display tablet-xs:text-4xl lg:text-4xl xl:text-heading-3"
             >

@@ -1,9 +1,9 @@
 <template>
   <section
-    class="py-10 bg-white-soft relative w-full tablet-xs:py-16"
+    class="py-16 bg-white-soft relative w-full tablet-xs:py-24 xl:h-screen flex justify-center"
     id="contact"
   >
-    <div class="flex flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center w-full">
       <!-- Heading -->
       <Heading
         accent-img-class="w-[8.5rem] phone-sm:w-[9.5rem] tablet-xs:w-44 lg:w-[11.5rem] 2xl:w-60"

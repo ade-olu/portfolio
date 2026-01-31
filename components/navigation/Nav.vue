@@ -149,7 +149,7 @@
         v-if="isVisible"
       >
         <div
-          class="modal pointer-events-auto flex w-full max-w-md flex-col rounded-lg bg-background-light p-8 lg:p-12"
+          class="modal pointer-events-auto flex w-full max-w-md flex-col rounded-sm bg-background-light p-8 lg:p-12"
         >
           <div class="flex items-start justify-between">
             <ul
