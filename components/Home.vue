@@ -19,11 +19,11 @@
 
           <!-- Description -->
           <p class="text-gray-dark phone-sm:text-lg desktop:text-xl">
-            I'm a Web Developer and
+            I'm a web developer and
             <br />
-            UI/UX Designer based in Maryland, USA
+            UI/UX designer based in Maryland, USA,
             <br />
-            who loves building intuitive digital
+            who loves creating intuitive digital
             <br />
             experiences for people.
           </p>
