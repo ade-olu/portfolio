@@ -75,7 +75,7 @@
             <!-- Logo -->
             <a href="/" class="relative flex-shrink-0" data-cursor-hover>
               <img
-                class="h-10 w-auto tablet-xs:h-12 lg:h-14"
+                class="h-12 w-auto tablet-xs:h-14 2xl:h-16"
                 src="../../assets/logo.svg"
                 alt="Logo"
               />

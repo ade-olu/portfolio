@@ -19,7 +19,7 @@
 
       <!-- Grid Layout: About & Technologies -->
       <div
-        class="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-12 2xl:gap-16 mt-8 tablet-xs:mt-12 lg:mt-14 px-6 phone-sm:px-8 tablet-xs:px-14 lg:px-20 xl:px-24 2xl:px-32"
+        class="grid grid-cols-1 xl:grid-cols-12 gap-8 mt-8 px-8 tablet-xs:mt-12 tablet-xs:px-16 lg:mt-14 xl:gap-12 2xl:gap-16"
       >
         <!-- About Section -->
         <div class="xl:col-span-7 2xl:col-span-8">
