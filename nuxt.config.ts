@@ -15,6 +15,12 @@ export default defineNuxtConfig({
   },
 
   app: {
+    // Add page transition here
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
+
     head: {
       title: "Oluwatobiloba Adegbaju - Web Developer & UI/UX Designer",
       htmlAttrs: {

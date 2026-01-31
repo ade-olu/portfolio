@@ -1,0 +1,30 @@
+.overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+
+@media screen and (max-width: 1279px) {
+  .overlay {
+    opacity: 1 !important;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .overlay {
+    opacity: 0 !important;
+    will-change: opacity;
+  }
+
+  .overlay:hover {
+    opacity: 1 !important;
+    transition: opacity 200ms;
+  }
+
+  .overlay-inner > * {
+    transform: translateY(1.25rem);
+    transition: transform 200ms;
+  }
+
+  .overlay:hover .overlay-inner > * {
+    transform: translateY(0);
+  }
+}

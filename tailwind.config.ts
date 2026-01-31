@@ -65,18 +65,16 @@ export default {
         body: ["Plus Jakarta Sans"],
       },
       fontSize: {
-        "heading-1": "2.125rem",
-        "heading-2": "2.5rem",
-        "heading-3": "2.625rem",
-        "heading-4": "2.8rem",
-        "heading-5": "3.25rem",
-        "heading-6": "3.375rem",
-        display: "1.75rem",
+        "heading-1": "2rem", // 2rem = 32px
+        "heading-2": "2.5rem", // 2.5rem = 40px
+        "heading-3": "2.75rem", // 2.75rem = 44px
+        "heading-4": "3.5rem", // 3.5rem = 56px
+        display: "1.75rem", // 1.75rem = 28px
       },
       lineHeight: {
         tight: "2.75rem",
         normal: "3.25rem",
-        loose: "3.75rem",
+        loose: "3.5rem",
         "extra-loose": "4.25rem",
       },
       width: {
@@ -101,31 +99,6 @@ export default {
         "width-19": "16.727rem",
         "width-20": "17.474rem",
       },
-      height: {
-        "height-1": "1.5625rem",
-        "height-2": "1.625rem",
-        "height-3": "1.6875rem",
-        "height-4": "1.8125rem",
-        "height-5": "1.875rem",
-        "height-6": "3.625rem",
-        "height-7": "4.5rem",
-        "height-8": "4.75rem",
-        "height-9": "6rem",
-        "height-10": "14.5rem",
-        "height-11": "16.25rem",
-        "height-12": "16.5rem",
-        "height-13": "18.5rem",
-        "height-14": "18.75rem",
-        "height-15": "19rem",
-        "height-16": "21.5rem",
-        "height-17": "25rem",
-        "height-18": "26.5rem",
-      },
-      margin: {
-        small: "1.125rem",
-        special: "21.076rem",
-        large: "3.25rem",
-      },
       padding: {
         "logo-padding": "4.125rem",
         "padding-width-1": "17rem",
@@ -133,17 +106,6 @@ export default {
         "padding-width-3": "32rem",
         "spacing-1": "5.5rem",
         "spacing-2": "6.5rem",
-      },
-      borderWidth: {
-        thin: "1.5px",
-      },
-      maxWidth: {
-        "max-width-1": "21.886rem",
-        "max-width-2": "22rem",
-        "max-width-3": "22.886rem",
-        "max-width-4": "23.136rem",
-        "max-width-5": "26rem",
-        "max-width-6": "34rem",
       },
       gridRow: {
         "span-7": "span 7 / span 7",
@@ -160,6 +122,22 @@ export default {
         "span-18": "span 18 / span 18",
         "span-19": "span 19 / span 19",
         "span-20": "span 20 / span 20",
+      },
+      gridAutoRows: {
+        "min-0.5": "minmax(0.5rem, auto)",
+        "min-1": "minmax(1rem, auto)",
+        "min-1.25": "minmax(1.25rem, auto)",
+        "min-1.5": "minmax(1.5rem, auto)",
+        "min-2": "minmax(2rem, auto)",
+        "min-3": "minmax(3rem, auto)",
+        "min-4": "minmax(4rem, auto)",
+        "min-5": "minmax(5rem, auto)",
+        "min-6": "minmax(6rem, auto)",
+        "min-md": "minmax(20rem, auto)",
+        "min-lg": "minmax(24rem, auto)",
+        "min-xl": "minmax(32rem, auto)",
+        "min-2xl": "minmax(36rem, auto)",
+        "min-3xl": "minmax(40rem, auto)",
       },
     },
   },

@@ -3,7 +3,7 @@
   transition: opacity 150ms !important;
 }
 
-.page-enter,
+.page-enter-from,
 .page-leave-to {
   opacity: 0 !important;
 }
