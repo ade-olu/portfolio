@@ -48,7 +48,7 @@ export default {
         "travu-dark-1": "#111827",
         "travu-dark-2": "#171E2D",
         weatherly: "#061f18",
-        wd: "#E9E6E5",
+        wd: "#3A4F63",
         vect: "#16131D",
         "success-green": "#00BF69",
         ear1: "#00070F",
