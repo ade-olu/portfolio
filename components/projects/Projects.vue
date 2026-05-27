@@ -31,6 +31,7 @@
 import ProjectCard from "./ProjectCard.vue";
 
 // Import project images
+import wdImg from "~/assets/works/workdesign.svg";
 import vectImg from "~/assets/works/vect.svg";
 import weatherlyImg from "~/assets/works/weatherly.svg";
 import travuImg from "~/assets/works/travu.svg";
@@ -43,6 +44,20 @@ import getfoodImg from "~/assets/works/getfood.svg";
 
 // Define projects data
 const projects = [
+  // Work Design Project
+  {
+    id: "wd",
+    name: "Work Design",
+    description:
+      "A UX research-based redesign of a live work and design publication website.",
+    bgColor: "bg-wd",
+    img: wdImg,
+    imgSize: "w-40 phone-sm:w-44 tablet-xs:w-56 xl:w-64",
+    route: "/works/workdesign",
+    technologies: ["Figma"],
+    rowSpan:
+      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
+  },
   // Vect Project
   {
     id: "vect",
@@ -50,9 +65,36 @@ const projects = [
     description: "A simple tool for sketching and drawing.",
     bgColor: "bg-vect",
     img: vectImg,
-    imgSize: "w-24 xs:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44",
+    imgSize: "w-32 phone-sm:w-36 tablet-xs:w-44 xl:w-48",
     route: "/works/vect",
     technologies: ["HTML", "SCSS", "JavaScript", "Figma"],
+    rowSpan:
+      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8",
+  },
+  // TalkEase Project
+  {
+    id: "talkease",
+    name: "TalkEase",
+    description:
+      "An app design for real-time multilingual communication using AI translation.",
+    bgColor: "bg-talkease",
+    img: talkeaseImg,
+    imgSize: "w-24 xs:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44",
+    route: "/works/talkease",
+    technologies: ["Figma"],
+    rowSpan:
+      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8",
+  },
+  // Travu Project
+  {
+    id: "travu",
+    name: "Travu",
+    description: "A travel planning and booking website.",
+    bgColor: "bg-travu-dark-1",
+    img: travuImg,
+    imgSize: "w-24 xs:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44",
+    route: "/works/travu",
+    technologies: ["Vue.js", "Nuxt.js", "Tailwind CSS", "Figma"],
     rowSpan:
       "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
   },
@@ -68,22 +110,9 @@ const projects = [
     route: "/works/weatherly",
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Figma"],
     rowSpan:
-      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8",
+      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
   },
-  // Travu Project
-  {
-    id: "travu",
-    name: "Travu",
-    description: "A travel planning and booking website.",
-    bgColor: "bg-travu-dark-1",
-    img: travuImg,
-    imgSize: "w-24 xs:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44",
-    route: "/works/travu",
-    technologies: ["Vue.js", "Nuxt.js", "Tailwind CSS", "Figma"],
-    rowSpan:
-      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-6 xl:row-span-8",
-  },
-  // Portfolio Project
+  /* Portfolio Project
   {
     id: "portfolio",
     name: "Portfolio",
@@ -95,21 +124,7 @@ const projects = [
     technologies: ["Vue.js", "Nuxt.js", "Tailwind CSS", "Figma"],
     rowSpan:
       "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
-  },
-  // TalkEase Project
-  {
-    id: "talkease",
-    name: "TalkEase",
-    description:
-      "An app design for real-time multilingual communication using AI translation.",
-    bgColor: "bg-talkease",
-    img: talkeaseImg,
-    imgSize: "w-24 xs:w-width-11 phone-sm:w-width-12 tablet-xs:w-36 xl:w-44",
-    route: "/works/talkease",
-    technologies: ["Figma"],
-    rowSpan:
-      "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
-  },
+  }, */
   // TripVoyager Project
   {
     id: "tripvoyager",
@@ -152,7 +167,7 @@ const projects = [
     rowSpan:
       "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
   },
-  // GetFood Project
+  /* GetFood Project
   {
     id: "getfood",
     name: "GetFood",
@@ -164,6 +179,6 @@ const projects = [
     technologies: ["Figma"],
     rowSpan:
       "row-span-6 xs:row-span-7 phone-sm:row-span-8 tablet-xs:row-span-10 lg:row-span-5 xl:row-span-6",
-  },
+  }, */
 ];
 </script>
