@@ -58,12 +58,12 @@
 
       <!-- Background -->
       <div
-        class="w-full h-[15rem] my-16 bg-talkease rounded-sm tablet-xs:my-[4.5rem] tablet-xs:h-[25rem]"
+        class="w-full h-[15rem] my-14 bg-talkease rounded-sm tablet-xs:my-16 tablet-xs:h-[25rem]"
         data-cursor-hover
       ></div>
 
       <!-- Case Study -->
-      <div class="w-full flex flex-col gap-16 tablet-xs:gap-[4.5rem]">
+      <div class="w-full flex flex-col gap-14 tablet-xs:gap-16">
         <!-- Overview -->
         <HeadingContent
           containerClass="overview"
