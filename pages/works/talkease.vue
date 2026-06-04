@@ -86,7 +86,10 @@
           csHeading="User Research & Insights"
           paragraph1="Surveys and interviews were conducted with people who often face language challenges in real-life settings. Four consistent themes emerged from the research."
           paragraph2Class="mt-0"
-        ></HeadingContent>
+        >
+          <!-- Research & Insights Themes -->
+          <CaseStudyCard :items="insights" />
+        </HeadingContent>
 
         <!-- Personas -->
         <HeadingContent
@@ -113,7 +116,10 @@
           csHeading="Design & Prototyping"
           paragraph1="A prototype was created in Figma with four core features determined directly by research. A purple color scheme was chosen to create a calm and creative feel, making the design intentional rather than purely decorative."
           paragraph2Class="mt-0"
-        ></HeadingContent>
+        >
+          <!-- Features -->
+          <CaseStudyCard :items="features"
+        /></HeadingContent>
       </div>
     </div>
   </div>
@@ -124,6 +130,65 @@ import { ref } from "vue";
 import Nav from "@/components/navigation/Nav.vue";
 import ProjectMeta from "@/components/projects/ProjectMeta.vue";
 import HeadingContent from "@/components/projects/HeadingContent.vue";
+import CaseStudyCard from "@/components/projects/CaseStudyCard.vue";
+
+// Import SVG icons
+import micIcon from "~/assets/works/talkease/mic.svg";
+import cameraIcon from "~/assets/works/talkease/camera.svg";
+import worldIcon from "~/assets/works/talkease/world.svg";
+import favoritesIcon from "~/assets/works/talkease/favorites.svg";
+
+// Research & Insights Themes
+const insights = [
+  {
+    title: "Accents over vocabulary",
+    description:
+      "Understanding accents is harder than understanding unfamiliar words for most multilingual users.",
+  },
+  {
+    title: "Lost in translation",
+    description:
+      "Cultural meaning gets lost in most translation tools, so even correct words can cause misunderstandings.",
+  },
+  {
+    title: "Real-time translation",
+    description:
+      "People want real-time translations that work in classrooms, workplaces, and casual conversations.",
+  },
+  {
+    title: "Speech is the foundation",
+    description:
+      "Speech-to-text and text-to-speech features are essential for easier communication.",
+  },
+];
+
+// Features
+const features = [
+  {
+    img: micIcon,
+    title: "Instant voice & text translation",
+    description:
+      "Translate spoken and typed messages instantly with a language selector that stays active. Designed for fast, smooth conversations in real time.",
+  },
+  {
+    img: cameraIcon,
+    title: "Camera-based translation",
+    description:
+      "Point the camera at documents, signs, or menus to get instant translations without any typing.",
+  },
+  {
+    img: worldIcon,
+    title: "Accent recognition",
+    description:
+      "AI that adapts to different regional accents, making speech sound more natural and improving accuracy no matter where the speaker is from.",
+  },
+  {
+    img: favoritesIcon,
+    title: "Favorites",
+    description:
+      "Save commonly used phrases for quick one-tap access, reducing the need to type the same messages repeatedly.",
+  },
+];
 
 // Reactive state
 const active = ref(false);

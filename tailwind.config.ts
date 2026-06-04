@@ -35,6 +35,7 @@ export default {
       colors: {
         "brand-orange": "#FD5531",
         "brand-orange-light": "#FE673B",
+        "light-orange": "#FAEDEA",
         "background-light": "#F4F6FB",
         "background-light-alt": "#EBF1FF",
         "white-soft": "#FAFAFA",
