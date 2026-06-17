@@ -5,7 +5,13 @@
     >
       {{ csHeading }}
     </h2>
-    <p class="text-gray-dark my-4 text-base tablet-xs:text-lg desktop:text-xl">
+    <p
+      v-if="paragraph1"
+      :class="[
+        'text-gray-dark my-4 text-base tablet-xs:text-lg desktop:text-xl',
+        paragraph1Class,
+      ]"
+    >
       {{ paragraph1 }}
     </p>
     <p

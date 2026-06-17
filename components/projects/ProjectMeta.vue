@@ -1,6 +1,11 @@
 <template>
   <div class="flex flex-col gap-4">
-    <p class="uppercase font-bold text-gray-dark text-sm desktop:text-base">
+    <p
+      :class="[
+        metaClass,
+        'uppercase font-bold text-gray-dark text-sm desktop:text-base',
+      ]"
+    >
       {{ label }}
     </p>
     <slot />
@@ -15,6 +20,10 @@ defineProps({
   label: {
     type: String,
     required: true,
+  },
+  metaClass: {
+    type: String,
+    default: "",
   },
 });
 </script>
