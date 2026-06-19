@@ -12,9 +12,9 @@
       >
         <img :src="item.img" class="w-6 h-auto tablet-xs:w-7" />
       </div>
-      <h3 class="font-semibold text-black-primary text-base">
+      <h4 class="font-semibold text-black-primary text-base">
         {{ item.title }}
-      </h3>
+      </h4>
       <p class="mt-4 text-sm text-gray-dark">{{ item.description }}</p>
     </div>
   </div>

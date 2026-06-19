@@ -9,7 +9,7 @@
 
     <!-- Project content -->
     <div
-      class="max-w-[45rem] mx-auto px-6 pb-8 tablet-xs:pb-16 desktop:max-w-[48rem]"
+      class="max-w-[45rem] mx-auto px-6 pb-16 tablet-xs:pb-24 desktop:max-w-[48rem]"
       :class="{ change: zIndex }"
     >
       <!-- Heading -->
@@ -59,9 +59,14 @@
 
       <!-- Background -->
       <div
-        class="w-full h-[15rem] my-14 bg-talkease rounded-sm tablet-xs:my-16 tablet-xs:h-[25rem]"
+        class="w-full h-[15rem] my-14 bg-talkease rounded-sm flex justify-center align-middle tablet-xs:my-16 tablet-xs:h-[25rem]"
         data-cursor-hover
-      ></div>
+      >
+        <img
+          src="../../assets/works/talkease.svg"
+          class="w-24 tablet-xs:w-36 xl:w-40"
+        />
+      </div>
 
       <!-- Case study -->
       <div class="w-full flex flex-col gap-14 tablet-xs:gap-16">
@@ -69,7 +74,7 @@
         <HeadingContent
           containerClass="overview"
           csHeading="Overview"
-          paragraph1="TalkEase started with a simple idea: what would a translation app look and feel like if it were designed around the conversation experience first?Rather than creating another version of existing translation tools, I wanted to explore how research-driven design decisions could shape the experience of an everyday product."
+          paragraph1="TalkEase started with a simple idea: what would a translation app look and feel like if it were designed around the conversation experience first? Rather than creating another version of existing translation tools, I wanted to explore how research-driven design decisions could shape the experience of an everyday product."
           paragraph2="This project took me through the entire UX design process, from user research and analysis to a high-fidelity prototype in Figma. Along the way, I focused on understanding the challenges faced by people who encounter language barriers in their daily lives, whether in classrooms, workplaces, or casual social interactions, and used those insights to guide each design decision."
         ></HeadingContent>
 
@@ -186,7 +191,10 @@
           csHeading="User Evaluation & Feedback"
           paragraph1="I tested the prototype with people from different cultural backgrounds to understand how the experience worked for different users. I gathered feedback through two methods: the Critical Incident Method, where I observed moments of struggle or success, and surveys that captured users’ overall experience, what they liked, and areas for improvement."
           paragraph2Class="mt-0"
-        ></HeadingContent>
+        >
+          <!-- Feedback -->
+          <CaseStudyList :items="feedback" />
+        </HeadingContent>
 
         <!-- Outcomes -->
         <HeadingContent
@@ -202,9 +210,14 @@
           csHeading="Key Takeaways"
           paragraph1Class="my-0"
           paragraph2Class="mt-0"
-        ></HeadingContent>
+        >
+          <!-- Takeaways -->
+          <CaseStudyList :items="takeaways" />
+        </HeadingContent>
       </div>
     </div>
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 
@@ -214,6 +227,7 @@ import Nav from "@/components/navigation/Nav.vue";
 import ProjectMeta from "@/components/projects/ProjectMeta.vue";
 import HeadingContent from "@/components/projects/HeadingContent.vue";
 import CaseStudyCard from "@/components/projects/CaseStudyCard.vue";
+import CaseStudyList from "@/components/projects/CaseStudyList.vue";
 
 // Import SVG icons
 import micIcon from "~/assets/works/talkease/mic.svg";
@@ -261,7 +275,7 @@ const features = [
     description:
       "Point the camera at documents, signs, or menus to get instant translations without any typing.",
   },
-  {
+  /*{
     img: chatIcon,
     title: "Conversation mode",
     description:
@@ -272,18 +286,50 @@ const features = [
     title: "Chat history",
     description:
       "A log that shows what was translated and when, organized by date. Useful in work settings where people need to check what was said later.",
-  },
+  },*/
   {
     img: favoritesIcon,
     title: "Favorites",
     description:
       "Save commonly used phrases for quick one-tap access, placed on the main screen instead of hidden in settings like most translation apps.",
   },
-  {
+  /*{
     img: offlineIcon,
     title: "Offline indicator",
     description:
       "A clear indicator showing which features work without internet, important for travelers and people in areas with poor connection.",
+  },*/
+];
+
+// Feedback
+const feedback = [
+  {
+    numList: "01",
+    listTitle: "Easy to use",
+    listDescription:
+      "Users found the app intuitive and praised the clean design. Navigation required no explanation during prototype testing.",
+  },
+  {
+    numList: "02",
+    listTitle: "Top features",
+    listDescription:
+      "Voice and camera translation were rated as the most useful features during prototype testing.",
+  },
+];
+
+// Takeaways
+const takeaways = [
+  {
+    numList: "01",
+    listTitle: "Research drives better design",
+    listDescription:
+      "It can be tempting to jump straight into designing, but starting with surveys and interviews helped me make decisions based on real user needs. Features like the Favorites tab, simple navigation, and camera translation came directly from user feedback rather than assumptions.",
+  },
+  {
+    numList: "02",
+    listTitle: "Trust the process, even when it feels slow",
+    listDescription:
+      "Working through research, personas, and prototyping from start to finish showed me how each stage builds on the one before it. Although the research phase took the most time before any designs were created, it gave me the direction and confidence needed to make better decisions when designing in Figma.",
   },
 ];
 
