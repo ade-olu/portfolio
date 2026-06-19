@@ -32,7 +32,7 @@
 
             <li>
               <a
-                href="https://tinyurl.com/4psd9vmp"
+                href="https://drive.google.com/file/d/1YvmK5lbzDgfTNJwOR7udgEqdY3NWrhau/view?usp=sharing"
                 target="_blank"
                 data-cursor-hover
               >
@@ -108,7 +108,7 @@
 
                 <li>
                   <a
-                    href="https://tinyurl.com/4psd9vmp"
+                    href="https://drive.google.com/file/d/1YvmK5lbzDgfTNJwOR7udgEqdY3NWrhau/view?usp=sharing"
                     target="_blank"
                     data-cursor-hover
                   >
