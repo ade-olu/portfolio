@@ -32,7 +32,7 @@
 
             <li>
               <a
-                href="https://drive.google.com/file/d/1L_ytvcmxP_EnZFjMYh0FOIYgoSpu8zT_/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1vpnWeMOAU6-MjL1wOiP7hMVrWh8KLDBq/view?usp=drive_link"
                 target="_blank"
                 data-cursor-hover
               >
@@ -108,7 +108,7 @@
 
                 <li>
                   <a
-                    href="https://drive.google.com/file/d/1L_ytvcmxP_EnZFjMYh0FOIYgoSpu8zT_/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1vpnWeMOAU6-MjL1wOiP7hMVrWh8KLDBq/view?usp=drive_link"
                     target="_blank"
                     data-cursor-hover
                   >
