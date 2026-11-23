@@ -48,7 +48,7 @@
         <!-- Prototype -->
         <ProjectMeta label="Prototype"
           ><a
-            href="https://www.figma.com/proto/VZ5NbSUwvN3w0tEx03x8we/TalkEase-Project?page-id=0%3A1&node-id=1-167&p=f&viewport=-505%2C298%2C0.47&t=sSwX9AzIC1S4PcVJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A167"
+            href="https://www.figma.com/proto/CygYWPXu7RDKHe3WY1J9Q9/TalkEase-Project?node-id=2072-1138&p=f&viewport=9%2C-280%2C0.36&t=CzGlbmOi69vPJV1D-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2072%3A1138&show-proto-sidebar=1&page-id=0%3A1"
             class="text-gray-dark text-base underline tablet-xs:text-lg desktop:text-xl"
             target="_blank"
           >
@@ -82,7 +82,7 @@
         <HeadingContent
           containerClass="problem"
           csHeading="Problem"
-          paragraph1="Language barriers can make everyday conversations difficult, whether in classrooms, workplaces, or social settings. While translation apps help bridge that gap, they can sometimes interrupt the conversation itself. I wanted to explore how a translation app could better support the conversation experience, helping people communicate more naturally and smoothly in everyday situations."
+          paragraph1="Language barriers can make everyday conversations difficult, whether in classrooms, workplaces, or social settings. While translation apps help bridge that gap, they can sometimes interrupt conversations by making people type, wait for translations, and pass their phones back and forth. I wanted to explore how a translation app could better support everyday conversations, helping people communicate more naturally and smoothly."
           paragraph2Class="mt-0"
         ></HeadingContent>
 
@@ -106,7 +106,7 @@
         <HeadingContent
           containerClass="solution"
           csHeading="Solution"
-          paragraph1="I designed a mobile translation app prototype around the conversation experience, focusing on simple navigation, quick access to saved phrases, and making core features easy to find and use without instructions."
+          paragraph1="I designed a mobile translation app focused on making conversations easier. Its face-to-face conversation mode gives each person their own side of the screen, with their language and microphone controls. Voice translation shows the words being heard, so a misheard word can be quickly corrected with one tap. Short notes explain formal speech and idioms that direct translations might miss. Saved phrases, camera translation, and frequently used languages are also easy to access, making the app simple to use without needing to learn how it works."
           paragraph2Class="mt-0"
         ></HeadingContent>
 
@@ -114,7 +114,7 @@
         <HeadingContent
           containerClass="user-research"
           csHeading="User Research & Insights"
-          paragraph1="To better understand the problem, I conducted surveys and interviews with people who regularly face language barriers in everyday situations. Four key themes consistently emerged from the research."
+          paragraph1="To better understand the problem, I conducted surveys and interviews with 10 people who regularly face language barriers in everyday situations. Four key themes consistently emerged from the research."
           paragraph2Class="mt-0"
         >
           <!-- Research & insights themes -->
@@ -144,7 +144,7 @@
         <HeadingContent
           containerClass="design"
           csHeading="Design & Prototyping"
-          paragraph1="Based on the research, I built a high-fidelity Figma prototype featuring six core features. Rather than focusing on the translation technology itself, I focused on how the app would support users during live conversations. I also chose a purple color palette to create a calmer, more approachable experience than a typical utility app."
+          paragraph1="Based on the research, I built a high-fidelity Figma prototype featuring four core features. Rather than focusing on the translation technology itself, I focused on how the app would support users during live conversations. I also chose a purple color palette to create a calmer, more approachable experience than a typical utility app."
           paragraph2Class="mt-0"
         >
           <!-- Features -->
@@ -156,7 +156,7 @@
           containerClass="interaction-design"
           csHeading="Interaction Design"
           paragraph1="The interaction design flowchart maps the user’s journey through the app, from the first launch and account creation to each core feature. I used it to ensure navigation felt clear and consistent, with every screen leading naturally to the next."
-          paragraph2="The flow begins with onboarding → account creation or sign-in → the main translate screen. Four navigation tabs provide quick access to voice, camera, and favorites, while every mode connects back to the main translate screen so users always have a clear path forward."
+          paragraph2="The app starts with onboarding → account creation or sign-in → the main translate screen. Four navigation tabs, Translate, Voice, Camera, and Favorites, make it easy to access each feature. Every mode links back to the main translate screen, so users can easily move between features."
         >
           <!-- Interaction design flowchart -->
           <img
@@ -177,7 +177,7 @@
           </p>
           <!-- Open prototype btn -->
           <a
-            href="https://www.figma.com/proto/VZ5NbSUwvN3w0tEx03x8we/TalkEase-Project?page-id=0%3A1&node-id=1-167&p=f&viewport=-505%2C298%2C0.47&t=sSwX9AzIC1S4PcVJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A167"
+            href="https://www.figma.com/proto/CygYWPXu7RDKHe3WY1J9Q9/TalkEase-Project?node-id=2072-1138&p=f&viewport=9%2C-280%2C0.36&t=CzGlbmOi69vPJV1D-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2072%3A1138&show-proto-sidebar=1&page-id=0%3A1"
             class="bg-brand-orange text-background-light font-bold rounded-full px-6 py-4 text-base transition-all duration-300 hover:bg-opacity-90 active:scale-95 tablet-xs:text-lg desktop:text-xl"
             target="_blank"
           >
@@ -189,19 +189,32 @@
         <HeadingContent
           containerClass="user-eval"
           csHeading="User Evaluation & Feedback"
-          paragraph1="I tested the prototype with people from different cultural backgrounds to understand how the experience worked for different users. I gathered feedback through two methods: the Critical Incident Method, where I observed moments of struggle or success, and surveys that captured users’ overall experience, what they liked, and areas for improvement."
+          paragraph1="I tested the prototype with 10 people from different cultural backgrounds to understand how the experience worked for different users. I gathered feedback through two methods: the Critical Incident Method, where I observed moments of struggle or success, and surveys that captured users’ overall experience, what they liked, and areas for improvement."
           paragraph2Class="mt-0"
         >
           <!-- Feedback -->
           <CaseStudyList :items="feedback" />
         </HeadingContent>
 
+        <!-- Design Iteration -->
+        <HeadingContent
+          containerClass="design-iteration"
+          csHeading="Design Iteration"
+          paragraph1="After testing, I went back to my research and reworked the prototype around what people found hard.
+          Onboarding now asks which languages you need and keeps them one tap away. Short tips appear the
+          first time you use a feature, instead of a tutorial. You can translate before making an account, and an
+          accessibility review fixed low-contrast text and small touch targets."
+          paragraph2Class="mt-0"
+        ></HeadingContent>
+
         <!-- Outcomes -->
         <HeadingContent
           containerClass="outcomes"
           csHeading="Outcomes"
-          paragraph1="Language barriers can make everyday moments like school, healthcare visits, and conversations more challenging. I designed TalkEase to help people communicate more easily in those situations. Throughout the project, research guided each design decision. The app focuses on simple navigation, quick access to saved phrases, and camera translation for text that users do not need to type."
-          paragraph2="During prototype testing, users from different backgrounds found the app easy to use and helpful. While there are still areas to improve, such as clearer guidance and faster access to frequently used languages, TalkEase was built around the needs and feedback of real users."
+          paragraph1="TalkEase now answers each research insight with a feature, from a face-to-face conversation mode to
+          notes on formal speech and idioms. In testing, people used it without explanation, and the updated
+          prototype fixes what they found hard."
+          paragraph2Class="mt-0"
         ></HeadingContent>
 
         <!-- Key Takeaways -->
@@ -242,7 +255,7 @@ const insights = [
   {
     title: "Accents over vocabulary",
     description:
-      "Understanding accents is harder than understanding unfamiliar words for most multilingual users.",
+      "People struggled more with accents, fast speech, and similar-sounding words than unfamiliar words.",
   },
   {
     title: "Lost in translation",
@@ -275,13 +288,13 @@ const features = [
     description:
       "Point the camera at documents, signs, or menus to get instant translations without any typing.",
   },
-  /*{
-    img: chatIcon,
-    title: "Conversation mode",
-    description:
-      "A shared screen where two people use one device and take turns speaking to each other with live translation.",
-  },
   {
+    img: chatIcon,
+    title: "Face-to-face conversation",
+    description:
+      "Two people talk through one phone, each with their own screen, language, and mic. Controls stay fixed, even during long translations.",
+  },
+  /*{
     img: historyIcon,
     title: "Chat history",
     description:
@@ -291,7 +304,7 @@ const features = [
     img: favoritesIcon,
     title: "Favorites",
     description:
-      "Save commonly used phrases for quick one-tap access, placed on the main screen instead of hidden in settings like most translation apps.",
+      "Tap the star on any translation to save it for quick one-tap access, placed on the main screen instead of hidden in settings like most translation apps.",
   },
   /*{
     img: offlineIcon,
@@ -315,6 +328,12 @@ const feedback = [
     listDescription:
       "Voice and camera translation were rated as the most useful features during prototype testing.",
   },
+  {
+    numList: "03",
+    listTitle: "Areas to improve",
+    listDescription:
+      "Some users wanted clearer guidance on how to use the app and faster access to languages they use most.",
+  },
 ];
 
 // Takeaways
@@ -330,6 +349,12 @@ const takeaways = [
     listTitle: "Trust the process, even when it feels slow",
     listDescription:
       "Working through research, personas, and prototyping from start to finish showed me how each stage builds on the one before it. Although the research phase took the most time before any designs were created, it gave me the direction and confidence needed to make better decisions when designing in Figma.",
+  },
+  {
+    numList: "03",
+    listTitle: "Testing is where the design really starts",
+    listDescription:
+      "Going back to my research after testing helped me find things I had missed. Some user needs were not addressed in the design. Checking the app against accessibility guidelines also showed that one colour was causing most of the issues. Small changes made a bigger difference than adding new features.",
   },
 ];
 
